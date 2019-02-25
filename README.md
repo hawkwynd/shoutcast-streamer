@@ -13,6 +13,8 @@ You can see this application at [http://stream.hawkwynd.com](http://stream.hawkw
 
 ## Addition information
 
+You will need to edit `include/config.inc.php` file to configure your settings:
+
 ```define('SHOUTCAST_HOST', 'http://##.###.###.####:8000');             // url:port to your shoutcast server
    define('SHOUTCAST_ADMIN_PASS', 'password_here');                     // admin password for accessing admin.cgi
    define('SCROBBLER_API', 'lastFMApIKeyHere');                         // API key from lastfm to query data
