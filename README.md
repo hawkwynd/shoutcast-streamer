@@ -11,7 +11,14 @@ I expanded this plan to allow me to provide a live stream through the use of [Da
 
 You can see this application at [http://stream.hawkwynd.com](http://stream.hawkwynd.com)
 
-## Addition information
+## Additional requirements
+
+### LastFM Api Key
+You must register for an api key from lastFM for this application to work.
+
+[Create API Account with lastFM][https://www.last.fm/api/account/create)
+
+### Update `include/config.inc.php` with your settings
 
 You will need to edit `include/config.inc.php` file to configure your settings:
 
