@@ -16,7 +16,7 @@ You can see this application at [http://stream.hawkwynd.com](http://stream.hawkw
 `index.php` -- contains a section in the `<audio>` tag, which you will need to point to your shoutcast server
 ```
  <div id="wb_MediaPlayer1">
-            <audio src="http://54.158.47.252:8000/;" id="MediaPlayer1" controls="controls"></audio>
+            <audio src="http://ip.address.here:8000/;" id="MediaPlayer1" controls="controls"></audio>
         </div>
 ```
 You will need to set the `src` to the domain or ip address of your shoutcast server.
