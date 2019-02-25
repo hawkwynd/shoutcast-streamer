@@ -24,9 +24,9 @@ function statistics(){
         var servercontent   = data.streams[0].servertitle.split('-'); // configured in software - some text
         var servertitle     = servercontent.shift();
         var motd            = servercontent;                         // one-line motd on server
-        var samplerate      = data.streams[0].samplerate;           // samplerate 44100
-        var bitrate         = data.streams[0].bitrate;              // bitrate  128
-        var genre           = data.streams[0].servergenre;          // not used
+        var samplerate      = data.streams[0].samplerate;           // samplerate 44100 kHz
+        var bitrate         = data.streams[0].bitrate;              // bitrate  128 kbps
+        var genre           = data.streams[0].servergenre;          // not used currently
         var streamstatus    = data.streams[0].streamstatus;         // status of the stream
         var streamuptime    = data.streams[0].streamuptime;         // how long stream is playing
 
@@ -59,7 +59,7 @@ function statistics(){
                 $('.nerdystats').html('Nerd stats:' + samplerate + ' kHz @ ' + bitrate + ' kbps');
                 $('.uptime').html('Stream uptime: '+ secondsTimeSpanToHMS(streamuptime));
 
-                history();
+                history(); // cull history data
 
             }
 
@@ -75,9 +75,6 @@ function statistics(){
 
         }
     }); // $.getJSON
-
-
-
 }
 
 /**
@@ -104,33 +101,31 @@ function millisToMinutesAndSeconds(millis) {
 
 function callback(results){
 
-    if(results){
-        var album       = results.track.album;
-        var track       = results.track.name;
-        var mbid        = results.track.album.mbid;
-        var duration    = results.track.duration > 0 ? millisToMinutesAndSeconds(results.track.duration): null;
+    if(results.hasOwnProperty('track')){ // successful results
+            var album       = results.track.album;
+            var mbid        = results.track.album.mbid;
+            var duration    = results.track.duration > 0 ? millisToMinutesAndSeconds(results.track.duration): null;
 
-        if(duration) $('.song-duration').html('duration: ' + duration); // duration of track XX:XX
+            if(duration) $('.song-duration').html('duration: ' + duration); // duration of track XX:XX
 
-        if(album.image[2]['#text']){
-            $('.thumb-container').html('<img src="'+ album.image[2]['#text'] + '" id="'+ album.image[2].size +'">'); // thumbnail of LP cover
-        }else{
-            //console.log('No image data from LastFM');
-            $('.thumb-container').html('<img src="img/no_image.png">'); // no_image
-        }
+            if(album.image[2]['#text']){
 
-        // be sure we have mbid before calling musicbrainz for data
-       if(results.track.album.hasOwnProperty('mbid')){
+                $('.thumb-container').html('<img src="'+ album.image[2]['#text'] + '" id="'+ album.image[2].size +'">'); // thumbnail of LP cover
+
+            }else{
+
+                $('.thumb-container').html('<img src="img/no_image.png">'); // no_image
+            }
            $.getJSON('musicbrainz.php',{mbid:mbid},function(release){
                if(release.first_release_date) $('.song-album-yr').html(album.title +' (' + release.first_release_date + ')');
            });
-       }
+
    }else{
 
-        console.log('No results from LastFM...');
+        console.log(results);
 
-       $('.song-duration').html();
-       $('.song-album-yr').html();
+       $('.song-duration').html('');
+       $('.song-album-yr').html('');
        $('.thumb-container').html('<img src="img/no_image.png">');
    }
 }
@@ -140,18 +135,14 @@ function lastfm(a,t){
     $.getJSON('scrobbler.php', {
         track: t,
         artist: a
-    }).done(function(results){
-
+    }).success(function(results){
             callback(results);
-
-        }).fail(function( jqxhr, textStatus, error ) {
-
-                var err = textStatus + ", " + error;
-                console.log( "Request Failed: " + err );
-
-            callback(null);
-
+    }).error(function(results){
+           callback(
+               'LastFM says no match for ' + a + ' track: ' + t
+           );
     });
+
 
 }
 
