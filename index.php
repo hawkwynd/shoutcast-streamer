@@ -52,12 +52,8 @@
     </div>
 
 
-<div id="socialLinks" style="text-align: center;padding: 6px;">
-        <div class="fb-share-button" data-href="http://stream.hawkwynd.com" data-layout="button" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fstream.hawkwynd.com%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
-
-    <div class="chatLink"><a href="chat/" target="_blank">Got a request?</a></div>
-
 </div>
+
         <div class="jp-no-solution">
             <span>Update Required</span>
             To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
