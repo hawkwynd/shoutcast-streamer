@@ -5,9 +5,9 @@ I wanted to be able to deliver audio from my home computer running a playlist of
 from anywhere as long as I had an internet connection from my device (phone/tablet/pc). Furthermore, I wanted the ability to provide live audio
 from my mixer source where I have a microphone, and broadcast the stream as a live broadcast.
 
-The plan is to configure my software [Mixxx](https://www.mixxx.org/) so I could cue up tracks, hit play and stream it so I could leave, and listen to the tracks from my phone.
-One night a week, or more often if desired, I could switch over the application to provide a live stream from my studio mixing tracks, with some
-talk in between, just like a real radio station does.
+The plan was to configure my software [Mixxx](https://www.mixxx.org/) so I could cue up tracks, hit play and stream it so I could leave, and listen to the tracks from my phone.
+
+I expanded this plan to allow me to provide a live stream through the use of [Darkice](http://manpages.ubuntu.com/manpages/trusty/man1/darkice.1.html) on a second computer which simply could be as small as a Raspberry Pi machine.
 
 
 
