@@ -105,7 +105,6 @@ function millisToMinutesAndSeconds(millis) {
 function callback(results){
 
     if(results){
-
         var album       = results.track.album;
         var track       = results.track.name;
         var mbid        = results.track.album.mbid;
@@ -138,13 +137,9 @@ function callback(results){
 
 function lastfm(a,t){
 
-    $.getJSON('http://ws.audioscrobbler.com/2.0/', {
-        api_key: '632dede0ca2a7096949f075762d52861',
-        method: 'track.getInfo',
+    $.getJSON('scrobbler.php', {
         track: t,
-        artist: a,
-        format: 'json'
-
+        artist: a
     }).done(function(results){
 
             callback(results);

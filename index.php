@@ -1,9 +1,14 @@
+<?php
+require_once('include/config.inc.php');
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <title>Hawkwynd Radio</title>
+    <title><?php echo APPLICATION_NAME; ?></title>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
     <link href="css/style.css" rel="stylesheet" type="text/css"/>
     <script type="text/javascript" src="jPlayer/lib/jquery.min.js"></script>
@@ -11,9 +16,7 @@
     <script type="text/javascript">
         //<![CDATA[
         $(document).ready(function(){
-
             statistics(); // query server for stream data on page load.
-
             // refresh the screen every 10 seconds to update the track/artist info
             setInterval(function(){
                statistics();
@@ -26,7 +29,7 @@
 <div id="jquery_jplayer_1" class="jp-jplayer"></div>
 <div id="jp_container_1" class="jp-audio-stream" role="application" aria-label="media player">
         <div class="jp-details">
-            <div class="jp-title" aria-label="title">Hawkwynd Radio</div>
+            <div class="jp-title" aria-label="title"><?php echo APPLICATION_NAME; ?></div>
             <div class="jp-motd" aria-label="motd"></div>
             <div class="nowplaying-title">Now Playing</div>
             <div class="nowplaying">
@@ -52,6 +55,14 @@
     </div>
 </div><!-- jp-audio-stream-->
 
+<div id="socialLinks" style="text-align: center;padding: 6px;">
+        <div class="fb-share-button" data-href="http://stream.hawkwynd.com" data-layout="button" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fstream.hawkwynd.com%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+
+    <div class="chatLink"><a href="chat/" target="_blank">Got a request?</a></div>
+
+</div>
+
+    </div>
 <div id="history"></div>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {

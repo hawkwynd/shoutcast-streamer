@@ -3,15 +3,13 @@
  * stream.hawkwynd.com - scottfleming - get results from musicbrainz based on mbid
  */
 
-$mbid = $_GET['mbid'];
-
-$url = 'http://musicbrainz.org/ws/2/release/'.$mbid.'?inc=release-groups&fmt=xml';
+$mbid   = $_GET['mbid'];
+$url    = 'http://musicbrainz.org/ws/2/release/'.$mbid.'?inc=release-groups&fmt=xml';
 
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_URL, $url);    // get the url contents
 curl_setopt($ch, CURLOPT_USERAGENT,  "hawkwyndRadio/1.1");
-
 $data = curl_exec($ch); // execute curl request
 curl_close($ch);
 
