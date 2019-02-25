@@ -1,6 +1,5 @@
 <?php
 require_once('include/config.inc.php');
-
 ?>
 
 <!DOCTYPE html>
@@ -11,7 +10,7 @@ require_once('include/config.inc.php');
     <title><?php echo APPLICATION_NAME; ?></title>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
     <link href="css/style.css" rel="stylesheet" type="text/css"/>
-    <script type="text/javascript" src="jPlayer/lib/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/stream.js"></script>
     <script type="text/javascript">
         //<![CDATA[
@@ -26,12 +25,11 @@ require_once('include/config.inc.php');
 </head>
 <body>
 
-<div id="jquery_jplayer_1" class="jp-jplayer"></div>
 <div id="jp_container_1" class="jp-audio-stream" role="application" aria-label="media player">
         <div class="jp-details">
             <div class="jp-title" aria-label="title"><?php echo APPLICATION_NAME; ?></div>
             <div class="jp-motd" aria-label="motd"></div>
-            <div class="nowplaying-title">Now Playing</div>
+            <div class="nowplaying-title"><?php echo NOW_PLAYING_TXT; ?></div>
             <div class="nowplaying">
                 <div class="thumb-container"></div>
                 <div class="artist-name"></div>
@@ -44,7 +42,7 @@ require_once('include/config.inc.php');
 
     <div class="jp-type-single">
         <div id="wb_MediaPlayer1">
-            <audio src="http://54.158.47.252:8000/;" id="MediaPlayer1" controls="controls"></audio>
+            <audio src="<?php echo SHOUTCAST_HOST.'/;';?>" id="MediaPlayer1" controls="controls"></audio>
         </div>
     </div>
     <div class="extract"></div>
@@ -56,7 +54,7 @@ require_once('include/config.inc.php');
 </div><!-- jp-audio-stream-->
 
 <div id="socialLinks" style="text-align: center;padding: 6px;">
-        <div class="fb-share-button" data-href="http://stream.hawkwynd.com" data-layout="button" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fstream.hawkwynd.com%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+        <div class="fb-share-button" data-href="<?php echo SITE_URL;?>" data-layout="button" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fstream.hawkwynd.com%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
 
     <div class="chatLink"><a href="chat/" target="_blank">Got a request?</a></div>
 
