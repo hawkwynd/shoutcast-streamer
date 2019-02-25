@@ -16,7 +16,7 @@ You can see this application at [http://stream.hawkwynd.com](http://stream.hawkw
 ### LastFM Api Key
 You must register for an api key from lastFM for this application to work.
 
-[Create API Account with lastFM][https://www.last.fm/api/account/create)
+[Create API Account with lastFM](https://www.last.fm/api/account/create)
 
 ### Update `include/config.inc.php` with your settings
 
