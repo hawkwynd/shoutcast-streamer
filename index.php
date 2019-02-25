@@ -5,7 +5,6 @@
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <title>Hawkwynd Radio</title>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-    <link href="jPlayer/dist/skin/blue.monday/css/jplayer.blue.monday.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" type="text/css"/>
     <script type="text/javascript" src="jPlayer/lib/jquery.min.js"></script>
     <!--

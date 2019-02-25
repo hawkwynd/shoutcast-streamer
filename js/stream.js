@@ -119,9 +119,13 @@ function callback(results){
             $('.thumb-container').html('<img src="img/no_image.png">'); // no_image
         }
 
-       $.getJSON('musicbrainz.php',{mbid:mbid},function(release){
-          if(release.first_release_date) $('.song-album-yr').html(album.title +' (' + release.first_release_date + ')');
-       });
+        // be sure we have mbid before calling musicbrainz for data
+       if(results.track.album.hasOwnProperty('mbid')){
+           $.getJSON('musicbrainz.php',{mbid:mbid},function(release){
+               if(release.first_release_date) $('.song-album-yr').html(album.title +' (' + release.first_release_date + ')');
+           });
+       }
+
 
    }else{
 

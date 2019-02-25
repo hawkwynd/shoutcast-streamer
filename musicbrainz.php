@@ -1,8 +1,6 @@
 <?php
 /**
- * Date: 2/21/19
- * Time: 1:50 PM
- * hawkwynd.com - scottfleming
+ * stream.hawkwynd.com - scottfleming - get results from musicbrainz based on mbid
  */
 
 $mbid = $_GET['mbid'];

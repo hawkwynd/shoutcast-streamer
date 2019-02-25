@@ -62,5 +62,7 @@ In my search for Ubuntu compatible software, I found [Mixxx](https://www.mixxx.o
 * [Virtual DJ](https://www.virtualdj.com) has a free download for personal use, commercial use requires a license.
 * [Mixxx](https://www.mixxx.org/) - free open-source for many OS's.
 
+Use your own resources to find a software you're comfortable with and compatible with connecting to a shoutcast server.
 
+###
 
