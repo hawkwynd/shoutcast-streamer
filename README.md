@@ -1,6 +1,18 @@
-# Shoutcast Stream Front-End
+# Shoutcast Stream Project
 
-# sc_serv configuration
+## Introduction
+I wanted to be able to deliver audio from my home computer running a playlist of tracks and stream it to the website so I could listen to it
+from anywhere as long as I had an internet connection from my device (phone/tablet/pc). Furthermore, I wanted the ability to provide live audio
+from my mixer source where I have a microphone, and broadcast the stream as a live broadcast.
+
+The plan was to configure my software so I could cue up tracks, hit play and stream it so I could leave, and listen to the tracks from my phone.
+One night a week, or more often if desired, I could switch over the application to provide a live stream from my studio mixing tracks, with some
+talk in between, just like a real radio station does.
+
+
+
+## sc_serv configuration
+
 
 Login to your server and install sc_serv on your machine:
 
@@ -48,3 +60,4 @@ Login with admin/password you created in sc_serv.conf and you'll be able to see 
 # Broadcasting to your shoutcast server
 
 Here's going to be the setup info for configuring stuff on a seperate host, website.
+
