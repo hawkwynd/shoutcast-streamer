@@ -10,7 +10,7 @@ require_once('include/config.inc.php');
     <title><?php echo APPLICATION_NAME; ?></title>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
     <link href="css/style.css" rel="stylesheet" type="text/css"/>
-    <script type="text/javascript" src="jPlayer/lib/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/stream.js"></script>
     <script type="text/javascript">
         //<![CDATA[
