@@ -1,7 +1,5 @@
 <?php
-
-//Connection Page - Change to suit your database connections
-
+//Connection Page
 define( 'HOST', 'localhost');
 define( 'USERNAME', 'hawkwynd');
 define( 'PASSWORD', 'pHautalcRo');

@@ -55,9 +55,11 @@ label { font-size: 20px; }
 #logout{padding: 4px;}
 
 
+
 @media only screen and (max-width: 600px) {
 
     body{font: 18px/1.8 Georgia, Serif; background-color: #000;}
+
     #page-wrap{width: 320px;}
     #section{width: 320px;}
     #chat-wrap{width: 300px; margin: 0;}
