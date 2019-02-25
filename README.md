@@ -9,7 +9,7 @@ The plan was to configure my software [Mixxx](https://www.mixxx.org/) so I could
 
 I expanded this plan to allow me to provide a live stream through the use of [Darkice](http://manpages.ubuntu.com/manpages/trusty/man1/darkice.1.html) on a second computer which simply could be as small as a Raspberry Pi machine.
 
-[stream.hawkwynd.com] (http://stream.hawkwynd.com) is a demo of this application.
+[stream.hawkwynd.com](http://stream.hawkwynd.com) is a demo of this application.
 
 
 
