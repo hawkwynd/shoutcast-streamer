@@ -47,19 +47,18 @@
 
     <div class="jp-type-single">
         <div id="wb_MediaPlayer1">
-            <audio src="http://54.158.47.252:8000/;" id="MediaPlayer1" controls="controls">
-            </audio>
+            <audio src="http://54.158.47.252:8000/;" id="MediaPlayer1" controls="controls"></audio>
         </div>
-        </div>
-        <div class="extract"></div>
-        <div class="statistics">
-            <div class="nerdystats"></div>
-            <div class="uptime"></div>
-            <div class="listeners"></div>
-        </div>
+    </div>
+    <div class="extract"></div>
+    <div class="statistics">
+        <div class="nerdystats"></div>
+        <div class="uptime"></div>
+        <div class="listeners"></div>
+    </div>
 
 
-<div style="text-align: center;padding: 6px;">
+<div id="socialLinks" style="text-align: center;padding: 6px;">
         <div class="fb-share-button" data-href="http://stream.hawkwynd.com" data-layout="button" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fstream.hawkwynd.com%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
 
     <div class="chatLink"><a href="chat/" target="_blank">Got a request?</a></div>

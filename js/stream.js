@@ -68,6 +68,10 @@ function statistics(){
             $('.statistics').hide();
             $('.nowplaying-title').html('Please check back later. Maintenance time!');
             $('#history').hide();
+            $('#wb_MediaPlayer1').hide(); // remove player control
+            $('#socialLinks').hide();
+            $('.thumb-container').html('<img src="img/no_image.png">');
+
         }
     }); // $.getJSON
 

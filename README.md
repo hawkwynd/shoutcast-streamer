@@ -9,10 +9,7 @@ The plan was to configure my software [Mixxx](https://www.mixxx.org/) so I could
 
 I expanded this plan to allow me to provide a live stream through the use of [Darkice](http://manpages.ubuntu.com/manpages/trusty/man1/darkice.1.html) on a second computer which simply could be as small as a Raspberry Pi machine.
 
-
-
 ## sc_serv configuration
-
 
 Login to your server and install sc_serv on your machine:
 
@@ -25,9 +22,9 @@ $ tar -xvzf ~/sc_serv2_linux_x64-latest.tar.gz
 
 Then, you will need to edit your config file to set password and stream(s) configurations:
 
-`nano sc_serv.conf`
+`$ nano sc_serv.conf`
 
-Basic settings for sc_serv.conf example:
+Create your settings for sc_serv.conf:
 
 ```
 adminpassword=whateverYourPasswordYouWant
@@ -57,7 +54,13 @@ http://example.com:8000/admin.cgi
 ```
 Login with admin/password you created in sc_serv.conf and you'll be able to see your stream server admin management page.
 
-# Broadcasting to your shoutcast server
+## Broadcasting to your shoutcast server
 
-Here's going to be the setup info for configuring stuff on a seperate host, website.
+### DJ Software
+In my search for Ubuntu compatible software, I found [Mixxx](https://www.mixxx.org/) to be the best with the most robust features and abilities. It is open-source, free and I have found it to have many really helpful functions that save me time and energy in managing my playlists, shows and overall library of tracks.
+
+* [Virtual DJ](https://www.virtualdj.com) has a free download for personal use, commercial use requires a license.
+* [Mixxx](https://www.mixxx.org/) - free open-source for many OS's.
+
+
 
