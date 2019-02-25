@@ -13,11 +13,12 @@ You can see this application at [http://stream.hawkwynd.com](http://stream.hawkw
 
 ## Addition information
 
-`index.php` -- contains a section in the `<audio>` tag, which you will need to point to your shoutcast server
+```define('SHOUTCAST_HOST', 'http://##.###.###.####:8000');             // url:port to your shoutcast server
+   define('SHOUTCAST_ADMIN_PASS', 'password_here');                     // admin password for accessing admin.cgi
+   define('SCROBBLER_API', 'lastFMApIKeyHere');                         // API key from lastfm to query data
+   define('APPLICATION_NAME', 'My Streaming Radio Station Name');       // Name of your website's application
+   define('NOW_PLAYING_TXT', 'Now Playing');                            // Content to display as Now Playing
+   define('SITE_URL', 'http://example.com');                            // used in FB share link
+
 ```
- <div id="wb_MediaPlayer1">
-            <audio src="http://ip.address.here:8000/;" id="MediaPlayer1" controls="controls"></audio>
-        </div>
-```
-You will need to set the `src` to the domain or ip address of your shoutcast server.
 
