@@ -33,3 +33,13 @@ ripfile=control/sc_serv.rip
 streamauthhash_1=whateverYourHashisForShoutCastDirectory
 
 ```
+Save your settings, and start the sc_serv:
+```
+./sc_serv &
+```
+Or use screen and run it as well.
+
+To verify your server is running, browse to the host with port 8000
+```
+http://example.com:8000
+```
