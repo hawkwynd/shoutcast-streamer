@@ -1,12 +1,11 @@
 <?php
 /**
- * Date: 2/4/19
- * Time: 3:12 PM
- * hawkwynd.com - sfleming
- * http://54.158.47.252:8000/admin.cgi?sid=1&mode=history
+ * displays history from shoutcast admin.cgi
  */
 date_default_timezone_set("America/Chicago");
-$json   = file_get_contents('http://54.158.47.252:8000/played?sid=1&pass=scootre&type=json');
+require_once('include/config.inc.php');
+
+$json   = file_get_contents(SHOUTCAST_HOST."/played?sid=1&pass=".SHOUTCAST_ADMIN_PASS."&type=json");
 $obj    = json_decode($json);
 unset($obj[0]);
 
