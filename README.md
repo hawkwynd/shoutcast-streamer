@@ -17,17 +17,17 @@ I expanded this plan to allow me to provide a live stream through the use of [Da
 Login to your server and install sc_serv on your machine:
 
 ```
-wget http://download.nullsoft.com/shoutcast/tools/sc_serv2_linux_x64-latest.tar.gz
-
-mkdir shoutcast
-cd shoutcast/
-tar -xvzf ~/sc_serv2_linux_x64-latest.tar.gz
+$ wget http://download.nullsoft.com/shoutcast/tools/sc_serv2_linux_x64-latest.tar.gz
+$ mkdir shoutcast
+$ cd shoutcast/
+$ tar -xvzf ~/sc_serv2_linux_x64-latest.tar.gz
 ```
 
-Edit your config file
+Then, you will need to edit your config file to set password and stream(s) configurations:
+
 `nano sc_serv.conf`
 
-Basic settings for sc_serv.conf
+Basic settings for sc_serv.conf example:
 
 ```
 adminpassword=whateverYourPasswordYouWant
