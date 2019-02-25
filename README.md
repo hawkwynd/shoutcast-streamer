@@ -11,15 +11,13 @@ I expanded this plan to allow me to provide a live stream through the use of [Da
 
 You can see this application at [http://stream.hawkwynd.com](http://stream.hawkwynd.com)
 
+## Addition information
 
-
-### DJ Software
-In my search for Ubuntu compatible software, I found [Mixxx](https://www.mixxx.org/) to be the best with the most robust features and abilities. It is open-source, free and I have found it to have many really helpful functions that save me time and energy in managing my playlists, shows and overall library of tracks.
-
-* [Virtual DJ](https://www.virtualdj.com) has a free download for personal use, commercial use requires a license.
-* [Mixxx](https://www.mixxx.org/) - free open-source for many OS's.
-
-Use your own resources to find a software you're comfortable with and compatible with connecting to a shoutcast server.
-
-###
+`index.php` -- contains a section in the `<audio>` tag, which you will need to point to your shoutcast server
+```
+ <div id="wb_MediaPlayer1">
+            <audio src="http://54.158.47.252:8000/;" id="MediaPlayer1" controls="controls"></audio>
+        </div>
+```
+You will need to set the `src` to the domain or ip address of your shoutcast server.
 

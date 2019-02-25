@@ -14,14 +14,14 @@ function secondsTimeSpanToHMS(s) {
 
 function statistics(){
 
-    $.getJSON('http://stream.hawkwynd.com/statistics.php', function(data){
+    $.getJSON('statistics.php', function(data){
 
      //  console.log(data);
 
         var meta            = data.streams[0].songtitle;
         var artist          = meta.substr(0, meta.indexOf(' - '));
         var title           = meta.substr(meta.indexOf(' - ') + 3);
-        var servercontent   = data.streams[0].servertitle.split('-'); // hawkwynd.com - something
+        var servercontent   = data.streams[0].servertitle.split('-'); // configured in software - some text
         var servertitle     = servercontent.shift();
         var motd            = servercontent;                         // one-line motd on server
         var samplerate      = data.streams[0].samplerate;           // samplerate 44100
@@ -84,7 +84,7 @@ function statistics(){
  */
 
 function history(){
-    $.getJSON('http://stream.hawkwynd.com/history.php' , function(list){
+    $.getJSON('history.php' , function(list){
         var output = '<h3>Whats Been Played</h3>';
         $.each(list, function(idx, val){
             output += '<div class="listing">'+ val + '</div>';
@@ -125,11 +125,10 @@ function callback(results){
                if(release.first_release_date) $('.song-album-yr').html(album.title +' (' + release.first_release_date + ')');
            });
        }
-
-
    }else{
 
         console.log('No results from LastFM...');
+
        $('.song-duration').html();
        $('.song-album-yr').html();
        $('.thumb-container').html('<img src="img/no_image.png">');
@@ -137,10 +136,6 @@ function callback(results){
 }
 
 function lastfm(a,t){
-
-   // http://ws.audioscrobbler.com/2.0/?artist=Focus&track=Hocus+Pocus&method=track.getInfo&api_key=632dede0ca2a7096949f075762d52861&format=json
-
-    //console.log('calling ' + a + ' ' + t);
 
     $.getJSON('http://ws.audioscrobbler.com/2.0/', {
         api_key: '632dede0ca2a7096949f075762d52861',
