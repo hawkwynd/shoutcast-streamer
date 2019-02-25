@@ -59,7 +59,7 @@ function statistics(){
                 $('.nerdystats').html('Nerd stats:' + samplerate + ' kHz @ ' + bitrate + ' kbps');
                 $('.uptime').html('Stream uptime: '+ secondsTimeSpanToHMS(streamuptime));
 
-                history(); // cull history data
+               // history(); // cull history data
 
             }
 
