@@ -41,5 +41,10 @@ Or use screen and run it as well.
 
 To verify your server is running, browse to the host with port 8000
 ```
-http://example.com:8000
+http://example.com:8000/admin.cgi
 ```
+Login with admin/password you created in sc_serv.conf and you'll be able to see your stream server admin management page.
+
+# Broadcasting to your shoutcast server
+
+Here's going to be the setup info for configuring stuff on a seperate host, website.
