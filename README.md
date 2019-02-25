@@ -1,1 +1,2 @@
-# shoutcast project initialized
+# Streaming player from shoutcast server
+# Development 
