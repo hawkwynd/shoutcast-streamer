@@ -50,16 +50,7 @@
         <div class="uptime"></div>
         <div class="listeners"></div>
     </div>
-
-
-</div>
-
-        <div class="jp-no-solution">
-            <span>Update Required</span>
-            To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
-        </div>
-    </div>
-</div>
+</div><!-- jp-audio-stream-->
 
 <div id="history"></div>
 <div id="fb-root"></div>
