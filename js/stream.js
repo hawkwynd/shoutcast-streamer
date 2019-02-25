@@ -37,8 +37,6 @@ function statistics(){
 
             var listeners = data.currentlisteners;
 
-
-
             if(!artist || !title){
 
                 console.log('Live broadcast detected : ' + motd[0] );

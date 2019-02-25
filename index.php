@@ -7,26 +7,21 @@
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
     <link href="css/style.css" rel="stylesheet" type="text/css"/>
     <script type="text/javascript" src="jPlayer/lib/jquery.min.js"></script>
-    <!--
-    <script type="text/javascript" src="jPlayer/dist/jplayer/jquery.jplayer.min.js"></script>
-    <script type="text/javascript" src="js/lastfm/lastfm.api.md5.js"></script>
-    <script type="text/javascript" src="js/lastfm/lastfm.api.js"></script>
-     -->
     <script type="text/javascript" src="js/stream.js"></script>
     <script type="text/javascript">
         //<![CDATA[
         $(document).ready(function(){
 
-            statistics(); // query server for stream data
+            statistics(); // query server for stream data on page load.
 
+            // refresh the screen every 10 seconds to update the track/artist info
             setInterval(function(){
-               statistics(); // query for data from server
+               statistics();
             }, 10000); // 10 seconds calls to refresh
         });
     </script>
 </head>
 <body>
-
 
 <div id="jquery_jplayer_1" class="jp-jplayer"></div>
 <div id="jp_container_1" class="jp-audio-stream" role="application" aria-label="media player">
