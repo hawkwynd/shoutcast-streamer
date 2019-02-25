@@ -18,7 +18,7 @@ You must register for an api key from lastFM for this application to work.
 
 [Create API Account with lastFM](https://www.last.fm/api/account/create)
 
-### Update `include/config.inc.php` with your settings
+### Update your settings
 
 You will need to edit `include/config.inc.php` file to configure your settings:
 
