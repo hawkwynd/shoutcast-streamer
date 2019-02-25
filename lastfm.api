@@ -1,0 +1,9 @@
+Application name	stream weaver
+API key	632dede0ca2a7096949f075762d52861
+Shared secret	68b5825c4612c52667d5d2b5ecc8f1e4
+Registered to	musiccityguru
+
+The API root URL is located at http://ws.audioscrobbler.com/2.0/
+http://ws.audioscrobbler.com/2.0/?method=track.getInfo&api_key=632dede0ca2a7096949f075762d52861&artist=cher&track=believe&format=json
+
+

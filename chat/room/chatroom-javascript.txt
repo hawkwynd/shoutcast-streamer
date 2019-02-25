@@ -1,0 +1,4 @@
+<span>chris</span>test 
+<span>chris</span>hello 
+<span>Chris2</span>another 
+<span>img</span>JavaScript is cool 
