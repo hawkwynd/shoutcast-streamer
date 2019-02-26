@@ -24,9 +24,9 @@ function statistics(){
         var servercontent   = data.streams[0].servertitle.split('-'); // configured in software - some text
         var servertitle     = servercontent.shift();
         var motd            = servercontent;                         // one-line motd on server
-        var samplerate      = data.streams[0].samplerate;           // samplerate 44100 kHz
-        var bitrate         = data.streams[0].bitrate;              // bitrate  128 kbps
-        var genre           = data.streams[0].servergenre;          // not used currently
+        var samplerate      = data.streams[0].samplerate;           // samplerate 44100
+        var bitrate         = data.streams[0].bitrate;              // bitrate  128
+        var genre           = data.streams[0].servergenre;          // not used
         var streamstatus    = data.streams[0].streamstatus;         // status of the stream
         var streamuptime    = data.streams[0].streamuptime;         // how long stream is playing
 
@@ -49,32 +49,36 @@ function statistics(){
 
             }else{
 
-                lastfm(artist,title); // query lastFM for correct artist/title and metadata
+               lastfm(artist,title); // query lastFM for correct artist/title and metadata
 
                 $('.artist-name').html(artist.trim());
                 $('.song-title').html(title.trim());
+                $('.nowplaying-title').html('Now Playing');
                 $('.listeners').html(listeners + ' current listener'+ (listeners === 1 ? '':'s') );
                 $('.jp-title').html( servertitle );
                 $('.jp-motd').html(motd);
                 $('.nerdystats').html('Nerd stats:' + samplerate + ' kHz @ ' + bitrate + ' kbps');
                 $('.uptime').html('Stream uptime: '+ secondsTimeSpanToHMS(streamuptime));
 
-               // history(); // cull history data
+                history();
 
             }
 
             // no stream, just throw the maintenance item
         }else{
 
-            $('.statistics').hide();
             $('.nowplaying-title').html('Please check back later. Maintenance time!');
-            $('#history').hide();
-            $('#wb_MediaPlayer1').hide(); // remove player control
-            $('#socialLinks').hide();
+            $('.artist-name').html('');
+            $('.song-title').html('');
+            $('.song-duration').html('');
+            $('.song-album-yr').html('');
             $('.thumb-container').html('<img src="img/no_image.png">');
 
         }
     }); // $.getJSON
+
+
+
 }
 
 /**
@@ -101,49 +105,61 @@ function millisToMinutesAndSeconds(millis) {
 
 function callback(results){
 
-    if(results.hasOwnProperty('track')){ // successful results
-            var album       = results.track.album;
-            var mbid        = results.track.album.mbid;
-            var duration    = results.track.duration > 0 ? millisToMinutesAndSeconds(results.track.duration): null;
+    if(results){
+        var album       = results.track.album;
+        var track       = results.track.name;
+        var mbid        = results.track.album.mbid;
+        var duration    = results.track.duration > 0 ? millisToMinutesAndSeconds(results.track.duration): null;
 
-            if(duration) $('.song-duration').html('duration: ' + duration); // duration of track XX:XX
+        if(duration) $('.song-duration').html('duration: ' + duration); // duration of track XX:XX
 
-            if(album.image[2]['#text']){
+        if(album.image[2]['#text']){
+            $('.thumb-container').html('<img src="'+ album.image[2]['#text'] + '" id="'+ album.image[2].size +'">'); // thumbnail of LP cover
+        }else{
+            //console.log('No image data from LastFM');
+            $('.thumb-container').html('<img src="img/no_image.png">'); // no_image
+        }
 
-                $('.thumb-container').html('<img src="'+ album.image[2]['#text'] + '" id="'+ album.image[2].size +'">'); // thumbnail of LP cover
-
-            }else{
-
-                $('.thumb-container').html('<img src="img/no_image.png">'); // no_image
-            }
+        // be sure we have mbid before calling musicbrainz for data
+       if(results.track.album.hasOwnProperty('mbid')){
            $.getJSON('musicbrainz.php',{mbid:mbid},function(release){
                if(release.first_release_date) $('.song-album-yr').html(album.title +' (' + release.first_release_date + ')');
            });
-
+       }
    }else{
-
-        console.log(results);
-
        $('.song-duration').html('');
        $('.song-album-yr').html('');
        $('.thumb-container').html('<img src="img/no_image.png">');
    }
 }
 
+
 function lastfm(a,t){
 
     $.getJSON('scrobbler.php', {
         track: t,
         artist: a
-    }).success(function(results){
+    }).done(function(results){
+
+            console.log(results);
+
             callback(results);
-    }).error(function(results){
-           callback(
-               'LastFM says no match for ' + a + ' track: ' + t
-           );
+
+        }).fail(function( ) {
+
+           failed(a,t);
+
+            callback(null);
+
     });
 
+}
 
+function failed(a,t){
+    $.post( "mongo/update.php", { artist: a, title: t})
+        .done(function( data ) {
+            console.log( "stored as fail : " + data );
+        });
 }
 
 //]]>

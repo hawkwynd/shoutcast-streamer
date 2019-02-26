@@ -13,6 +13,5 @@ $artist = $_GET['artist'];
 // call stats from shoutcast server
 $json   = file_get_contents('http://ws.audioscrobbler.com/2.0/?method=track.getInfo&api_key='.SCROBBLER_API.'&track='.$track.'&artist='.$artist.'&format=json');
 
-
 echo $json;
 exit;
