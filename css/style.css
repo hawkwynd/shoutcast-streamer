@@ -27,6 +27,7 @@ audio { width: 100% }
 .jp-details .nowplaying .thumb-container{
     margin: 0 auto;
     width: 35%;
+    text-align: center;
 
 }
 

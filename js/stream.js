@@ -49,6 +49,8 @@ function statistics(){
 
             }else{
 
+                console.log( 'asking for ' + artist + ', ' + title );
+
                lastfm(artist,title); // query lastFM for correct artist/title and metadata
 
                 $('.artist-name').html(artist.trim());
@@ -76,9 +78,6 @@ function statistics(){
 
         }
     }); // $.getJSON
-
-
-
 }
 
 /**
@@ -106,59 +105,55 @@ function millisToMinutesAndSeconds(millis) {
 function callback(results){
 
     if(results){
-        var album       = results.track.album;
+        var album       = results.album.title;
+        var image       = results.album.image;
         var track       = results.track.name;
-        var mbid        = results.track.album.mbid;
+        var mbid        = results.album.mbid;
         var duration    = results.track.duration > 0 ? millisToMinutesAndSeconds(results.track.duration): null;
-
-        if(duration) $('.song-duration').html('duration: ' + duration); // duration of track XX:XX
-
-        if(album.image[2]['#text']){
-            $('.thumb-container').html('<img src="'+ album.image[2]['#text'] + '" id="'+ album.image[2].size +'">'); // thumbnail of LP cover
+        var release     = results.album.releaseDate;
+        if(duration) $('.song-duration').html('Duration: ' + duration); // duration of track XX:XX
+        if(image){
+            $('.thumb-container').html('<img src="'+ image + '">'); // thumbnail of LP cover
         }else{
-            //console.log('No image data from LastFM');
             $('.thumb-container').html('<img src="img/no_image.png">'); // no_image
         }
 
-        // be sure we have mbid before calling musicbrainz for data
-       if(results.track.album.hasOwnProperty('mbid')){
-           $.getJSON('musicbrainz.php',{mbid:mbid},function(release){
-               if(release.first_release_date) $('.song-album-yr').html(album.title +' (' + release.first_release_date + ')');
-           });
-       }
+        $('.song-album-yr').html(album +' (' + release + ')');
+
    }else{
+
        $('.song-duration').html('');
        $('.song-album-yr').html('');
        $('.thumb-container').html('<img src="img/no_image.png">');
    }
 }
 
-
 function lastfm(a,t){
 
-    $.getJSON('scrobbler.php', {
+    console.log('[lastfm] init.. ');
+
+    $.getJSON('lookup.php', {
         track: t,
         artist: a
     }).done(function(results){
 
-            console.log(results);
+            console.log('Successful find from ' + results.status);
 
             callback(results);
 
         }).fail(function( ) {
 
-           failed(a,t);
+            failed(a,t);
 
-            callback(null);
-
+           callback(null);
     });
-
 }
 
 function failed(a,t){
     $.post( "mongo/update.php", { artist: a, title: t})
         .done(function( data ) {
-            console.log( "stored as fail : " + data );
+            console.log('lastfm_fail updated ' + a + ' : ' + t);
+            //console.log($.parseJSON( data ));
         });
 }
 

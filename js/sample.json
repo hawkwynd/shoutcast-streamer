@@ -1,0 +1,16 @@
+{"type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b", "end_area": null, "disambiguation": "Joe Bonamassa, Waylon Krieger, Eric Davis, Berry Oakley, Jr.", "name": "Bloodline", "area": null, "gender-id": null, "type": "Group", "isnis": [], "country": null, "release-groups": [
+    {
+        "primary-type": "Album",
+        "disambiguation": "",
+        "first-release-date": "1994",
+        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+        "title": "Bloodline",
+        "id": "1b44159b-5e86-35a8-a2b5-58cddb3cfa3a",
+        "secondary-types": [],
+        "secondary-type-ids": []
+    }
+], "id": "e3bcbe90-a7f6-4826-ae6e-bad74213d10a", "gender": null, "life-span": {
+    "end": null,
+    "ended": false,
+    "begin": null
+}, "sort-name": "Bloodline", "ipis": [], "begin_area": null}
