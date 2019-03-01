@@ -49,7 +49,7 @@ function statistics(){
 
             }else{
 
-                console.log( 'asking for ' + artist + ', ' + title );
+                console.log( 'Asking for: ' + artist + ', ' + title );
 
                lastfm(artist,title); // query lastFM for correct artist/title and metadata
 
@@ -130,29 +130,24 @@ function callback(results){
 
 function lastfm(a,t){
 
-    console.log('[lastfm] init.. ');
-
     $.getJSON('lookup.php', {
         track: t,
         artist: a
     }).done(function(results){
-
             console.log('Successful find from ' + results.status);
-
             callback(results);
 
-        }).fail(function( ) {
+        }).fail(function() {
+                callback(null);
+                failed(a,t);
 
-            failed(a,t);
-
-           callback(null);
     });
 }
 
 function failed(a,t){
     $.post( "mongo/update.php", { artist: a, title: t})
         .done(function( data ) {
-            console.log('lastfm_fail updated ' + a + ' : ' + t);
+            console.log('lastfm_fail updated: ' + a + ' : ' + t);
             //console.log($.parseJSON( data ));
         });
 }

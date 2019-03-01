@@ -18,14 +18,23 @@ require '/var/www/hawkwynd.com/mongodb/vendor/autoload.php';
 $tt         = $_GET['track'];
 $ar         = $_GET['artist'];
 
-$internalFind = do_find($tt,$ar);
 
+// check the mongodb if we have it
+$internalFind = do_find($tt,$ar);
 if($internalFind->album->mbid){ // we have this result.
     echo json_encode($internalFind);
     exit;
 }
 
-// Nothing returned on Mongo, let's call lastFM for it.
+// check the failed db if it's a fail.
+$fail = do_findfail($tt, $ar);
+if($fail->artist){
+    # fail found, just exit.
+    //echo json_encode(array("status" => "fail"));
+    exit;
+}
+
+// Nothing returned on Mongo, and its not in the failed table, so let's call lastFM for it.
 
 $track  = rawurlencode($_GET['track']);
 $artist = rawurlencode($_GET['artist']);
@@ -101,8 +110,8 @@ function do_find($t, $a)
     $cursor = $collection->find(
         ['$and'  => [
 
-            [ 'track-name'  => $t ] ,
-            [ 'artist-name' => $a ]
+            [ 'track-name'  => new MongoDB\BSON\Regex($t, 'i')  ],
+            [ 'artist-name' => new MongoDB\BSON\Regex($a, 'i')  ]
         ]
         ]
     );
@@ -118,6 +127,24 @@ function do_find($t, $a)
         $out->album->image = $row->{"album-image"};
         $out->album->mbid = $row{"album-mbid"};
         $out->album->releaseDate = $row{"album-released"};
+        $out->status = "MongoDB";
+    }
+
+    return $out;
+
+}
+
+function do_findfail($t, $a)
+{
+    $out                = new stdClass();
+    $collection         = (new MongoDB\Client)->stream->lastfm_fail;
+    $cursor = $collection->find(
+            [ 'title'  => new MongoDB\BSON\Regex($t, 'i')  ]
+    );
+
+    foreach($cursor as $row){
+        $out->artist->name = $row->{"artist"};
+        $out->track->name  = $row->{"title"};
         $out->status = "MongoDB";
     }
 

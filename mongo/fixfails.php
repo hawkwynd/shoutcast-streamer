@@ -6,7 +6,7 @@
  * hawkwynd.com - scottfleming
  */
 
-error_reporting(E_ALL);
+error_reporting(E_STRICT);
 ini_set('display_errors', 1);
 
 /**
@@ -30,11 +30,11 @@ foreach($cursor as $row){
     $artist = rawurlencode($row->{"artist"});
     $track  = rawurlencode( $row->{"title"} );
 
-    echo "Searching FOR: " . $artist . " - " . $track . "\t ";
+    echo "Searching FOR: " . $artist . " - " . $track . "...\n";
 
     $trackSearch =  json_decode( file_get_contents('http://ws.audioscrobbler.com/2.0/?method=track.search&api_key='.SCROBBLER_API.'&track='.$track.'&artist='.$artist. '&format=json') );
 
-    $result = $trackSearch->results->trackmatches->track[0];
+   foreach($trackSearch->results->trackmatches->track as $result) :
 
     if($result->mbid){
 
@@ -56,17 +56,21 @@ foreach($cursor as $row){
             $out->album->image       = $trackFind->track->album->image[2]->{"#text"}; // large
             $releaseDate             = getLPRelease( $trackFind->track->album->mbid);
             $out->album->releaseDate = $releaseDate['first_release_date'];
-            $out->status = "lastFM";
         }
 
         echo "FOUND: " . $out->track->mbid . PHP_EOL;
-        do_dbUpdate($out); // update mongo db to add new record found.
-        echo "DELETED " . $out->track->name . PHP_EOL;
 
-    }else{
-        echo "NOT FOUND -- Check spelling of title?" . PHP_EOL;
+        print_r($out);
+
+        do_dbUpdate($out); // update mongo db to add new record found.
+
+
+
+        echo "DELETED " . $out->track->name . PHP_EOL;
+        break;
     }
 
+   endforeach;
 }
 exit;
 
@@ -101,14 +105,15 @@ function do_dbUpdate($out)
     );
 
     $rcollection = (new MongoDB\Client)->stream->lastfm_fail;
-    $deleteResult = $rcollection->findOneAndDelete(
-                                            ['title' => $out->track->name ]
+    $deleteResult = $rcollection->deleteOne(['$and' => [
+                                                ['title' => new MongoDB\BSON\Regex($out->track->name, 'ig')],
+                                                ['artist' => new MongoDB\BSON\Regex($out->artist->name, 'ig')]
+                                                ]
+                                            ]
                                         );
 
     printf("\nDeleteing %s\n", $out->track->name);
-    //printf("\nDeleted %d document(s)\n", $deleteResult->_id());
-
-
+    printf("\nDeleted %d document(s)\n", $deleteResult->getDeletedCount());
 
 }
 
