@@ -21,7 +21,7 @@ ini_set('display_errors', 1);
 require_once('../include/config.inc.php');
 require '/var/www/hawkwynd.com/mongodb/vendor/autoload.php';
 
-
+$trunc              = 300; // limit for summary
 $collection         = (new MongoDB\Client)->stream->lastfm_fail;
 $cursor = $collection->find();
 
@@ -48,7 +48,7 @@ foreach($cursor as $row){
         if($artistInfo) {
             $out->artist->name       = $artistInfo[0]['name'];
             $out->artist->mbid       = $artistInfo[0]['mbid'];
-            $out->artist->summary    = str_replace('Read more on Last.fm','', strip_tags( $artistInfo[0]['summary'] ) );
+            $out->artist->summary    = do_trunc( str_replace('Read more on Last.fm','', strip_tags( $artistInfo[0]['summary'] ) ), $trunc);
             $out->track->name        = $trackFind->track->name;
             $out->track->mbid        = $trackFind->track->mbid;
             $out->track->duration    = $trackFind->track->duration;
@@ -75,6 +75,19 @@ foreach($cursor as $row){
     }
 }
 exit;
+
+
+
+function do_trunc($file, $maxlen)
+{
+
+    if ( strlen($file) > $maxlen ){
+        return  substr($file,0,strrpos($file,". ",$maxlen-strlen($file)) + 1);
+    }else{
+        return($file);
+    }
+
+}
 
 
 /**

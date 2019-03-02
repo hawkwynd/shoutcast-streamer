@@ -17,7 +17,7 @@ require '/var/www/hawkwynd.com/mongodb/vendor/autoload.php';
 // keep real spacing for search of mongo
 $tt         = $_GET['track'];
 $ar         = $_GET['artist'];
-
+$trunc      = 300; // limit for summary
 
 // check the mongodb if we have it listed
 $internalFind = do_find($tt,$ar);
@@ -55,7 +55,7 @@ if($result->mbid){
     if($artistInfo) {
         $out->artist->name       = $artistInfo[0]['name'];
         $out->artist->mbid       = $artistInfo[0]['mbid'];
-        $out->artist->summary    = do_trunc( str_replace('Read more on Last.fm','', strip_tags( $artistInfo[0]['summary'] ) ), 300);
+        $out->artist->summary    = do_trunc( str_replace('Read more on Last.fm','', strip_tags( $artistInfo[0]['summary'] ) ), $trunc);
         $out->track->name        = $trackFind->track->name;
         $out->track->mbid        = $trackFind->track->mbid;
         $out->track->duration    = $trackFind->track->duration;

@@ -40,15 +40,15 @@ function do_find(){
     $cursor             = $collection->find();
 
     foreach($cursor as $row){
-        echo "artist-name :" . $row->{"artist-name"}. " <br/> ";
+        echo "artist-name: " . $row->{"artist-name"}. " <br/> ";
         echo "artist-mbid: ". $row->{"artist-mbid"} . "<br/>";
         echo "track-name: ". $row->{"track-name"} . "<br/>";
         echo "track-mbid: " . $row->{"track-mbid"} . "<br/>";
         echo "album-name: " . $row->{"album-name"} . "<br/>";
         echo "album-released: " . $row->{'album-released'} . "<br/>";
         echo "album-mbid: ". $row->{"album-mbid"} . "<br/>";
-        echo "album-image:" . $row->{"album-image"} . "<br/>";
-        echo "artist-summary:" . $row->{"artist-summary"};
+        echo "album-image: " . $row->{"album-image"} . "<br/>";
+        echo "artist-summary [". strlen( $row->{"artist-summary"} )."] : " . $row->{"artist-summary"};
         echo "<hr>";
     }
 }
