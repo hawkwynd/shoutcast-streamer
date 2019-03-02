@@ -32,11 +32,12 @@ require_once('include/config.inc.php');
             <div class="nowplaying-title"><?php echo NOW_PLAYING_TXT; ?></div>
             <div class="nowplaying">
                 <div class="thumb-container"></div>
-                <div class="artist-name"></div>
-                <div class="song-title"></div>
-                <div class="song-album-yr"></div>
-                <div class="song-duration"></div>
-                <div class="genre"></div>
+                  <div class="current-song-container">
+                    <div class="artist-name"></div>
+                    <div class="song-title"></div>
+                    <div class="song-album-yr"></div>
+                    <div class="song-duration"></div>
+                  </div>
             </div>
         </div>
 
@@ -45,12 +46,16 @@ require_once('include/config.inc.php');
             <audio src="<?php echo SHOUTCAST_HOST.'/;';?>" id="MediaPlayer1" controls="controls"></audio>
         </div>
     </div>
-    <div class="extract"></div>
+
+    <div class="summary"></div>
+
     <div class="statistics">
         <div class="nerdystats"></div>
         <div class="uptime"></div>
         <div class="listeners"></div>
     </div>
+
+
 
 
 <div id="socialLinks" style="text-align: center;padding: 6px;">

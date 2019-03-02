@@ -26,18 +26,19 @@ $collection         = (new MongoDB\Client)->stream->lastfm_fail;
 $cursor = $collection->find();
 
 foreach($cursor as $row){
+    $found = false;
     $out    = new stdClass();
     $artist = rawurlencode($row->{"artist"});
     $track  = rawurlencode( $row->{"title"} );
 
-    echo "Searching FOR: " . $artist . " - " . $track . "...\n";
+    echo "Searching: " . $row->{"title"} . " by " . $row->{"artist"} . " -- ";
 
     $trackSearch =  json_decode( file_get_contents('http://ws.audioscrobbler.com/2.0/?method=track.search&api_key='.SCROBBLER_API.'&track='.$track.'&artist='.$artist. '&format=json') );
 
    foreach($trackSearch->results->trackmatches->track as $result) :
 
     if($result->mbid){
-
+        $found = true;
         unset($out->url, $out->streamable, $out->listeners);
 
         $trackId     = $result->mbid;
@@ -59,18 +60,19 @@ foreach($cursor as $row){
         }
 
         echo "FOUND: " . $out->track->mbid . PHP_EOL;
-
         print_r($out);
-
         do_dbUpdate($out); // update mongo db to add new record found.
-
-
-
-        echo "DELETED " . $out->track->name . PHP_EOL;
         break;
     }
 
+
    endforeach;
+
+    if ($found == false)
+    {
+        echo "Not found " . $row->{"title"} . " -  " . $row->{"artist"}. PHP_EOL;
+
+    }
 }
 exit;
 
@@ -105,11 +107,8 @@ function do_dbUpdate($out)
     );
 
     $rcollection = (new MongoDB\Client)->stream->lastfm_fail;
-    $deleteResult = $rcollection->deleteOne(['$and' => [
-                                                ['title' => new MongoDB\BSON\Regex($out->track->name, 'ig')],
-                                                ['artist' => new MongoDB\BSON\Regex($out->artist->name, 'ig')]
-                                                ]
-                                            ]
+    $deleteResult = $rcollection->deleteMany(
+                                                ['title' => new MongoDB\BSON\Regex($out->track->name, 'i')]
                                         );
 
     printf("\nDeleteing %s\n", $out->track->name);

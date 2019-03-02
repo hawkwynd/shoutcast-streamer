@@ -29,8 +29,11 @@ unset($out->url, $out->streamable, $out->listeners);
     if($result->mbid){
         $trackId     = $result->mbid;
         $trackFind   = json_decode(file_get_contents('http://ws.audioscrobbler.com/2.0/?method=track.getInfo&api_key='.SCROBBLER_API.'&mbid='. $trackId.'&format=json'));
+        print_r($trackFind);
 
         $artistInfo  = ArtistInfoById($trackFind->track->artist->mbid);
+
+
 
         if($artistInfo) {
             $out->artist->name = $artistInfo[0]['name'];

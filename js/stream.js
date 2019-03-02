@@ -41,7 +41,7 @@ function statistics(){
 
                 console.log('Live broadcast detected : ' + motd[0] );
                 $('.nowplaying').css('width','30%').css('margin','auto');
-                $('.nowplaying-title').html(motd);
+               // $('.nowplaying-title').html(motd);
                 $('.thumb-container').html('<img src="img/no_image.png">');
                 $('.listeners').html(listeners + ' current listener'+ (listeners === 1 ? '':'s') );
                 $('.nerdystats').html('Nerd stats:' + samplerate + ' kHz @ ' + bitrate + ' kbps');
@@ -58,11 +58,11 @@ function statistics(){
                 $('.nowplaying-title').html('Now Playing');
                 $('.listeners').html(listeners + ' current listener'+ (listeners === 1 ? '':'s') );
                 $('.jp-title').html( servertitle );
-                $('.jp-motd').html(motd);
+            //    $('.jp-motd').html(motd);
                 $('.nerdystats').html('Nerd stats:' + samplerate + ' kHz @ ' + bitrate + ' kbps');
                 $('.uptime').html('Stream uptime: '+ secondsTimeSpanToHMS(streamuptime));
 
-                history();
+                //history();
 
             }
 
@@ -75,6 +75,7 @@ function statistics(){
             $('.song-duration').html('');
             $('.song-album-yr').html('');
             $('.thumb-container').html('<img src="img/no_image.png">');
+            $('.summary').html().css("padding", 0);
 
         }
     }); // $.getJSON
@@ -119,12 +120,14 @@ function callback(results){
         }
 
         $('.song-album-yr').html(album +' (' + release + ')');
+        $('.summary').html(results.artist.summary);
 
    }else{
 
        $('.song-duration').html('');
        $('.song-album-yr').html('');
        $('.thumb-container').html('<img src="img/no_image.png">');
+       $('.summary').html('').css("padding", 0);
    }
 }
 

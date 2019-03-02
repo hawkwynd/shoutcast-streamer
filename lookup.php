@@ -19,14 +19,14 @@ $tt         = $_GET['track'];
 $ar         = $_GET['artist'];
 
 
-// check the mongodb if we have it
+// check the mongodb if we have it listed
 $internalFind = do_find($tt,$ar);
 if($internalFind->album->mbid){ // we have this result.
     echo json_encode($internalFind);
     exit;
 }
 
-// check the failed db if it's a fail.
+// check the failed db if it's a failed listing.
 $fail = do_findfail($tt, $ar);
 if($fail->artist){
     # fail found, just exit.
@@ -35,7 +35,6 @@ if($fail->artist){
 }
 
 // Nothing returned on Mongo, and its not in the failed table, so let's call lastFM for it.
-
 $track  = rawurlencode($_GET['track']);
 $artist = rawurlencode($_GET['artist']);
 $out    = new stdClass();
@@ -56,7 +55,7 @@ if($result->mbid){
     if($artistInfo) {
         $out->artist->name       = $artistInfo[0]['name'];
         $out->artist->mbid       = $artistInfo[0]['mbid'];
-        $out->artist->summary    = str_replace('Read more on Last.fm','', strip_tags( $artistInfo[0]['summary'] ) );
+        $out->artist->summary    = do_trunc( str_replace('Read more on Last.fm','', strip_tags( $artistInfo[0]['summary'] ) ), 300);
         $out->track->name        = $trackFind->track->name;
         $out->track->mbid        = $trackFind->track->mbid;
         $out->track->duration    = $trackFind->track->duration;
@@ -76,6 +75,15 @@ exit;
  * @param $out object
  *
  */
+
+function do_trunc($file, $maxlen)
+{
+
+    if ( strlen($file) > $maxlen ){
+        return  substr($file,0,strrpos($file,". ",$maxlen-strlen($file)) + 1);
+    }
+
+}
 
 function do_dbUpdate($out)
 {
@@ -117,9 +125,9 @@ function do_find($t, $a)
     );
 
     foreach($cursor as $row){
-        $out->artist->name = $row->{"artist-name"};
-        $out->artist->mbid = $row->{"artist-mbid"};
-        $out->artist->summary = $row->{"artist-summary"};
+        $out->artist->name      = $row->{"artist-name"};
+        $out->artist->mbid      = $row->{"artist-mbid"};
+        $out->artist->summary   = do_trunc( $row->{"artist-summary"}, 400);
         $out->track->name  = $row->{"track-name"};
         $out->track->mbid  = $row->{"track-mbid"};
         $out->track->duration = $row->{"track-duration"};
