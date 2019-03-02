@@ -81,6 +81,8 @@ function do_trunc($file, $maxlen)
 
     if ( strlen($file) > $maxlen ){
         return  substr($file,0,strrpos($file,". ",$maxlen-strlen($file)) + 1);
+    }else{
+        return($file);
     }
 
 }
@@ -127,7 +129,7 @@ function do_find($t, $a)
     foreach($cursor as $row){
         $out->artist->name      = $row->{"artist-name"};
         $out->artist->mbid      = $row->{"artist-mbid"};
-        $out->artist->summary   = do_trunc( $row->{"artist-summary"}, 400);
+        $out->artist->summary   = $row->{"artist-summary"};
         $out->track->name  = $row->{"track-name"};
         $out->track->mbid  = $row->{"track-mbid"};
         $out->track->duration = $row->{"track-duration"};
