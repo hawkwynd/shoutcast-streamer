@@ -750,13 +750,18 @@ span.jp-artist {
     color: #009be3;
 }
 
-.summary{
+.summary, .members{
     margin: 10px;
     background-color: #fff;
     font-size: smaller;
     line-height: 1.4;
     padding: 4px;
-
+}
+.members .memberHeader{
+    font-weight: 700;
+}
+.members .memberline{
+    margin: 0 8px;
 }
 
 /* @end */

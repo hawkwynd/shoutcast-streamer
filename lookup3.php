@@ -1,5 +1,5 @@
 <pre><?php
-error_reporting(E_STRICT);
+error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
 /**
@@ -20,72 +20,74 @@ $tt         = $_GET['track'];
 $ar         = $_GET['artist'];
 
 
-// check the mongodb if we have it listed
-$internalFind = do_find($tt,$ar);
-if($internalFind->album->mbid){ // we have this result.
-    echo json_encode($internalFind);
-    exit;
-}
-
-// check the failed db if it's a failed listing.
-$fail = do_findfail($tt, $ar);
-if($fail->artist){
-    # fail found, just exit.
-    //echo json_encode(array("status" => "fail"));
-    exit;
-}
-
-// Nothing returned on Mongo, and its not in the failed table, so let's call lastFM for it.
 $track  = rawurlencode($_GET['track']);
 $artist = rawurlencode($_GET['artist']);
-$out    = new stdClass();
 
-$trackSearch =  json_decode( file_get_contents('http://ws.audioscrobbler.com/2.0/?method=track.search&api_key='.SCROBBLER_API.'&track='.$track.'&artist='.$artist. '&format=json') );
+$payload = $final = array();
+$response = json_decode( do_mb_search($ar, $tt) );
 
+foreach($response->recordings as $recording){
+    foreach ($recording->releases as $release){
+        if( (property_exists($release,'country') && $release->country === "US") &&
+            $release->status === "Official" &&
+            $release->{"release-group"}->{"primary-type"} === "Album" &&
+            $release->date !=='' && !property_exists($release->{"release-group"}, 'secondary-types' )
+        ){
+            array_push($payload, $release);
+        }
 
-
-
-//foreach( $trackSearch->results->trackmatches->track as $result ) // just the first result... {
-$result = $trackSearch->results->trackmatches->track[0];
-
-unset($out->url, $out->streamable, $out->listeners);
-
-print_r($trackSearch);
-exit;
-
-
-if($result->mbid){
-    $trackId     = $result->mbid;
-    $trackFind   = json_decode(file_get_contents('http://ws.audioscrobbler.com/2.0/?method=track.getInfo&api_key='.SCROBBLER_API.'&mbid='. $trackId.'&format=json'));
-    $artistInfo  = ArtistInfoById($trackFind->track->artist->mbid);
-
-    if($artistInfo) {
-        $out->artist->name       = $artistInfo[0]['name'];
-        $out->artist->mbid       = $artistInfo[0]['mbid'];
-        $out->artist->summary    = do_trunc( str_replace('Read more on Last.fm','', strip_tags( $artistInfo[0]['summary'] ) ), 200);
-        $out->track->name        = $trackFind->track->name;
-        $out->track->mbid        = $trackFind->track->mbid;
-        $out->track->duration    = $trackFind->track->duration;
-        $out->album->title       = $trackFind->track->album->title;
-        $out->album->mbid        = $trackFind->track->album->mbid;
-        $out->album->image       = $trackFind->track->album->image[2]->{"#text"}; // large
-
-        $releaseDate             = getLPRelease( $trackFind->track->album->mbid);
-        $out->album->releaseDate = $releaseDate['first_release_date'];
-
-        $details                 = get_release_details($trackFind->track->album->mbid);
-        $label                   = $details->{"label-info"}[0]; // first element of array, fuck the others.
-        $out->album->label       = $label->label->name;
-        $out->album->lid         = $label->label->id;
-
-        $out->artist->members    = get_members( $trackFind->track->artist->mbid );
-
-
-        $out->status             = "lastFM";
     }
-    echo json_encode($out, true); // return result
-    do_dbUpdate($out); // update mongo db to add new record found.
 }
+
+echo "RELEASE COUNT: " . count($payload) . " \n\n";
+
+foreach($payload as $release){
+$release = $payload[0];
+    $out    = new stdClass();
+
+    foreach($release->media as $media){
+     foreach($media->track as $track){
+
+            if(property_exists($track, 'length')):
+                    $out->{"album-mbid"} = $release->id;
+                    $out->{"album-title"} = $release->title;
+                    $out->{"album-released"} = date('Y' , strtotime($release->date));
+
+                   // echo $track->title . "\n";
+                    $out->{"track-name"} = $track->title;
+                   // echo $track->id . "\n";
+                    $out->{"track-mbid"} = $track->id;
+                   // echo $track->length . "\n";
+                    $out->{"track-duration"} = $track->length;
+
+                //echo "//--------- End of Release " . $release->id . " -----\n\n";
+                array_push($final, $out);
+            endif;
+
+               // print_r($media);
+            //}
+
+            $caResult = json_decode( do_coverart($release->id) );
+
+            if( property_exists($caResult, 'images') ):
+                foreach ($caResult->images as $image) { // only get the Front image, no Booklet or additionals
+                    if( in_array('Front', $image->types) && count($image->types) === 1 ){
+                        foreach($image->types as $type){
+                           // echo $type . ":" . $image->thumbnails->large . "\n";
+                            $out->{"album-image"} =  $image->thumbnails->large; // assign the album-image
+                        }
+                    }
+                }
+
+
+           endif;
+        } // media->track as track
+    } // release->media as media
+} // payload->release
+
+print_r($final);
+
+
 exit;
 
 /**
@@ -325,4 +327,20 @@ function do_member_lookup($arid)
     $url = "http://musicbrainz.org/ws/2/artist/".$arid."?inc=artist-rels&fmt=json";
     $response = $client->request('GET', $url);
     return $response->getBody() ;
+}
+
+function do_mb_search($a, $t){
+    $client = new \GuzzleHttp\Client();
+    $url = "https://musicbrainz.org/ws/2/recording/?query=$t%20AND%20artist:$a%20AND%20primarytype:Album%20AND%20country:US%20AND%20status:Official&inc=release-groups&fmt=json";
+    $response = $client->request('GET', $url);
+    return $response->getBody() ;
+}
+
+function do_coverart($rid){
+    $client = new \GuzzleHttp\Client();
+    $url = "https://coverartarchive.org/release/" . $rid;
+    $res = $client->request('GET', $url);
+
+  return  $res->getBody();
+
 }

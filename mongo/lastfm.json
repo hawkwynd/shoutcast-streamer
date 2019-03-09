@@ -1,0 +1,7000 @@
+[{
+	"_id": {
+		"$oid": "5c82d9ebc3d5374cb04ce080"
+	},
+	"track-mbid": "991b5f0c-93b8-4aaf-afda-f769310cb73c",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/70c99ea17513e27d0ed5e111a95ae2a8.png",
+	"album-label": "ATCO Records",
+	"album-lid": "a9de694a-2e5b-4a1d-8d7a-a7ca620e3f80",
+	"album-mbid": "92746377-783d-3355-af9d-229a6edfd6ff",
+	"album-name": "Let There Be Rock",
+	"album-released": "1977",
+	"artist-mbid": "66c662b6-6e2f-4930-8610-912e24c63ed1",
+	"artist-members": {
+		"group_name": "AC/DC",
+		"group_begin": "1973",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "Bon Scott",
+				"begin": "1974",
+				"end": "1980",
+				"instruments": "lead vocals"
+			},
+			{
+				"member_name": "Simon Wright",
+				"begin": "1984",
+				"end": "1989",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Cliff Williams",
+				"begin": "1977",
+				"end": "",
+				"instruments": "background vocals, bass guitar"
+			},
+			{
+				"member_name": "Brian Johnson",
+				"begin": "1980",
+				"end": "",
+				"instruments": "lead vocals"
+			},
+			{
+				"member_name": "Larry van Kriedt",
+				"begin": "1973",
+				"end": "1975",
+				"instruments": "bass guitar"
+			},
+			{
+				"member_name": "Mark Evans",
+				"begin": "1975",
+				"end": "1977",
+				"instruments": "background vocals, bass guitar"
+			},
+			{
+				"member_name": "Dave Evans",
+				"begin": "1973",
+				"end": "1974",
+				"instruments": "lead vocals"
+			},
+			{
+				"member_name": "Colin Burgess",
+				"begin": "1973",
+				"end": "1974",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Peter Clack",
+				"begin": "1974",
+				"end": "1975",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Rob Bailey",
+				"begin": "1973",
+				"end": "1974",
+				"instruments": "bass guitar"
+			},
+			{
+				"member_name": "Phil Rudd",
+				"begin": "1975",
+				"end": "1983",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Phil Rudd",
+				"begin": "1994",
+				"end": "2019",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Angus Young",
+				"begin": "1973",
+				"end": "",
+				"instruments": "guitar, original"
+			},
+			{
+				"member_name": "Noel Taylor",
+				"begin": "1974",
+				"end": "1974",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Stevie Young",
+				"begin": "2014",
+				"end": "2014",
+				"instruments": "electric guitar"
+			},
+			{
+				"member_name": "Chris Slade",
+				"begin": "1989",
+				"end": "1994",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Chris Slade",
+				"begin": "2019",
+				"end": "",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Malcolm Young",
+				"begin": "1973",
+				"end": "2014",
+				"instruments": "background vocals, guitar, original"
+			}
+		]
+	},
+	"artist-name": "AC/DC",
+	"artist-summary": "AC/DC is an Australian rock band formed in Sydney, New South Wales, Australia in December 1973 by Angus and Malcolm Young.",
+	"track-duration": "495000",
+	"track-name": "Let There Be Rock"
+},
+{
+	"_id": {
+		"$oid": "5c82da29c3d5374cb04ce0ab"
+	},
+	"track-mbid": "6da76448-982a-4a01-b65b-9a710301c9c9",
+	"album-image": "https://coverartarchive.org/release/9dce399d-3ec7-34a4-97d0-b4bac54e5f08/4286473684-250.jpg",
+	"album-label": "Mobile Fidelity Sound Lab",
+	"album-lid": "edd54e2f-2eef-46b1-a9b5-bedfe5ed33be",
+	"album-mbid": "9dce399d-3ec7-34a4-97d0-b4bac54e5f08",
+	"album-name": "Nevermind",
+	"album-released": "1996",
+	"artist-mbid": "5b11f4ce-a62d-471e-81fc-a69a8278c7da",
+	"artist-members": {
+		"group_name": "Nirvana",
+		"group_begin": "1987",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "Dave Grohl",
+				"begin": "1990",
+				"end": "",
+				"instruments": "Drums"
+			},
+			{
+				"member_name": "Kurt Cobain",
+				"begin": "",
+				"end": "",
+				"instruments": "Guitar, Vocals"
+			},
+			{
+				"member_name": "Krist Novoselic",
+				"begin": "",
+				"end": "",
+				"instruments": "Bass Guitar"
+			},
+			{
+				"member_name": "Kirk Canning",
+				"begin": "",
+				"end": "",
+				"instruments": "Guest Cello"
+			}
+		]
+	},
+	"artist-name": "Nirvana",
+	"artist-summary": "Nirvana was an American rock band formed in Aberdeen, Washington, in 1987. It was founded by lead singer and guitarist Kurt Cobain and bassist Krist Novoselic. Nirvana went through a succession of drummers, the longest-lasting and best-known being Dave Grohl, who joined in 1990. Though the band dissolved in 1994 after the death of Cobain, their music maintains a popular following and continues to influence modern rock and roll culture.",
+	"track-duration": "300000",
+	"track-name": "Smells Like Teen Spirit"
+},
+{
+	"_id": {
+		"$oid": "5c82dae5c3d5374cb04ce0fa"
+	},
+	"track-mbid": "84583438-ca18-4c9e-9bc1-9a2a3c3d1a17",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/35ecb4f7affe489991e91d13f0d00485.png",
+	"album-label": "Vertigo",
+	"album-lid": "1b3b52a5-ef89-4f8b-8d5f-e15a7a58863b",
+	"album-mbid": "6e729716-c0eb-3f50-a740-96ac173be50d",
+	"album-name": "Metallica",
+	"album-released": "1991",
+	"artist-mbid": "65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab",
+	"artist-members": {
+		"group_name": "Metallica",
+		"group_begin": "1981",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "Ron McGovney",
+				"begin": "1982",
+				"end": "1982",
+				"instruments": "bass guitar"
+			},
+			{
+				"member_name": "Jason Newsted",
+				"begin": "1986",
+				"end": "2019",
+				"instruments": "background vocals, bass guitar"
+			},
+			{
+				"member_name": "Dave Mustaine",
+				"begin": "1981",
+				"end": "1983",
+				"instruments": "background vocals, guitar"
+			},
+			{
+				"member_name": "Kirk Hammett",
+				"begin": "1983",
+				"end": "",
+				"instruments": "background vocals, guitar"
+			},
+			{
+				"member_name": "James Hetfield",
+				"begin": "1981",
+				"end": "",
+				"instruments": "guitar, lead vocals, original"
+			},
+			{
+				"member_name": "Robert Trujillo",
+				"begin": "2003",
+				"end": "",
+				"instruments": "background vocals, bass guitar"
+			},
+			{
+				"member_name": "Cliff Burton",
+				"begin": "1982",
+				"end": "1986",
+				"instruments": "background vocals, bass guitar"
+			},
+			{
+				"member_name": "Lars Ulrich",
+				"begin": "1981",
+				"end": "",
+				"instruments": "drums (drum set), original, percussion"
+			}
+		]
+	},
+	"artist-name": "Metallica",
+	"artist-summary": "Metallica is an American metal band formed in 1981 in Los Angeles, California, United States when drummer Lars Ulrich posted an advertisement in The Recycler.",
+	"track-duration": "435000",
+	"track-name": "Wherever I May Roam"
+},
+{
+	"_id": {
+		"$oid": "5c82dc75c3d5374cb04ce19e"
+	},
+	"track-mbid": "879a9d1c-0784-47fc-9a53-2bf705333ebb",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/c88c27c1882542ae880ac063af38d647.png",
+	"album-label": "Epic",
+	"album-lid": "8f638ddb-131a-4cc3-b3d4-7ebdac201b55",
+	"album-mbid": "5c70a6a9-43ab-448d-a53e-0c7e933a6856",
+	"album-name": "Boston",
+	"album-released": "1976",
+	"artist-mbid": "0d8b0d50-e4cf-4da4-965d-f24c58ec3268",
+	"artist-members": {
+		"group_name": "Boston",
+		"group_begin": "1975",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "Tommy DeCarlo",
+				"begin": "2019",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Anthony Cosmo",
+				"begin": "1997",
+				"end": "2019",
+				"instruments": ""
+			},
+			{
+				"member_name": "Barry Goudreau and Fran Cosmo",
+				"begin": "",
+				"end": "",
+				"instruments": "additional, original"
+			},
+			{
+				"member_name": "Fran Cosmo",
+				"begin": "1990",
+				"end": "2019",
+				"instruments": ""
+			},
+			{
+				"member_name": "Kimberly Dahme",
+				"begin": "2019",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Tom Scholz",
+				"begin": "1969",
+				"end": "",
+				"instruments": "original"
+			},
+			{
+				"member_name": "Jeff Neal",
+				"begin": "2019",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Michael Sweet",
+				"begin": "2019",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Brad Delp",
+				"begin": "1969",
+				"end": "1990",
+				"instruments": "original"
+			},
+			{
+				"member_name": "Brad Delp",
+				"begin": "1994",
+				"end": "2019",
+				"instruments": ""
+			},
+			{
+				"member_name": "Gary Pihl",
+				"begin": "1987",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Barry Goudreau",
+				"begin": "1969",
+				"end": "1980",
+				"instruments": "original"
+			},
+			{
+				"member_name": "Jim Masdea",
+				"begin": "1969",
+				"end": "1975",
+				"instruments": "original"
+			},
+			{
+				"member_name": "Jim Masdea",
+				"begin": "1983",
+				"end": "1988",
+				"instruments": ""
+			},
+			{
+				"member_name": "Sib Hashian",
+				"begin": "1975",
+				"end": "1982",
+				"instruments": ""
+			},
+			{
+				"member_name": "Fran Sheehan",
+				"begin": "1976",
+				"end": "1980",
+				"instruments": ""
+			}
+		]
+	},
+	"artist-name": "Boston",
+	"artist-summary": "Boston is a rock band that formed in 1974 in Boston, Massachusetts, United States.",
+	"track-duration": "295000",
+	"track-name": "Peace Of Mind"
+},
+{
+	"_id": {
+		"$oid": "5c82dd0dc3d5374cb04ce1e2"
+	},
+	"track-mbid": "d2f41fc9-0079-4aea-88f4-05634b67c86d",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/d0f85987025306d0a9a0b6df1df5bf37.png",
+	"album-label": "Aquarius Records",
+	"album-lid": "ab1a4362-ce64-48b8-bf17-8757132948ba",
+	"album-mbid": "9a3d12d8-59ed-456b-936d-e2a478435ce5",
+	"album-name": "All the Rockers",
+	"album-released": "1987",
+	"artist-mbid": "78761837-4b00-4935-b7be-601697900e66",
+	"artist-members": {
+		"group_name": "April Wine",
+		"group_begin": "1969",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "Steve Segal",
+				"begin": "1992",
+				"end": "1994",
+				"instruments": "guitar"
+			},
+			{
+				"member_name": "Daniel Barbe",
+				"begin": "1985",
+				"end": "1986",
+				"instruments": "keyboard"
+			},
+			{
+				"member_name": "Gary Moffet",
+				"begin": "1973",
+				"end": "1984",
+				"instruments": "background vocals, guitar"
+			},
+			{
+				"member_name": "David Henman",
+				"begin": "1969",
+				"end": "1973",
+				"instruments": "background vocals, guitar, original"
+			},
+			{
+				"member_name": "Roy \"Nip\" Nichol",
+				"begin": "2019",
+				"end": "",
+				"instruments": "background vocals, membranophone"
+			},
+			{
+				"member_name": "Brian Greenway",
+				"begin": "1977",
+				"end": "",
+				"instruments": "background vocals, guitar"
+			},
+			{
+				"member_name": "Jimmy Henman",
+				"begin": "1969",
+				"end": "1971",
+				"instruments": "background vocals, bass guitar, original"
+			},
+			{
+				"member_name": "Ritchie Henman",
+				"begin": "1969",
+				"end": "1973",
+				"instruments": "membranophone, original"
+			},
+			{
+				"member_name": "Blair Mackay",
+				"begin": "2019",
+				"end": "2019",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Jean Pellerin",
+				"begin": "1985",
+				"end": "1986",
+				"instruments": "bass guitar"
+			},
+			{
+				"member_name": "Jerry Mercer",
+				"begin": "1973",
+				"end": "1984",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Jerry Mercer",
+				"begin": "1992",
+				"end": "2019",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Steve Lang",
+				"begin": "1975",
+				"end": "1984",
+				"instruments": "background vocals, bass guitar"
+			},
+			{
+				"member_name": "Carl Dixon",
+				"begin": "2019",
+				"end": "2019",
+				"instruments": "background vocals, guitar, keyboard"
+			},
+			{
+				"member_name": "Myles Goodwyn",
+				"begin": "1969",
+				"end": "",
+				"instruments": "guitar family, lead vocals, original"
+			},
+			{
+				"member_name": "Jim Clench",
+				"begin": "1971",
+				"end": "1975",
+				"instruments": "background vocals, bass guitar"
+			},
+			{
+				"member_name": "Jim Clench",
+				"begin": "1992",
+				"end": "2019",
+				"instruments": "background vocals, bass guitar"
+			},
+			{
+				"member_name": "Richard Lanthier",
+				"begin": "2019",
+				"end": "",
+				"instruments": "background vocals, bass guitar"
+			},
+			{
+				"member_name": "Marty Simon",
+				"begin": "1985",
+				"end": "1986",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Breen Leboeuf",
+				"begin": "2019",
+				"end": "2019",
+				"instruments": "background vocals, bass guitar"
+			}
+		]
+	},
+	"artist-name": "April Wine",
+	"artist-summary": "April Wine is a Canadian hard rock band that formed in 1969. According to the group, they chose the name 'April Wine' simply because it was two words that sounded good together.",
+	"track-duration": "255000",
+	"track-name": "I Like To Rock"
+},
+{
+	"_id": {
+		"$oid": "5c82dea1c3d5374cb04ce2ca"
+	},
+	"track-mbid": "d2bb7650-bdf4-476a-b74d-35345cc1dbfe",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/ea4c7c809f934464c4d9b098c853716d.png",
+	"album-label": "Capricorn Records",
+	"album-lid": "193ad58f-5e6b-4a86-8038-c03501565869",
+	"album-mbid": "fcdfaf16-ca69-37f8-9616-9f0c5dc2c903",
+	"album-name": "Fashion Nugget",
+	"album-released": "1996",
+	"artist-mbid": "fa7b9055-3703-473a-8a09-adf2fe031a24",
+	"artist-members": {
+		"group_name": "CAKE",
+		"group_begin": "1992",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "Pete McNeal",
+				"begin": "2019",
+				"end": "2019",
+				"instruments": ""
+			},
+			{
+				"member_name": "Frank French",
+				"begin": "1991",
+				"end": "1994",
+				"instruments": ""
+			},
+			{
+				"member_name": "Victor Damiani",
+				"begin": "",
+				"end": "1997",
+				"instruments": ""
+			},
+			{
+				"member_name": "John McCrea",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Greg Brown",
+				"begin": "",
+				"end": "1998",
+				"instruments": ""
+			},
+			{
+				"member_name": "Xan McCurdy",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Todd Roper",
+				"begin": "",
+				"end": "2019",
+				"instruments": ""
+			},
+			{
+				"member_name": "Gabriel Nelson",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Vincent DiFiore",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Paulo Baldi",
+				"begin": "2019",
+				"end": "",
+				"instruments": ""
+			}
+		]
+	},
+	"artist-name": "Cake",
+	"artist-summary": "Cake (stylized CAKE) is an American alternative rock band from Sacramento, California, consisting of singer John McCrea, trumpeter Vince DiFiore, guitarist Xan McCurdy, bassist Daniel McCallum and drummer Todd Roper. The band has been noted for McCrea's sarcastic lyrics and monotone vocals, and their wide-ranging musical influences, including country music, Mariachi, rock, funk, Iranian folk music and hip hop.",
+	"track-duration": "181000",
+	"track-name": "The Distance"
+},
+{
+	"_id": {
+		"$oid": "5c82e175c3d5374cb04ce5b7"
+	},
+	"track-mbid": "d8c3f47e-d7f6-408b-a65b-90c77a557336",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/ac3331f02bce4d6ccd8def2796ea2e78.png",
+	"album-label": "EMI China",
+	"album-lid": "ad7b385d-c1e8-4928-ab63-a26ce18ad755",
+	"album-mbid": "dea7cf79-a6a6-4d45-8cc5-ec5880301be4",
+	"album-name": "Forty Licks",
+	"album-released": "2002",
+	"artist-mbid": "b071f9fa-14b0-4217-8e97-eb41da73f598",
+	"artist-members": {
+		"group_name": "The Rolling Stones",
+		"group_begin": "1962",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "Tony Chapman",
+				"begin": "1962",
+				"end": "1963",
+				"instruments": "membranophone, original"
+			},
+			{
+				"member_name": "Bill Wyman",
+				"begin": "1962",
+				"end": "1993",
+				"instruments": "background vocals, bass guitar, keyboard, marimba, percussion"
+			},
+			{
+				"member_name": "Mick Avory",
+				"begin": "1962",
+				"end": "1962",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Dick Taylor",
+				"begin": "1962",
+				"end": "1962",
+				"instruments": "bass guitar"
+			},
+			{
+				"member_name": "Ron Wood",
+				"begin": "1975",
+				"end": "",
+				"instruments": "acoustic guitar, background vocals, bass guitar, electric guitar, lap steel guitar, membranophone, pedal steel guitar, saxophone, slide guitar"
+			},
+			{
+				"member_name": "Brian Jones",
+				"begin": "1962",
+				"end": "1969",
+				"instruments": "accordion, acoustic guitar, autoharp, background vocals, bass guitar, cello, electric guitar, hammered dulcimer, harmonica, keyboard, mandolin, marimba, original, percussion, recorder, saxophone, sitar, slide guitar"
+			},
+			{
+				"member_name": "Mick Jagger",
+				"begin": "1962",
+				"end": "",
+				"instruments": "acoustic guitar, background vocals, bass guitar, electric guitar, harmonica, keyboard, lead vocals, original, percussion"
+			},
+			{
+				"member_name": "Ian Stewart",
+				"begin": "1962",
+				"end": "1985",
+				"instruments": "keyboard, original, percussion"
+			},
+			{
+				"member_name": "Mick Taylor",
+				"begin": "1969",
+				"end": "1974",
+				"instruments": "acoustic guitar, background vocals, bass guitar, electric guitar, slide guitar"
+			},
+			{
+				"member_name": "Keith Richards",
+				"begin": "1962",
+				"end": "",
+				"instruments": "acoustic guitar, background vocals, bass guitar, electric guitar, keyboard, lead vocals, original"
+			},
+			{
+				"member_name": "Charlie Watts",
+				"begin": "1963",
+				"end": "",
+				"instruments": "membranophone, percussion"
+			}
+		]
+	},
+	"artist-name": "The Rolling Stones",
+	"artist-summary": "The Rolling Stones are an English rock group that formed in London in 1962. First popular in Europe, they quickly became successful in North America during the \"British Invasion\" of the mid-60s.",
+	"track-duration": "227000",
+	"track-name": "Street Fighting Man"
+},
+{
+	"_id": {
+		"$oid": "5c82e354c3d5374cb04ce7b4"
+	},
+	"track-mbid": "95ca7b3a-4e44-4fcc-8f8d-3394596accd7",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/fc0147b5c694484a880720b706d6d434.png",
+	"album-label": "Capitol Records",
+	"album-lid": "abea2d3e-eabf-4480-ab24-9382dd642c73",
+	"album-mbid": "851bb240-1c81-4cbd-b2a3-c3a8299546c0",
+	"album-name": "Capitol Collectors Series",
+	"album-released": "1991",
+	"artist-mbid": "103241b0-6adf-4b4f-9cff-5c87459f61a4",
+	"artist-members": {
+		"group_name": "Grand Funk Railroad",
+		"group_begin": "1969",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "Bruce Kulick",
+				"begin": "2019",
+				"end": "",
+				"instruments": "guitar family"
+			},
+			{
+				"member_name": "Max Carl",
+				"begin": "2019",
+				"end": "",
+				"instruments": "lead vocals"
+			},
+			{
+				"member_name": "Don Brewer",
+				"begin": "1968",
+				"end": "1977",
+				"instruments": "lead vocals, membranophone, original"
+			},
+			{
+				"member_name": "Don Brewer",
+				"begin": "1980",
+				"end": "1983",
+				"instruments": "lead vocals, membranophone"
+			},
+			{
+				"member_name": "Don Brewer",
+				"begin": "1996",
+				"end": "",
+				"instruments": "lead vocals, membranophone"
+			},
+			{
+				"member_name": "Craig Frost",
+				"begin": "1972",
+				"end": "1977",
+				"instruments": "background vocals, keyboard"
+			},
+			{
+				"member_name": "Craig Frost",
+				"begin": "2019",
+				"end": "",
+				"instruments": "background vocals, keyboard"
+			},
+			{
+				"member_name": "Dennis Bellinger",
+				"begin": "1980",
+				"end": "1983",
+				"instruments": "bass guitar"
+			},
+			{
+				"member_name": "Mark Farner",
+				"begin": "1968",
+				"end": "1977",
+				"instruments": "guitar family, harmonica, keyboard, lead vocals, original"
+			},
+			{
+				"member_name": "Mark Farner",
+				"begin": "1980",
+				"end": "1983",
+				"instruments": "guitar family, harmonica, keyboard, lead vocals"
+			},
+			{
+				"member_name": "Mark Farner",
+				"begin": "1996",
+				"end": "1999",
+				"instruments": "guitar family, harmonica, keyboard, lead vocals"
+			},
+			{
+				"member_name": "Mel Schacher",
+				"begin": "1968",
+				"end": "1977",
+				"instruments": "bass guitar, original"
+			},
+			{
+				"member_name": "Mel Schacher",
+				"begin": "1980",
+				"end": "1981",
+				"instruments": "bass guitar"
+			},
+			{
+				"member_name": "Mel Schacher",
+				"begin": "1996",
+				"end": "",
+				"instruments": "bass guitar"
+			},
+			{
+				"member_name": "Tim Cashion",
+				"begin": "2019",
+				"end": "",
+				"instruments": "keyboard"
+			},
+			{
+				"member_name": "Howard Eddy, Jr.",
+				"begin": "1996",
+				"end": "1999",
+				"instruments": "keyboard"
+			}
+		]
+	},
+	"artist-name": "Grand Funk Railroad",
+	"artist-summary": "Grand Funk Railroad is an American hard rock band that formed in 1969 in Flint, Michigan, United States.",
+	"track-duration": "196000",
+	"track-name": "Some Kind of Wonderful"
+},
+{
+	"_id": {
+		"$oid": "5c82e44fc3d5374cb04ce804"
+	},
+	"track-mbid": "95e7cb4c-4cc5-4777-92ab-7cf1ee33813f",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/8edbb04109e609cf0cf2a6de29ed16cc.png",
+	"album-label": "Flashback Records",
+	"album-lid": "24172834-a434-4b12-baa5-115abe55fc04",
+	"album-mbid": "f8622050-ec6e-42d8-998a-c7b05db163ec",
+	"album-name": "Slow Ride and Other Hits",
+	"album-released": "1997",
+	"artist-mbid": "3cc3942d-bbfc-446d-a8f4-f0e1e238ca86",
+	"artist-members": {
+		"group_name": "Foghat",
+		"group_begin": "1971",
+		"group_end": "1984",
+		"members": [
+			{
+				"member_name": "Erik Cartwright",
+				"begin": "1981",
+				"end": "1993",
+				"instruments": ""
+			},
+			{
+				"member_name": "Charlie Huhn",
+				"begin": "2019",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Jeff Howell",
+				"begin": "1987",
+				"end": "1991",
+				"instruments": ""
+			},
+			{
+				"member_name": "Brett Cartwright",
+				"begin": "1987",
+				"end": "1989",
+				"instruments": ""
+			},
+			{
+				"member_name": "Dave Peverett",
+				"begin": "1971",
+				"end": "1984",
+				"instruments": "original"
+			},
+			{
+				"member_name": "Dave Peverett",
+				"begin": "1993",
+				"end": "2000",
+				"instruments": ""
+			},
+			{
+				"member_name": "Kenny Aaronson",
+				"begin": "1983",
+				"end": "1983",
+				"instruments": ""
+			},
+			{
+				"member_name": "Rod Price",
+				"begin": "1971",
+				"end": "1981",
+				"instruments": "original"
+			},
+			{
+				"member_name": "Rod Price",
+				"begin": "1993",
+				"end": "1999",
+				"instruments": ""
+			},
+			{
+				"member_name": "Bryan Bassett",
+				"begin": "1999",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Dave Crigger",
+				"begin": "1992",
+				"end": "1993",
+				"instruments": ""
+			},
+			{
+				"member_name": "Nick Jameson",
+				"begin": "1975",
+				"end": "1976",
+				"instruments": ""
+			},
+			{
+				"member_name": "Nick Jameson",
+				"begin": "1982",
+				"end": "1983",
+				"instruments": ""
+			},
+			{
+				"member_name": "Eric Burgeson",
+				"begin": "1986",
+				"end": "1989",
+				"instruments": ""
+			},
+			{
+				"member_name": "Billy Davis",
+				"begin": "1990",
+				"end": "1993",
+				"instruments": ""
+			},
+			{
+				"member_name": "Phil Nudelman",
+				"begin": "1989",
+				"end": "1990",
+				"instruments": ""
+			},
+			{
+				"member_name": "Tony Stevens",
+				"begin": "1971",
+				"end": "1975",
+				"instruments": "original"
+			},
+			{
+				"member_name": "Tony Stevens",
+				"begin": "1993",
+				"end": "2019",
+				"instruments": ""
+			},
+			{
+				"member_name": "Roger Earl",
+				"begin": "1971",
+				"end": "",
+				"instruments": "original"
+			},
+			{
+				"member_name": "Rob Alter",
+				"begin": "1983",
+				"end": "1984",
+				"instruments": ""
+			},
+			{
+				"member_name": "Riff West",
+				"begin": "",
+				"end": "",
+				"instruments": "bass"
+			},
+			{
+				"member_name": "Craig MacGregor",
+				"begin": "1976",
+				"end": "1982",
+				"instruments": "bass guitar"
+			},
+			{
+				"member_name": "Craig MacGregor",
+				"begin": "1984",
+				"end": "1987",
+				"instruments": "bass guitar"
+			},
+			{
+				"member_name": "Craig MacGregor",
+				"begin": "1991",
+				"end": "1992",
+				"instruments": "bass guitar"
+			},
+			{
+				"member_name": "Craig MacGregor",
+				"begin": "2019",
+				"end": "2018",
+				"instruments": "bass guitar"
+			}
+		]
+	},
+	"artist-name": "Foghat",
+	"artist-summary": "\n",
+	"track-duration": "237000",
+	"track-name": "Slow Ride"
+},
+{
+	"_id": {
+		"$oid": "5c82e4aec3d5374cb04ce81f"
+	},
+	"track-mbid": "5805b3d7-eef0-4b96-a7dd-621695f7a35a",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/fe25916432e243ce4b3f6f655b40cf92.png",
+	"album-label": "Capitol Records",
+	"album-lid": "abea2d3e-eabf-4480-ab24-9382dd642c73",
+	"album-mbid": "af007711-45bc-4f92-b98e-73c5cfa25a8c",
+	"album-name": "Greatest Hits",
+	"album-released": "2000",
+	"artist-mbid": "bdbd48f5-abf3-4a4f-9a21-4551dbc3fde9",
+	"artist-members": {
+		"group_name": "Heart",
+		"group_begin": "1973",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "Craig Bartock",
+				"begin": "2019",
+				"end": "",
+				"instruments": "background vocals, electric guitar"
+			},
+			{
+				"member_name": "Chris Joyner",
+				"begin": "2019",
+				"end": "",
+				"instruments": "electric guitar, keyboard"
+			},
+			{
+				"member_name": "Denny Carmassi",
+				"begin": "1982",
+				"end": "1993",
+				"instruments": "drums (drum set), percussion"
+			},
+			{
+				"member_name": "Michael Derosier",
+				"begin": "1975",
+				"end": "1982",
+				"instruments": "drums (drum set), percussion"
+			},
+			{
+				"member_name": "Ann Wilson",
+				"begin": "1973",
+				"end": "",
+				"instruments": "acoustic guitar, background vocals, flute, lead vocals, original"
+			},
+			{
+				"member_name": "Denny Fongheiser",
+				"begin": "1993",
+				"end": "1995",
+				"instruments": "drums (drum set)"
+			},
+			{
+				"member_name": "Ben Smith",
+				"begin": "1995",
+				"end": "1998",
+				"instruments": "drums (drum set), percussion"
+			},
+			{
+				"member_name": "Ben Smith",
+				"begin": "2019",
+				"end": "",
+				"instruments": "drums (drum set), percussion"
+			},
+			{
+				"member_name": "Fernando Saunders",
+				"begin": "1993",
+				"end": "1995",
+				"instruments": "background vocals, bass guitar"
+			},
+			{
+				"member_name": "John Hannah",
+				"begin": "1973",
+				"end": "1975",
+				"instruments": "keyboard"
+			},
+			{
+				"member_name": "Ric Markmann",
+				"begin": "2019",
+				"end": "2019",
+				"instruments": "bass guitar"
+			},
+			{
+				"member_name": "Mike Inez",
+				"begin": "2019",
+				"end": "2019",
+				"instruments": "bass guitar"
+			},
+			{
+				"member_name": "Darian Sahanaja",
+				"begin": "2019",
+				"end": "2019",
+				"instruments": "background vocals, keyboard, percussion"
+			},
+			{
+				"member_name": "Darian Sahanaja",
+				"begin": "2019",
+				"end": "2019",
+				"instruments": "background vocals, keyboard, percussion"
+			},
+			{
+				"member_name": "Tom Kellock",
+				"begin": "2019",
+				"end": "2019",
+				"instruments": "keyboard"
+			},
+			{
+				"member_name": "Mark Andes",
+				"begin": "1982",
+				"end": "1992",
+				"instruments": "background vocals, bass guitar"
+			},
+			{
+				"member_name": "Scott Olson",
+				"begin": "1995",
+				"end": "1998",
+				"instruments": "electric guitar"
+			},
+			{
+				"member_name": "Scott Olson",
+				"begin": "2019",
+				"end": "2019",
+				"instruments": "acoustic guitar, background vocals, electric guitar"
+			},
+			{
+				"member_name": "Roger Fisher",
+				"begin": "1973",
+				"end": "1979",
+				"instruments": "acoustic guitar, electric guitar, lap steel guitar, mandolin, original"
+			},
+			{
+				"member_name": "Brian Johnstone",
+				"begin": "1973",
+				"end": "1975",
+				"instruments": "drums (drum set)"
+			},
+			{
+				"member_name": "Jon Bayless",
+				"begin": "1995",
+				"end": "1998",
+				"instruments": "bass guitar"
+			},
+			{
+				"member_name": "Howard Leese",
+				"begin": "1975",
+				"end": "1998",
+				"instruments": "background vocals, electric guitar, keyboard, mandolin"
+			},
+			{
+				"member_name": "Nancy Wilson",
+				"begin": "1974",
+				"end": "1995",
+				"instruments": "acoustic guitar, background vocals, electric guitar, harmonica, keyboard, lead vocals, mandolin"
+			},
+			{
+				"member_name": "Nancy Wilson",
+				"begin": "1999",
+				"end": "",
+				"instruments": "acoustic guitar, background vocals, electric guitar, harmonica, keyboard, lead vocals, mandolin"
+			},
+			{
+				"member_name": "Gilby Clarke",
+				"begin": "2019",
+				"end": "2019",
+				"instruments": "electric guitar"
+			},
+			{
+				"member_name": "Dan Rothchild",
+				"begin": "2019",
+				"end": "",
+				"instruments": "background vocals, bass guitar"
+			},
+			{
+				"member_name": "Frank Cox",
+				"begin": "1995",
+				"end": "1998",
+				"instruments": "background vocals, electric guitar"
+			},
+			{
+				"member_name": "Steve Fossen",
+				"begin": "1973",
+				"end": "1982",
+				"instruments": "background vocals, bass guitar, original"
+			}
+		]
+	},
+	"artist-name": "Heart",
+	"artist-summary": "T",
+	"track-duration": "263000",
+	"track-name": "Barracuda"
+},
+{
+	"_id": {
+		"$oid": "5c82e71ac3d5374cb04ce94e"
+	},
+	"track-mbid": "31912b33-8aec-4830-9cf6-f3535d44efd2",
+	"album-image": "https://coverartarchive.org/release/101fd7f0-df7b-3ebb-a676-6b3afaee64c8/1042674968-250.jpg",
+	"album-label": "Capitol Records",
+	"album-lid": "abea2d3e-eabf-4480-ab24-9382dd642c73",
+	"album-mbid": "101fd7f0-df7b-3ebb-a676-6b3afaee64c8",
+	"album-name": "Closer To Home",
+	"album-released": "1970",
+	"artist-mbid": "103241b0-6adf-4b4f-9cff-5c87459f61a4",
+	"artist-members": {
+		"group_name": "Grand Funk Railroad",
+		"group_begin": "1970",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "Mark Farner",
+				"begin": "1980",
+				"end": "1983",
+				"instruments": "lead vocals, guitar, harmonica"
+			},
+			{
+				"member_name": "Don Brewer",
+				"begin": "1980",
+				"end": "1983",
+				"instruments": "lead vocals, drums"
+			},
+			{
+				"member_name": "Craig Frost",
+				"begin": "1972",
+				"end": "",
+				"instruments": "keyboards, background vocals"
+			},
+			{
+				"member_name": "Dennis Bellinger",
+				"begin": "1980",
+				"end": "1983",
+				"instruments": "bass guitar"
+			}
+		]
+	},
+	"artist-name": "Grand Funk Railroad",
+	"artist-summary": "Grand Funk Railroad, sometimes shortened as Grand Funk, is an American rock band popular during the 1970s, when they toured extensively and played to packed arenas worldwide. Known for their crowd-pleasing arena rock style, the band was well-regarded by audiences despite a relative lack of critical acclaim. The band's name is a play on words of the Grand Trunk Western Railroad, a line that runs through the band's home town of Flint, Michigan.",
+	"track-duration": "540900",
+	"track-name": "I'm Your Captain (Closer to Home)"
+},
+{
+	"_id": {
+		"$oid": "5c82e797c3d5374cb04ce98a"
+	},
+	"track-mbid": "11fc6576-77a2-4ba4-aba5-e9e87b674298",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/b6d26f6de2ca43cdc321fdaf2a3006fd.png",
+	"album-label": null,
+	"album-lid": null,
+	"album-mbid": "816a606d-2f9f-41bf-ba9f-5dd6078b5d98",
+	"album-name": "Greatest Hits",
+	"album-released": "2000",
+	"artist-mbid": "5dca4d22-d6c8-4e70-8ca1-4543e43353c7",
+	"artist-members": {
+		"group_name": "Kenny Chesney",
+		"group_begin": "1968",
+		"group_end": "",
+		"members": []
+	},
+	"artist-name": "Kenny Chesney",
+	"artist-summary": "Kenneth Arnold (Kenny) Chesney (born March 26, 1968) is an American country music singer and songwriter. Chesney has recorded 15 albums, 14 of which have been certified gold or higher by the RIAA.",
+	"track-duration": "248000",
+	"track-name": "She Thinks My Tractor's Sexy"
+},
+{
+	"_id": {
+		"$oid": "5c82e7aac3d5374cb04ce997"
+	},
+	"track-mbid": "5f86a9f4-5a7c-4f99-a750-6b4808e6c41d",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/35bdfe1a584348979ffa1cd69fc8a9f4.png",
+	"album-label": "A\u0026M Records",
+	"album-lid": "35515729-1f2c-4cc9-9390-9af2764bc56c",
+	"album-mbid": "bca301ba-e2d8-4c72-b25f-a5f6c4eb6f65",
+	"album-name": "Greatest Hits",
+	"album-released": "1995",
+	"artist-mbid": "835a6d9c-fea0-4a71-ae52-9c4da946433a",
+	"artist-members": {
+		"group_name": "Styx",
+		"group_begin": "1970",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "James Young",
+				"begin": "1970",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "John Curulewski",
+				"begin": "1970",
+				"end": "1975",
+				"instruments": ""
+			},
+			{
+				"member_name": "Ricky Phillips",
+				"begin": "2019",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "John Panozzo",
+				"begin": "1970",
+				"end": "1996",
+				"instruments": ""
+			},
+			{
+				"member_name": "Glen Burtnik",
+				"begin": "1990",
+				"end": "1991",
+				"instruments": ""
+			},
+			{
+				"member_name": "Glen Burtnik",
+				"begin": "1999",
+				"end": "2019",
+				"instruments": ""
+			},
+			{
+				"member_name": "Dennis DeYoung",
+				"begin": "1970",
+				"end": "1999",
+				"instruments": ""
+			},
+			{
+				"member_name": "Chuck Panozzo",
+				"begin": "1970",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Todd Sucherman",
+				"begin": "1996",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Tommy Shaw",
+				"begin": "1975",
+				"end": "1983",
+				"instruments": ""
+			},
+			{
+				"member_name": "Tommy Shaw",
+				"begin": "1995",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Gowan",
+				"begin": "1999",
+				"end": "",
+				"instruments": ""
+			}
+		]
+	},
+	"artist-name": "Styx",
+	"artist-summary": "Styx /stɪks/ is an American rock band from Chicago that formed in 1972 and became famous for its albums released in the late 1970s and early 1980s.",
+	"track-duration": "367000",
+	"track-name": "Come Sail Away"
+},
+{
+	"_id": {
+		"$oid": "5c82e7b4c3d5374cb04ce9a0"
+	},
+	"track-mbid": "f1a8b2b0-c114-4835-847f-df497d7bc0ef",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/24d012f364e445cec54a844c604ecfbb.png",
+	"album-label": "Audio Fidelity",
+	"album-lid": "5927b5be-6fd6-4a3e-9da3-407e3599bdbc",
+	"album-mbid": "be1fba3d-6f56-4441-bd88-d41f5140231f",
+	"album-name": "Second Helping",
+	"album-released": "1974",
+	"artist-mbid": "c544ed4d-2390-4442-a83e-1ea2883b09c8",
+	"artist-members": {
+		"group_name": "Lynyrd Skynyrd",
+		"group_begin": "1964",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "Billy Powell",
+				"begin": "1971",
+				"end": "2019",
+				"instruments": "keyboard, organ, piano"
+			},
+			{
+				"member_name": "Cassie Gaines",
+				"begin": "",
+				"end": "1979",
+				"instruments": ""
+			},
+			{
+				"member_name": "Carol Chase",
+				"begin": "",
+				"end": "",
+				"instruments": "background vocals"
+			},
+			{
+				"member_name": "Gary Rossington",
+				"begin": "1965",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Leon Wilkeson",
+				"begin": "",
+				"end": "",
+				"instruments": "bass guitar"
+			},
+			{
+				"member_name": "Alias",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Ronnie Van Zant",
+				"begin": "1965",
+				"end": "1977",
+				"instruments": "lead vocals, original"
+			},
+			{
+				"member_name": "Artimus Pyle",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Allen Collins",
+				"begin": "1965",
+				"end": "",
+				"instruments": "guitar"
+			},
+			{
+				"member_name": "Michael Cartellone",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Steve Gaines",
+				"begin": "",
+				"end": "1977",
+				"instruments": ""
+			},
+			{
+				"member_name": "Johnny Van Zant",
+				"begin": "1987",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "JoJo Billingsley",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Ean Evans",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Bob Burns",
+				"begin": "",
+				"end": "1974",
+				"instruments": ""
+			},
+			{
+				"member_name": "Rickey Medlocke",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Leslie Hawkins",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Ed King",
+				"begin": "",
+				"end": "1995",
+				"instruments": ""
+			},
+			{
+				"member_name": "Dale Krantz-Rossington",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Hughie Thomasson",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Larry Junstrom",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			}
+		]
+	},
+	"artist-name": "Lynyrd Skynyrd",
+	"artist-summary": "Lynyrd Skynyrd (pronounced /ˌlɛnərd ˈskɪnərd/ LEN-ərd-SKIN-ərd) is a Southern Rock band, formed in Jacksonville, Florida, USA in 1964.",
+	"track-duration": "204000",
+	"track-name": "Don't Ask Me No Questions"
+},
+{
+	"_id": {
+		"$oid": "5c82e7bec3d5374cb04ce9a9"
+	},
+	"track-mbid": "9343700d-506a-41a1-96c6-c88d01b84e28",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/380e4158c597467fc651af79f44c7d78.png",
+	"album-label": "Columbia",
+	"album-lid": "011d1192-6f65-45bd-85c4-0400dd45693e",
+	"album-mbid": "03ffc721-3d27-4fb9-a394-c06da971ee5b",
+	"album-name": "Greatest Hits",
+	"album-released": "1988",
+	"artist-mbid": "abd506e1-6f2b-4d6f-b937-92c267f6f88b",
+	"artist-members": {
+		"group_name": "Journey",
+		"group_begin": "1973",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "Ross Valory",
+				"begin": "1973",
+				"end": "1985",
+				"instruments": "bass guitar, lead vocals, original"
+			},
+			{
+				"member_name": "Ross Valory",
+				"begin": "1995",
+				"end": "",
+				"instruments": "bass guitar, lead vocals"
+			},
+			{
+				"member_name": "Robert Fleischman",
+				"begin": "1977",
+				"end": "1977",
+				"instruments": "lead vocals"
+			},
+			{
+				"member_name": "Gregg Rolie",
+				"begin": "1973",
+				"end": "1980",
+				"instruments": "harmonica, keyboard, lead vocals, original"
+			},
+			{
+				"member_name": "Arnel Pineda",
+				"begin": "2019",
+				"end": "",
+				"instruments": "lead vocals"
+			},
+			{
+				"member_name": "Randy Jackson",
+				"begin": "1985",
+				"end": "1987",
+				"instruments": "bass guitar, lead vocals"
+			},
+			{
+				"member_name": "Deen Castronovo",
+				"begin": "1998",
+				"end": "2019",
+				"instruments": "lead vocals, membranophone, percussion"
+			},
+			{
+				"member_name": "Neal Schon",
+				"begin": "1973",
+				"end": "",
+				"instruments": "guitar, lead vocals, original"
+			},
+			{
+				"member_name": "Chuck Garric",
+				"begin": "",
+				"end": "",
+				"instruments": "additional"
+			},
+			{
+				"member_name": "George Tickner",
+				"begin": "1973",
+				"end": "1975",
+				"instruments": "guitar, original"
+			},
+			{
+				"member_name": "Steve Perry",
+				"begin": "1977",
+				"end": "1998",
+				"instruments": "lead vocals"
+			},
+			{
+				"member_name": "Prairie Prince",
+				"begin": "1973",
+				"end": "1974",
+				"instruments": "membranophone, original, percussion"
+			},
+			{
+				"member_name": "Jeff Scott Soto",
+				"begin": "2019",
+				"end": "2019",
+				"instruments": "lead vocals"
+			},
+			{
+				"member_name": "Steve Augeri",
+				"begin": "1998",
+				"end": "2019",
+				"instruments": "guitar, lead vocals"
+			},
+			{
+				"member_name": "Steve Smith",
+				"begin": "1978",
+				"end": "1985",
+				"instruments": "membranophone, percussion"
+			},
+			{
+				"member_name": "Steve Smith",
+				"begin": "1995",
+				"end": "1998",
+				"instruments": "membranophone, percussion"
+			},
+			{
+				"member_name": "Steve Smith",
+				"begin": "2019",
+				"end": "",
+				"instruments": "percussion"
+			},
+			{
+				"member_name": "Steve Smith",
+				"begin": "2019",
+				"end": "",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Jonathan Cain",
+				"begin": "1980",
+				"end": "",
+				"instruments": "guitar, keyboard, lead vocals"
+			},
+			{
+				"member_name": "Mike Baird",
+				"begin": "1986",
+				"end": "1987",
+				"instruments": "membranophone, percussion"
+			},
+			{
+				"member_name": "Aynsley Dunbar",
+				"begin": "1975",
+				"end": "1978",
+				"instruments": "membranophone, percussion"
+			}
+		]
+	},
+	"artist-name": "Journey",
+	"artist-summary": "Journey is an American rock band that formed in San Francisco in 1973, composed of former members of Santana and Frumious Bandersnatch. The band has gone through several phases; its strongest commercial success occurred between 1978 and 1987 when Steve Perry was lead vocalist.",
+	"track-duration": "302000",
+	"track-name": "Who's Crying Now"
+},
+{
+	"_id": {
+		"$oid": "5c82e892c3d5374cb04cea13"
+	},
+	"track-mbid": "40ffa0bd-638c-46bc-878e-6162abfd0cf1",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/facc25ab07d2fda56d48ef4229caa959.png",
+	"album-label": "Vertigo",
+	"album-lid": "1b3b52a5-ef89-4f8b-8d5f-e15a7a58863b",
+	"album-mbid": "2236dd07-a2f3-466a-973d-9069001a89da",
+	"album-name": "Ride the Lightning",
+	"album-released": "1984",
+	"artist-mbid": "65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab",
+	"artist-members": {
+		"group_name": "Metallica",
+		"group_begin": "1981",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "Ron McGovney",
+				"begin": "1982",
+				"end": "1982",
+				"instruments": "bass guitar"
+			},
+			{
+				"member_name": "Jason Newsted",
+				"begin": "1986",
+				"end": "2019",
+				"instruments": "background vocals, bass guitar"
+			},
+			{
+				"member_name": "Dave Mustaine",
+				"begin": "1981",
+				"end": "1983",
+				"instruments": "background vocals, guitar"
+			},
+			{
+				"member_name": "Kirk Hammett",
+				"begin": "1983",
+				"end": "",
+				"instruments": "background vocals, guitar"
+			},
+			{
+				"member_name": "James Hetfield",
+				"begin": "1981",
+				"end": "",
+				"instruments": "guitar, lead vocals, original"
+			},
+			{
+				"member_name": "Robert Trujillo",
+				"begin": "2003",
+				"end": "",
+				"instruments": "background vocals, bass guitar"
+			},
+			{
+				"member_name": "Cliff Burton",
+				"begin": "1982",
+				"end": "1986",
+				"instruments": "background vocals, bass guitar"
+			},
+			{
+				"member_name": "Lars Ulrich",
+				"begin": "1981",
+				"end": "",
+				"instruments": "drums (drum set), original, percussion"
+			}
+		]
+	},
+	"artist-name": "Metallica",
+	"artist-summary": "Metallica is an American metal band formed in 1981 in Los Angeles, California, United States when drummer Lars Ulrich posted an advertisement in The Recycler.",
+	"track-duration": "416000",
+	"track-name": "Fade to Black"
+},
+{
+	"_id": {
+		"$oid": "5c82e8a4c3d5374cb04cea24"
+	},
+	"track-mbid": "ac1914cb-bf51-4457-abb2-c60bcc63021d",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/be456f85aa33444fc470101b2ec2e6bc.png",
+	"album-label": "CBS",
+	"album-lid": "b8d33bec-92cc-40d9-bd92-4eb089b401a9",
+	"album-mbid": "59f820b1-dc46-4c66-bdda-1d0ecbc56dd8",
+	"album-name": "Business As Usual",
+	"album-released": "1981",
+	"artist-mbid": "395cc503-63b5-4a0b-a20a-604e3fcacea2",
+	"artist-members": {
+		"group_name": "Men at Work",
+		"group_begin": "1979",
+		"group_end": "1985",
+		"members": [
+			{
+				"member_name": "Colin Hay",
+				"begin": "",
+				"end": "",
+				"instruments": "original"
+			},
+			{
+				"member_name": "Jerry Speiser",
+				"begin": "",
+				"end": "",
+				"instruments": "drums (drum set)"
+			},
+			{
+				"member_name": "Greg Ham",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Ron Strykert",
+				"begin": "",
+				"end": "",
+				"instruments": "original"
+			}
+		]
+	},
+	"artist-name": "Men at Work",
+	"artist-summary": "Men at Work are an ARIA Music Award winning and Grammy winning rock band that formed in Melbourne, Australia in 1979.",
+	"track-duration": "219000",
+	"track-name": "Down Under"
+},
+{
+	"_id": {
+		"$oid": "5c82e8b9c3d5374cb04cea31"
+	},
+	"track-mbid": "c8375a8a-2c86-42ef-b9e3-5f2492b8e10d",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/0ed9cb00f68a46e3c6f0984ffb7884d4.png",
+	"album-label": "MCA Records",
+	"album-lid": "46a3941a-c810-47a1-974f-955effec4d09",
+	"album-mbid": "e2170f73-b861-3c58-8ba6-a66aff3f00d8",
+	"album-name": "Blues",
+	"album-released": "1994",
+	"artist-mbid": "06fb1c8b-566e-4cb2-985b-b467c90781d4",
+	"artist-members": {
+		"group_name": "Jimi Hendrix",
+		"group_begin": "1942",
+		"group_end": "1970",
+		"members": [
+			{
+				"member_name": "Gypsy Sun and Rainbows",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "The Jimi Hendrix Experience",
+				"begin": "1966",
+				"end": "1969",
+				"instruments": "guitar, lead vocals"
+			},
+			{
+				"member_name": "Little Richard Show",
+				"begin": "1964",
+				"end": "1964",
+				"instruments": ""
+			},
+			{
+				"member_name": "Curtis Knight and The Squires",
+				"begin": "1965",
+				"end": "1966",
+				"instruments": ""
+			},
+			{
+				"member_name": "Band of Gypsys",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			}
+		]
+	},
+	"artist-name": "Jimi Hendrix",
+	"artist-summary": "James Marshall \"Jimi\" Hendrix (born Johnny Allen Hendrix; November 27, 1942 – September 18, 1970) was an American rock guitarist, singer, and songwriter.",
+	"track-duration": "678000",
+	"track-name": "Red House"
+},
+{
+	"_id": {
+		"$oid": "5c82e8cdc3d5374cb04cea3e"
+	},
+	"track-mbid": "0228afad-4f8d-4502-95da-3288347f67e1",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/246f5df00e7340e2a49feb5c2b2a67a7.png",
+	"album-label": "Creative Sounds Ltd.",
+	"album-lid": "73e96c9a-e1d0-4bdb-8737-86bd3610dd64",
+	"album-mbid": "734f7ad8-4e20-435e-a27b-c3b7e0ff3e35",
+	"album-name": "Sabbath Bloody Sabbath",
+	"album-released": "1973",
+	"artist-mbid": "5182c1d9-c7d2-4dad-afa0-ccfeada921a8",
+	"artist-members": {
+		"group_name": "Black Sabbath",
+		"group_begin": "1969",
+		"group_end": "2017",
+		"members": [
+			{
+				"member_name": "Cozy Powell",
+				"begin": "1989",
+				"end": "1991",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Cozy Powell",
+				"begin": "1993",
+				"end": "1995",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Geezer Butler",
+				"begin": "1969",
+				"end": "1985",
+				"instruments": "bass guitar, original, synthesizer"
+			},
+			{
+				"member_name": "Geezer Butler",
+				"begin": "1990",
+				"end": "1994",
+				"instruments": "bass guitar, synthesizer"
+			},
+			{
+				"member_name": "Geezer Butler",
+				"begin": "1997",
+				"end": "",
+				"instruments": "bass guitar, synthesizer"
+			},
+			{
+				"member_name": "Eric Singer",
+				"begin": "1985",
+				"end": "1987",
+				"instruments": ""
+			},
+			{
+				"member_name": "Eric Singer",
+				"begin": "1985",
+				"end": "1987",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Vinny Appice",
+				"begin": "1980",
+				"end": "1982",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Vinny Appice",
+				"begin": "1991",
+				"end": "1993",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Vinny Appice",
+				"begin": "1998",
+				"end": "1998",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Vinny Appice",
+				"begin": "2019",
+				"end": "2019",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Ray Gillen",
+				"begin": "1986",
+				"end": "1987",
+				"instruments": "lead vocals"
+			},
+			{
+				"member_name": "Tony Martin",
+				"begin": "1987",
+				"end": "1990",
+				"instruments": "lead vocals"
+			},
+			{
+				"member_name": "Tony Martin",
+				"begin": "1993",
+				"end": "1996",
+				"instruments": "lead vocals"
+			},
+			{
+				"member_name": "Glenn Hughes",
+				"begin": "1985",
+				"end": "1986",
+				"instruments": "lead vocals"
+			},
+			{
+				"member_name": "David Donato",
+				"begin": "1984",
+				"end": "1985",
+				"instruments": "lead vocals"
+			},
+			{
+				"member_name": "Neil Murray",
+				"begin": "1989",
+				"end": "1991",
+				"instruments": "bass guitar"
+			},
+			{
+				"member_name": "Neil Murray",
+				"begin": "1994",
+				"end": "1995",
+				"instruments": "bass guitar"
+			},
+			{
+				"member_name": "Bev Bevan",
+				"begin": "1983",
+				"end": "1984",
+				"instruments": "membranophone, percussion"
+			},
+			{
+				"member_name": "Bev Bevan",
+				"begin": "1987",
+				"end": "1987",
+				"instruments": "membranophone, percussion"
+			},
+			{
+				"member_name": "Terry Chimes",
+				"begin": "1987",
+				"end": "1988",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Ozzy Osbourne",
+				"begin": "1969",
+				"end": "1979",
+				"instruments": "lead vocals, original"
+			},
+			{
+				"member_name": "Ozzy Osbourne",
+				"begin": "1997",
+				"end": "",
+				"instruments": "lead vocals"
+			},
+			{
+				"member_name": "Ron Keel",
+				"begin": "1984",
+				"end": "1984",
+				"instruments": "lead vocals"
+			},
+			{
+				"member_name": "Bill Ward",
+				"begin": "1969",
+				"end": "1980",
+				"instruments": "background vocals, membranophone, original, percussion"
+			},
+			{
+				"member_name": "Bill Ward",
+				"begin": "1982",
+				"end": "1985",
+				"instruments": "background vocals, membranophone, percussion"
+			},
+			{
+				"member_name": "Bill Ward",
+				"begin": "1997",
+				"end": "2019",
+				"instruments": "background vocals, membranophone, percussion"
+			},
+			{
+				"member_name": "Geoff Nicholls",
+				"begin": "1979",
+				"end": "2019",
+				"instruments": "keyboard"
+			},
+			{
+				"member_name": "Mike Bordin",
+				"begin": "1997",
+				"end": "1997",
+				"instruments": "drums (drum set)"
+			},
+			{
+				"member_name": "Bob Rondinelli",
+				"begin": "1993",
+				"end": "1996",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Bob Daisley",
+				"begin": "1986",
+				"end": "1986",
+				"instruments": "bass guitar"
+			},
+			{
+				"member_name": "Jo Burt",
+				"begin": "1987",
+				"end": "1988",
+				"instruments": "bass guitar"
+			},
+			{
+				"member_name": "Tony Iommi",
+				"begin": "1969",
+				"end": "",
+				"instruments": "guitar, original"
+			},
+			{
+				"member_name": "David Spitz",
+				"begin": "1985",
+				"end": "1987",
+				"instruments": "bass guitar"
+			},
+			{
+				"member_name": "Dave Walker",
+				"begin": "1977",
+				"end": "1978",
+				"instruments": "lead vocals"
+			},
+			{
+				"member_name": "Ronnie James Dio",
+				"begin": "1979",
+				"end": "1982",
+				"instruments": "lead vocals"
+			},
+			{
+				"member_name": "Ronnie James Dio",
+				"begin": "1991",
+				"end": "1992",
+				"instruments": "lead vocals"
+			},
+			{
+				"member_name": "Ian Gillan",
+				"begin": "1982",
+				"end": "1984",
+				"instruments": "lead vocals"
+			}
+		]
+	},
+	"artist-name": "Black Sabbath",
+	"artist-summary": "B",
+	"track-duration": "335000",
+	"track-name": "Sabbath Bloody Sabbath"
+},
+{
+	"_id": {
+		"$oid": "5c82e8f4c3d5374cb04cea53"
+	},
+	"track-mbid": "a1ef1e8c-9fa9-4eab-bc12-c428132ddeb6",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/cd8bb1160861d9414cb383576b2ab3a7.png",
+	"album-label": "Arista",
+	"album-lid": "c62e3985-6370-446a-bfb8-f1f6122e9c33",
+	"album-mbid": "ae746c02-42f8-4af6-843c-854bf4c0af19",
+	"album-name": "Go to Heaven",
+	"album-released": "1980",
+	"artist-mbid": "6faa7ca7-0d99-4a5e-bfa6-1fd5037520c6",
+	"artist-members": {
+		"group_name": "Grateful Dead",
+		"group_begin": "1965",
+		"group_end": "1995",
+		"members": [
+			{
+				"member_name": "Tom Constanten",
+				"begin": "1968",
+				"end": "1970",
+				"instruments": ""
+			},
+			{
+				"member_name": "Jerry Garcia",
+				"begin": "1965",
+				"end": "1995",
+				"instruments": ""
+			},
+			{
+				"member_name": "Bill Kreutzmann",
+				"begin": "1965",
+				"end": "1995",
+				"instruments": ""
+			},
+			{
+				"member_name": "Ron \"Pigpen\" McKernan",
+				"begin": "1965",
+				"end": "1973",
+				"instruments": ""
+			},
+			{
+				"member_name": "Brent Mydland",
+				"begin": "1979",
+				"end": "1990",
+				"instruments": "keyboard"
+			},
+			{
+				"member_name": "Rob Wasserman",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Donna Jean Godchaux",
+				"begin": "1972",
+				"end": "1979",
+				"instruments": ""
+			},
+			{
+				"member_name": "Mickey Hart",
+				"begin": "1967",
+				"end": "1971",
+				"instruments": ""
+			},
+			{
+				"member_name": "Mickey Hart",
+				"begin": "1975",
+				"end": "1995",
+				"instruments": ""
+			},
+			{
+				"member_name": "Keith Godchaux",
+				"begin": "1971",
+				"end": "1979",
+				"instruments": ""
+			},
+			{
+				"member_name": "Vince Welnick",
+				"begin": "1990",
+				"end": "1995",
+				"instruments": ""
+			},
+			{
+				"member_name": "Bob Weir",
+				"begin": "1965",
+				"end": "1995",
+				"instruments": ""
+			},
+			{
+				"member_name": "Bruce Hornsby",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Robert Hunter",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Phil Lesh",
+				"begin": "1965",
+				"end": "1995",
+				"instruments": ""
+			}
+		]
+	},
+	"artist-name": "Grateful Dead",
+	"artist-summary": "T",
+	"track-duration": "411000",
+	"track-name": "Althea"
+},
+{
+	"_id": {
+		"$oid": "5c82e909c3d5374cb04cea60"
+	},
+	"track-mbid": "3bd4742d-1816-4b90-b2cc-8cc4dd2518aa",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/4360cc3e513e64a91b012f2ee4a6f5ce.png",
+	"album-label": "A\u0026M Records",
+	"album-lid": "35515729-1f2c-4cc9-9390-9af2764bc56c",
+	"album-mbid": "6d1db398-1bd1-4cbf-bd12-ece757fb61b3",
+	"album-name": "Greatest Hits",
+	"album-released": "1996",
+	"artist-mbid": "638206ee-0e3d-47cf-9769-d73330b15a87",
+	"artist-members": {
+		"group_name": "Peter Frampton",
+		"group_begin": "1950",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "Humble Pie",
+				"begin": "1969",
+				"end": "1971",
+				"instruments": ""
+			},
+			{
+				"member_name": "The Herd",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Ringo Starr \u0026 His All Starr Band",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			}
+		]
+	},
+	"artist-name": "Peter Frampton",
+	"artist-summary": "Peter Frampton (born 22 April 1950 in Beckenham, Kent) is a British musician, best known today for his multi-platinum selling solo work in the mid-70s when he was  an \"arena rocker\".",
+	"track-duration": "426000",
+	"track-name": "Lines On My Face"
+},
+{
+	"_id": {
+		"$oid": "5c82e912c3d5374cb04cea69"
+	},
+	"track-mbid": "33d23810-c7cb-414c-a2f2-4306f21a01d0",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/c6ce2102cff33f954b3e7ef288a7c994.png",
+	"album-label": "MCA Records",
+	"album-lid": "46a3941a-c810-47a1-974f-955effec4d09",
+	"album-mbid": "cf4bd741-3818-432c-bd62-70a57c965a6d",
+	"album-name": "Gaucho",
+	"album-released": "1980",
+	"artist-mbid": "e01c3376-15fa-40d7-b747-5f219bdefdd7",
+	"artist-members": {
+		"group_name": "Steely Dan",
+		"group_begin": "1972",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "Jeff Porcaro",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Denny Dias",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Jeff “Skunk” Baxter",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Donald Fagen",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Cornelius Bumpus",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Walter Becker",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "David Palmer",
+				"begin": "1972",
+				"end": "1973",
+				"instruments": ""
+			},
+			{
+				"member_name": "Michael McDonald",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Royce Jones",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Jim Hodder",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			}
+		]
+	},
+	"artist-name": "Steely Dan",
+	"artist-summary": "Steely Dan is an American jazz rock band which formed in 1972.",
+	"track-duration": "351000",
+	"track-name": "Babylon Sisters"
+},
+{
+	"_id": {
+		"$oid": "5c82e926c3d5374cb04cea76"
+	},
+	"track-mbid": "1f711333-bc09-402d-905a-67270389ed85",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/e55ef79c3e5347d4c7e85c44ef1487be.png",
+	"album-label": "Roadrunner Records",
+	"album-lid": "5899271b-a77a-4081-93a9-0bd05b9b4180",
+	"album-mbid": "9599042a-34a9-39f2-a52d-c903a382515c",
+	"album-name": "All The Right Reasons",
+	"album-released": "2005",
+	"artist-mbid": "bc710bcf-8815-42cf-bad2-3f1d12246aeb",
+	"artist-members": {
+		"group_name": "Nickelback",
+		"group_begin": "1995",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "Brandon Kroeger",
+				"begin": "1995",
+				"end": "1996",
+				"instruments": ""
+			},
+			{
+				"member_name": "Daniel Adair",
+				"begin": "2019",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Ryan Vikedal",
+				"begin": "1998",
+				"end": "2019",
+				"instruments": ""
+			},
+			{
+				"member_name": "Mike Kroeger",
+				"begin": "1995",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Chad Kroeger",
+				"begin": "1995",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Ryan Peake",
+				"begin": "1995",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Mitch Guindon",
+				"begin": "1996",
+				"end": "1998",
+				"instruments": ""
+			}
+		]
+	},
+	"artist-name": "Nickelback",
+	"artist-summary": "Nickelback is a rock band which formed in Hanna, Alberta, Canada in 1995. Nickelback is one of the most commercially successful Canadian groups, having sold 30 million records worldwide.",
+	"track-duration": "218000",
+	"track-name": "If Everyone Cared"
+},
+{
+	"_id": {
+		"$oid": "5c82e93ac3d5374cb04cea83"
+	},
+	"track-mbid": "0ee4633c-5036-433a-98bc-610eed034da2",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/8b73460d24e94ee9a632141cfc78b34e.png",
+	"album-label": "Columbia",
+	"album-lid": "011d1192-6f65-45bd-85c4-0400dd45693e",
+	"album-mbid": "6768805c-4658-39bc-9416-46256247f860",
+	"album-name": "Draw the Line",
+	"album-released": "1977",
+	"artist-mbid": "3d2b98e5-556f-4451-a3ff-c50ea18d57cb",
+	"artist-members": {
+		"group_name": "Aerosmith",
+		"group_begin": "1970",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "Brad Whitford",
+				"begin": "1971",
+				"end": "1981",
+				"instruments": "guitar"
+			},
+			{
+				"member_name": "Brad Whitford",
+				"begin": "1984",
+				"end": "",
+				"instruments": "guitar"
+			},
+			{
+				"member_name": "Joey Kramer",
+				"begin": "1970",
+				"end": "",
+				"instruments": "drums (drum set), original"
+			},
+			{
+				"member_name": "Jimmy Crespo",
+				"begin": "1979",
+				"end": "1984",
+				"instruments": "background vocals, guitar"
+			},
+			{
+				"member_name": "Steven Tyler",
+				"begin": "1970",
+				"end": "",
+				"instruments": "harmonica, lead vocals, original, piano"
+			},
+			{
+				"member_name": "Tom Hamilton",
+				"begin": "1970",
+				"end": "",
+				"instruments": "bass guitar, original"
+			},
+			{
+				"member_name": "Ray Tabano",
+				"begin": "1970",
+				"end": "1971",
+				"instruments": "guitar, original"
+			},
+			{
+				"member_name": "Joe Perry",
+				"begin": "1970",
+				"end": "1979",
+				"instruments": "background vocals, guitar, original"
+			},
+			{
+				"member_name": "Joe Perry",
+				"begin": "1984",
+				"end": "",
+				"instruments": "background vocals, guitar"
+			},
+			{
+				"member_name": "Rick Dufay",
+				"begin": "1981",
+				"end": "1984",
+				"instruments": "guitar"
+			}
+		]
+	},
+	"artist-name": "Aerosmith",
+	"artist-summary": "Aerosmith is a prominent American rock band.",
+	"track-duration": "295000",
+	"track-name": "Kings and Queens"
+},
+{
+	"_id": {
+		"$oid": "5c82e94ec3d5374cb04cea90"
+	},
+	"track-mbid": "dfa1288b-177f-4b08-a6b5-751adc6a5a05",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/d3e1c3ce5e35f8ee38f8472ac0c382e0.png",
+	"album-label": "Atlantic",
+	"album-lid": "50c384a2-0b44-401b-b893-8181173339c7",
+	"album-mbid": "3aa62d5a-bf72-4b16-9a22-847c02c08619",
+	"album-name": "The Very Best of Foreigner",
+	"album-released": "1992",
+	"artist-mbid": "160629ab-ec18-4931-8c95-02cb92d06186",
+	"artist-members": {
+		"group_name": "Foreigner",
+		"group_begin": "1976",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "Mark Schulman",
+				"begin": "1992",
+				"end": "2019",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Chris Frazier",
+				"begin": "2019",
+				"end": "",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Lou Gramm",
+				"begin": "1976",
+				"end": "1990",
+				"instruments": "lead vocals, original"
+			},
+			{
+				"member_name": "Lou Gramm",
+				"begin": "1992",
+				"end": "2019",
+				"instruments": "original"
+			},
+			{
+				"member_name": "Brian Tichy",
+				"begin": "1998",
+				"end": "2019",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Brian Tichy",
+				"begin": "2019",
+				"end": "2019",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Jeff Pilson",
+				"begin": "2019",
+				"end": "",
+				"instruments": "bass guitar"
+			},
+			{
+				"member_name": "Kelly Hansen",
+				"begin": "2019",
+				"end": "",
+				"instruments": "lead vocals"
+			},
+			{
+				"member_name": "Denny Carmassi",
+				"begin": "2019",
+				"end": "2019",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Mick Jones",
+				"begin": "1976",
+				"end": "",
+				"instruments": "electric guitar, original"
+			},
+			{
+				"member_name": "Rick Wills",
+				"begin": "1979",
+				"end": "1992",
+				"instruments": "bass guitar"
+			},
+			{
+				"member_name": "Jason Sutter",
+				"begin": "2019",
+				"end": "2019",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Jason Bonham",
+				"begin": "2019",
+				"end": "2019",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Johnny Edwards",
+				"begin": "1990",
+				"end": "1992",
+				"instruments": "lead vocals"
+			},
+			{
+				"member_name": "Ian McDonald",
+				"begin": "1976",
+				"end": "1980",
+				"instruments": "original"
+			},
+			{
+				"member_name": "Dennis Elliott",
+				"begin": "1976",
+				"end": "1992",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Paul Mirkovich",
+				"begin": "2019",
+				"end": "2019",
+				"instruments": "keyboard"
+			},
+			{
+				"member_name": "Michael Bluestein",
+				"begin": "2019",
+				"end": "",
+				"instruments": "keyboard"
+			},
+			{
+				"member_name": "Al Greenwood",
+				"begin": "1976",
+				"end": "1980",
+				"instruments": "keyboard"
+			},
+			{
+				"member_name": "Bruce Turgon",
+				"begin": "1992",
+				"end": "2019",
+				"instruments": "bass guitar"
+			},
+			{
+				"member_name": "Chas West",
+				"begin": "2019",
+				"end": "2019",
+				"instruments": "lead vocals"
+			}
+		]
+	},
+	"artist-name": "Foreigner",
+	"artist-summary": "Foreigner is an English-American rock band, originally formed in New York City in 1976 by veteran English musician and ex-Spooky Tooth member Mick Jones, and fellow Briton and ex-King Crimson member Ian McDonald along with American vocalist Lou Gramm.",
+	"track-duration": "199000",
+	"track-name": "Cold as Ice"
+},
+{
+	"_id": {
+		"$oid": "5c82eac7c3d5374cb04ceb9d"
+	},
+	"track-mbid": "da273feb-233d-4ee9-bac0-f763bdd97b8f",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/f1bbb0e4feb54d0acde40dcf6f0c4181.png",
+	"album-label": "Castle Communications",
+	"album-lid": "f3acf224-8e44-49a1-a3a1-6ed1ea5f5016",
+	"album-mbid": "41e41680-3652-432f-8225-fb033c4fdae0",
+	"album-name": "Vol. 4",
+	"album-released": "1972",
+	"artist-mbid": "5182c1d9-c7d2-4dad-afa0-ccfeada921a8",
+	"artist-members": {
+		"group_name": "Black Sabbath",
+		"group_begin": "1969",
+		"group_end": "2017",
+		"members": [
+			{
+				"member_name": "Cozy Powell",
+				"begin": "1989",
+				"end": "1991",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Cozy Powell",
+				"begin": "1993",
+				"end": "1995",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Geezer Butler",
+				"begin": "1969",
+				"end": "1985",
+				"instruments": "bass guitar, original, synthesizer"
+			},
+			{
+				"member_name": "Geezer Butler",
+				"begin": "1990",
+				"end": "1994",
+				"instruments": "bass guitar, synthesizer"
+			},
+			{
+				"member_name": "Geezer Butler",
+				"begin": "1997",
+				"end": "",
+				"instruments": "bass guitar, synthesizer"
+			},
+			{
+				"member_name": "Eric Singer",
+				"begin": "1985",
+				"end": "1987",
+				"instruments": ""
+			},
+			{
+				"member_name": "Eric Singer",
+				"begin": "1985",
+				"end": "1987",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Vinny Appice",
+				"begin": "1980",
+				"end": "1982",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Vinny Appice",
+				"begin": "1991",
+				"end": "1993",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Vinny Appice",
+				"begin": "1998",
+				"end": "1998",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Vinny Appice",
+				"begin": "2019",
+				"end": "2019",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Ray Gillen",
+				"begin": "1986",
+				"end": "1987",
+				"instruments": "lead vocals"
+			},
+			{
+				"member_name": "Tony Martin",
+				"begin": "1987",
+				"end": "1990",
+				"instruments": "lead vocals"
+			},
+			{
+				"member_name": "Tony Martin",
+				"begin": "1993",
+				"end": "1996",
+				"instruments": "lead vocals"
+			},
+			{
+				"member_name": "Glenn Hughes",
+				"begin": "1985",
+				"end": "1986",
+				"instruments": "lead vocals"
+			},
+			{
+				"member_name": "David Donato",
+				"begin": "1984",
+				"end": "1985",
+				"instruments": "lead vocals"
+			},
+			{
+				"member_name": "Neil Murray",
+				"begin": "1989",
+				"end": "1991",
+				"instruments": "bass guitar"
+			},
+			{
+				"member_name": "Neil Murray",
+				"begin": "1994",
+				"end": "1995",
+				"instruments": "bass guitar"
+			},
+			{
+				"member_name": "Bev Bevan",
+				"begin": "1983",
+				"end": "1984",
+				"instruments": "membranophone, percussion"
+			},
+			{
+				"member_name": "Bev Bevan",
+				"begin": "1987",
+				"end": "1987",
+				"instruments": "membranophone, percussion"
+			},
+			{
+				"member_name": "Terry Chimes",
+				"begin": "1987",
+				"end": "1988",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Ozzy Osbourne",
+				"begin": "1969",
+				"end": "1979",
+				"instruments": "lead vocals, original"
+			},
+			{
+				"member_name": "Ozzy Osbourne",
+				"begin": "1997",
+				"end": "",
+				"instruments": "lead vocals"
+			},
+			{
+				"member_name": "Ron Keel",
+				"begin": "1984",
+				"end": "1984",
+				"instruments": "lead vocals"
+			},
+			{
+				"member_name": "Bill Ward",
+				"begin": "1969",
+				"end": "1980",
+				"instruments": "background vocals, membranophone, original, percussion"
+			},
+			{
+				"member_name": "Bill Ward",
+				"begin": "1982",
+				"end": "1985",
+				"instruments": "background vocals, membranophone, percussion"
+			},
+			{
+				"member_name": "Bill Ward",
+				"begin": "1997",
+				"end": "2019",
+				"instruments": "background vocals, membranophone, percussion"
+			},
+			{
+				"member_name": "Geoff Nicholls",
+				"begin": "1979",
+				"end": "2019",
+				"instruments": "keyboard"
+			},
+			{
+				"member_name": "Mike Bordin",
+				"begin": "1997",
+				"end": "1997",
+				"instruments": "drums (drum set)"
+			},
+			{
+				"member_name": "Bob Rondinelli",
+				"begin": "1993",
+				"end": "1996",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Bob Daisley",
+				"begin": "1986",
+				"end": "1986",
+				"instruments": "bass guitar"
+			},
+			{
+				"member_name": "Jo Burt",
+				"begin": "1987",
+				"end": "1988",
+				"instruments": "bass guitar"
+			},
+			{
+				"member_name": "Tony Iommi",
+				"begin": "1969",
+				"end": "",
+				"instruments": "guitar, original"
+			},
+			{
+				"member_name": "David Spitz",
+				"begin": "1985",
+				"end": "1987",
+				"instruments": "bass guitar"
+			},
+			{
+				"member_name": "Dave Walker",
+				"begin": "1977",
+				"end": "1978",
+				"instruments": "lead vocals"
+			},
+			{
+				"member_name": "Ronnie James Dio",
+				"begin": "1979",
+				"end": "1982",
+				"instruments": "lead vocals"
+			},
+			{
+				"member_name": "Ronnie James Dio",
+				"begin": "1991",
+				"end": "1992",
+				"instruments": "lead vocals"
+			},
+			{
+				"member_name": "Ian Gillan",
+				"begin": "1982",
+				"end": "1984",
+				"instruments": "lead vocals"
+			}
+		]
+	},
+	"artist-name": "Black Sabbath",
+	"artist-summary": "B",
+	"track-duration": "327000",
+	"track-name": "Snowblind"
+},
+{
+	"_id": {
+		"$oid": "5c82eba6c3d5374cb04cec6d"
+	},
+	"track-mbid": "5878fcfe-344a-4e14-9e54-5bc89baf0205",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/9e79436113d34068a0da6b379f766c4f.png",
+	"album-label": "Epic",
+	"album-lid": "8f638ddb-131a-4cc3-b3d4-7ebdac201b55",
+	"album-mbid": "3dc0ef58-a4d0-45a8-abf4-2735d6eb5734",
+	"album-name": "The Best of Kansas",
+	"album-released": "1984",
+	"artist-mbid": "69689acf-d9cd-4d20-a972-47db4ed51b1a",
+	"artist-members": {
+		"group_name": "Kansas",
+		"group_begin": "1970",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "Zak Rizvi",
+				"begin": "2019",
+				"end": "",
+				"instruments": "guitar"
+			},
+			{
+				"member_name": "Dave Hope",
+				"begin": "1973",
+				"end": "1983",
+				"instruments": "background vocals, electric bass guitar, original"
+			},
+			{
+				"member_name": "Dave Hope",
+				"begin": "1990",
+				"end": "1990",
+				"instruments": "background vocals, electric bass guitar"
+			},
+			{
+				"member_name": "Dave Hope",
+				"begin": "2019",
+				"end": "2019",
+				"instruments": "background vocals, electric bass guitar"
+			},
+			{
+				"member_name": "Richard Williams",
+				"begin": "1973",
+				"end": "1984",
+				"instruments": "guitar, original"
+			},
+			{
+				"member_name": "Richard Williams",
+				"begin": "1985",
+				"end": "",
+				"instruments": "guitar"
+			},
+			{
+				"member_name": "David Manion",
+				"begin": "2019",
+				"end": "2018",
+				"instruments": "background vocals, keyboard"
+			},
+			{
+				"member_name": "Steve Walsh",
+				"begin": "1973",
+				"end": "1981",
+				"instruments": "keyboard, lead vocals, original, percussion, synthesizer"
+			},
+			{
+				"member_name": "Steve Walsh",
+				"begin": "1985",
+				"end": "2014",
+				"instruments": "keyboard, lead vocals, percussion, synthesizer"
+			},
+			{
+				"member_name": "Billy Greer",
+				"begin": "1985",
+				"end": "",
+				"instruments": "electric bass guitar, lead vocals"
+			},
+			{
+				"member_name": "Ronnie Platt",
+				"begin": "2019",
+				"end": "",
+				"instruments": "keyboard, lead vocals"
+			},
+			{
+				"member_name": "Steve Morse",
+				"begin": "1985",
+				"end": "1989",
+				"instruments": "background vocals, guitar"
+			},
+			{
+				"member_name": "Steve Morse",
+				"begin": "1991",
+				"end": "1991",
+				"instruments": "background vocals, guitar"
+			},
+			{
+				"member_name": "David Ragsdale",
+				"begin": "1991",
+				"end": "1997",
+				"instruments": "background vocals, guitar, violin"
+			},
+			{
+				"member_name": "David Ragsdale",
+				"begin": "2019",
+				"end": "",
+				"instruments": "background vocals, guitar, violin"
+			},
+			{
+				"member_name": "Robby Steinhardt",
+				"begin": "1973",
+				"end": "1983",
+				"instruments": "background vocals, original, violin"
+			},
+			{
+				"member_name": "Robby Steinhardt",
+				"begin": "1997",
+				"end": "2019",
+				"instruments": "background vocals, violin"
+			},
+			{
+				"member_name": "John Elefante",
+				"begin": "1982",
+				"end": "1984",
+				"instruments": "keyboard, lead vocals"
+			},
+			{
+				"member_name": "Tom Brislin",
+				"begin": "2018",
+				"end": "",
+				"instruments": "keyboard"
+			},
+			{
+				"member_name": "Phil Ehart",
+				"begin": "1973",
+				"end": "1984",
+				"instruments": "drums (drum set), original, percussion"
+			},
+			{
+				"member_name": "Phil Ehart",
+				"begin": "1985",
+				"end": "",
+				"instruments": "drums (drum set), percussion"
+			},
+			{
+				"member_name": "Greg Robert",
+				"begin": "1990",
+				"end": "1997",
+				"instruments": "background vocals, keyboard"
+			},
+			{
+				"member_name": "Kerry Livgren",
+				"begin": "1973",
+				"end": "1983",
+				"instruments": "guitar, keyboard, original, synthesizer"
+			},
+			{
+				"member_name": "Kerry Livgren",
+				"begin": "1990",
+				"end": "1991",
+				"instruments": "guitar, keyboard, synthesizer"
+			},
+			{
+				"member_name": "Kerry Livgren",
+				"begin": "1999",
+				"end": "2019",
+				"instruments": "guitar, keyboard, synthesizer"
+			}
+		]
+	},
+	"artist-name": "Kansas",
+	"artist-summary": "Kansas is a progressive rock band that formed in Topeka, Kansas, United States in 1970.",
+	"track-duration": "250000",
+	"track-name": "Point of Know Return"
+},
+{
+	"_id": {
+		"$oid": "5c82ec64c3d5374cb04ced07"
+	},
+	"track-mbid": "fa6a987a-db0e-4967-8367-bebe89126ec7",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/3264145f3a9cef774b4626419ba70dd8.png",
+	"album-label": "Polydor",
+	"album-lid": "ce24ab18-1bd6-4293-a486-546d13d6a5e2",
+	"album-mbid": "4946f82c-2cc1-3bbd-8ae3-5b89a79d7c39",
+	"album-name": "Blind Faith",
+	"album-released": "1969",
+	"artist-mbid": "53fa91ca-a2b9-463d-b78e-daca9894082a",
+	"artist-members": {
+		"group_name": "Blind Faith",
+		"group_begin": "1968",
+		"group_end": "1969",
+		"members": [
+			{
+				"member_name": "Ric Grech",
+				"begin": "1968",
+				"end": "1969",
+				"instruments": ""
+			},
+			{
+				"member_name": "Eric Clapton",
+				"begin": "1968",
+				"end": "1969",
+				"instruments": ""
+			},
+			{
+				"member_name": "Steve Winwood",
+				"begin": "1968",
+				"end": "1969",
+				"instruments": ""
+			},
+			{
+				"member_name": "Ginger Baker",
+				"begin": "1968",
+				"end": "1969",
+				"instruments": ""
+			}
+		]
+	},
+	"artist-name": "Blind Faith",
+	"artist-summary": "Blind Faith were an English blues-rock band that comprised Eric Clapton, Ginger Baker, Steve Winwood and Ric (aka Rick) Grech.",
+	"track-duration": "290000",
+	"track-name": "Presence Of The Lord"
+},
+{
+	"_id": {
+		"$oid": "5c82ed1bc3d5374cb04ced9f"
+	},
+	"track-mbid": "31912b33-8aec-4830-9cf6-f3535d44efd2",
+	"album-image": "https://coverartarchive.org/release/0143a851-b6fd-476d-9483-29afe36a1dac/13446312435-250.jpg",
+	"album-label": "Arista Nashville",
+	"album-lid": "6e82c5cc-2c14-4add-9d1a-34ae826a452d",
+	"album-mbid": "0143a851-b6fd-476d-9483-29afe36a1dac",
+	"album-name": "#1s... And Then Some",
+	"album-released": "2009",
+	"artist-mbid": "f30118c5-f783-4969-8427-f3c096378267",
+	"artist-members": {
+		"group_name": "Brooks \u0026 Dunn",
+		"group_begin": "1990",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "Kix Brooks",
+				"begin": "1990",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Ronnie Dunn",
+				"begin": "1990",
+				"end": "",
+				"instruments": ""
+			}
+		]
+	},
+	"artist-name": "Brooks \u0026 Dunn",
+	"artist-summary": "Brooks \u0026 Dunn is an American country music duo consisting of Kix Brooks and Ronnie Dunn, both vocalists and songwriters. The duo was founded in 1990 through the suggestion of Tim DuBois. Before the foundation, both members were solo recording artists. Both members charted two solo singles apiece in the 1980s, with Brooks also releasing an album for Capitol Records in 1989 and writing hit singles for other artists.",
+	"track-duration": "340000",
+	"track-name": "Honky Tonk Stomp"
+},
+{
+	"_id": {
+		"$oid": "5c82ed3fc3d5374cb04cedb0"
+	},
+	"track-mbid": "e529e98e-9d25-49c7-8c17-e0eb876dc83f",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/380e4158c597467fc651af79f44c7d78.png",
+	"album-label": "Columbia",
+	"album-lid": "011d1192-6f65-45bd-85c4-0400dd45693e",
+	"album-mbid": "03ffc721-3d27-4fb9-a394-c06da971ee5b",
+	"album-name": "Greatest Hits",
+	"album-released": "1988",
+	"artist-mbid": "abd506e1-6f2b-4d6f-b937-92c267f6f88b",
+	"artist-members": {
+		"group_name": "Journey",
+		"group_begin": "1973",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "Ross Valory",
+				"begin": "1973",
+				"end": "1985",
+				"instruments": "bass guitar, lead vocals, original"
+			},
+			{
+				"member_name": "Ross Valory",
+				"begin": "1995",
+				"end": "",
+				"instruments": "bass guitar, lead vocals"
+			},
+			{
+				"member_name": "Robert Fleischman",
+				"begin": "1977",
+				"end": "1977",
+				"instruments": "lead vocals"
+			},
+			{
+				"member_name": "Gregg Rolie",
+				"begin": "1973",
+				"end": "1980",
+				"instruments": "harmonica, keyboard, lead vocals, original"
+			},
+			{
+				"member_name": "Arnel Pineda",
+				"begin": "2019",
+				"end": "",
+				"instruments": "lead vocals"
+			},
+			{
+				"member_name": "Randy Jackson",
+				"begin": "1985",
+				"end": "1987",
+				"instruments": "bass guitar, lead vocals"
+			},
+			{
+				"member_name": "Deen Castronovo",
+				"begin": "1998",
+				"end": "2019",
+				"instruments": "lead vocals, membranophone, percussion"
+			},
+			{
+				"member_name": "Neal Schon",
+				"begin": "1973",
+				"end": "",
+				"instruments": "guitar, lead vocals, original"
+			},
+			{
+				"member_name": "Chuck Garric",
+				"begin": "",
+				"end": "",
+				"instruments": "additional"
+			},
+			{
+				"member_name": "George Tickner",
+				"begin": "1973",
+				"end": "1975",
+				"instruments": "guitar, original"
+			},
+			{
+				"member_name": "Steve Perry",
+				"begin": "1977",
+				"end": "1998",
+				"instruments": "lead vocals"
+			},
+			{
+				"member_name": "Prairie Prince",
+				"begin": "1973",
+				"end": "1974",
+				"instruments": "membranophone, original, percussion"
+			},
+			{
+				"member_name": "Jeff Scott Soto",
+				"begin": "2019",
+				"end": "2019",
+				"instruments": "lead vocals"
+			},
+			{
+				"member_name": "Steve Augeri",
+				"begin": "1998",
+				"end": "2019",
+				"instruments": "guitar, lead vocals"
+			},
+			{
+				"member_name": "Steve Smith",
+				"begin": "1978",
+				"end": "1985",
+				"instruments": "membranophone, percussion"
+			},
+			{
+				"member_name": "Steve Smith",
+				"begin": "1995",
+				"end": "1998",
+				"instruments": "membranophone, percussion"
+			},
+			{
+				"member_name": "Steve Smith",
+				"begin": "2019",
+				"end": "",
+				"instruments": "percussion"
+			},
+			{
+				"member_name": "Steve Smith",
+				"begin": "2019",
+				"end": "",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Jonathan Cain",
+				"begin": "1980",
+				"end": "",
+				"instruments": "guitar, keyboard, lead vocals"
+			},
+			{
+				"member_name": "Mike Baird",
+				"begin": "1986",
+				"end": "1987",
+				"instruments": "membranophone, percussion"
+			},
+			{
+				"member_name": "Aynsley Dunbar",
+				"begin": "1975",
+				"end": "1978",
+				"instruments": "membranophone, percussion"
+			}
+		]
+	},
+	"artist-name": "Journey",
+	"artist-summary": "Journey is an American rock band that formed in San Francisco in 1973, composed of former members of Santana and Frumious Bandersnatch. The band has gone through several phases; its strongest commercial success occurred between 1978 and 1987 when Steve Perry was lead vocalist.",
+	"track-duration": "201000",
+	"track-name": "Any Way You Want It"
+},
+{
+	"_id": {
+		"$oid": "5c82ee08c3d5374cb04cee14"
+	},
+	"track-mbid": "f0dd26b1-b932-4c5e-8c0d-c0a05265eb18",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/d3bc4b56e1bc4f5f9b930fe14cf86d67.png",
+	"album-label": "Swan Song",
+	"album-lid": "e6b3a9cb-23a5-41ed-9bd9-bc540ef19bf5",
+	"album-mbid": "ad01cb38-0f13-3657-9465-a188a846139a",
+	"album-name": "Bad Company",
+	"album-released": "1974",
+	"artist-mbid": "eba5d39f-8cb7-4d54-871d-297e5d7f1aad",
+	"artist-members": {
+		"group_name": "Bad Company UK",
+		"group_begin": "1988",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "Maldini",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "DJ Fresh",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Vegas",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "dBridge",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			}
+		]
+	},
+	"artist-name": "Bad Company",
+	"artist-summary": "Bad Company is a 1970s British blues-rock group fronted by Paul \"The Voice\" Rodgers.",
+	"track-duration": "419000",
+	"track-name": "Bad Company"
+},
+{
+	"_id": {
+		"$oid": "5c82ee26c3d5374cb04cee25"
+	},
+	"track-mbid": "9d36d736-d6f1-4f72-829b-a5213bea6347",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/52907e184f756b6f351f7b87acd7005a.png",
+	"album-label": "Polydor",
+	"album-lid": "ce24ab18-1bd6-4293-a486-546d13d6a5e2",
+	"album-mbid": "bdc74986-7c40-4e6d-92b9-859de6c31b0d",
+	"album-name": "Disraeli Gears",
+	"album-released": "1967",
+	"artist-mbid": "be212372-2e70-429a-bd5c-86239716edc4",
+	"artist-members": {
+		"group_name": "Cream",
+		"group_begin": "",
+		"group_end": "",
+		"members": []
+	},
+	"artist-name": "Cream",
+	"artist-summary": "Cream was a 1960s three-piece British band consisting of bassist/lead vocalist Jack Bruce, guitarist/vocalist Eric Clapton, and drummer Ginger Baker, having formed in London, England.",
+	"track-duration": "166000",
+	"track-name": "Tales of Brave Ulysses"
+},
+{
+	"_id": {
+		"$oid": "5c82ee7fc3d5374cb04cee51"
+	},
+	"track-mbid": "8d0b195c-b98c-4628-9057-3c88d4befce8",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/600225b9fa114a18501894491a658a62.png",
+	"album-label": "Decca Records",
+	"album-lid": "f18f3b31-8263-4de3-966a-fda317492d3d",
+	"album-mbid": "0650f449-cc48-4566-8f01-a3e103b6ac6b",
+	"album-name": "If I Could Do It All Over Again, I'd Do It All Over You",
+	"album-released": "1970",
+	"artist-mbid": "c7b4d848-eeb6-444f-ba14-6173ea2cffa8",
+	"artist-members": {
+		"group_name": "Caravan",
+		"group_begin": "",
+		"group_end": "",
+		"members": []
+	},
+	"artist-name": "Caravan",
+	"artist-summary": "Caravan is a British progressive rock band from Canterbury, United Kingdom, founded by former Wilde Flowers members David Sinclair, Richard Sinclair, Pye Hastings, and Richard Coughlan.",
+	"track-duration": "492000",
+	"track-name": "And I Wish I Were Stoned / Don't Worry"
+},
+{
+	"_id": {
+		"$oid": "5c82eec5c3d5374cb04cee87"
+	},
+	"track-mbid": "ac586863-9e0a-435d-be61-2efe79a1063e",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/92121c197798447dc4622072cf7d5546.png",
+	"album-label": "A\u0026M Records",
+	"album-lid": "35515729-1f2c-4cc9-9390-9af2764bc56c",
+	"album-mbid": "6079ef33-8e30-3b08-ab3d-1809d36b187d",
+	"album-name": "Synchronicity",
+	"album-released": "1983",
+	"artist-mbid": "9e0e2b01-41db-4008-bd8b-988977d6019a",
+	"artist-members": {
+		"group_name": "The Police",
+		"group_begin": "1977",
+		"group_end": "2019",
+		"members": [
+			{
+				"member_name": "Sting",
+				"begin": "",
+				"end": "",
+				"instruments": "lead vocals"
+			},
+			{
+				"member_name": "Andy Summers",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Stewart Copeland",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Henri Padovani",
+				"begin": "1977",
+				"end": "1977",
+				"instruments": ""
+			}
+		]
+	},
+	"artist-name": "The Police",
+	"artist-summary": "The Police were a new wave band which formed in 1977 in London, England. The band consisted of Sting (vocals, bass), Andy Summers (guitar) and Stewart Copeland (drums).",
+	"track-duration": "304000",
+	"track-name": "Synchronicity II"
+},
+{
+	"_id": {
+		"$oid": "5c82eef7c3d5374cb04cee9e"
+	},
+	"track-mbid": "225d6830-1d4a-4a1a-a24b-e74be8c282b2",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/92121c197798447dc4622072cf7d5546.png",
+	"album-label": "Universal International",
+	"album-lid": "4ef2a03c-57ae-4571-b23a-3fb29b9caa11",
+	"album-mbid": "393e9fe9-27c5-4106-acb0-a1da1a022249",
+	"album-name": "Ghost In The Machine",
+	"album-released": "1981",
+	"artist-mbid": "9e0e2b01-41db-4008-bd8b-988977d6019a",
+	"artist-members": {
+		"group_name": "The Police",
+		"group_begin": "1977",
+		"group_end": "2019",
+		"members": [
+			{
+				"member_name": "Sting",
+				"begin": "",
+				"end": "",
+				"instruments": "lead vocals"
+			},
+			{
+				"member_name": "Andy Summers",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Stewart Copeland",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Henri Padovani",
+				"begin": "1977",
+				"end": "1977",
+				"instruments": ""
+			}
+		]
+	},
+	"artist-name": "The Police",
+	"artist-summary": "The Police were a new wave band which formed in 1977 in London, England. The band consisted of Sting (vocals, bass), Andy Summers (guitar) and Stewart Copeland (drums).",
+	"track-duration": "222000",
+	"track-name": "Too Much Information"
+},
+{
+	"_id": {
+		"$oid": "5c82ef47c3d5374cb04ceec4"
+	},
+	"track-mbid": "5b3335e6-2d0c-4d11-a1b7-204fe43f91ca",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/bf2bce620a3a43948bdc21eeef08cc1b.png",
+	"album-label": "Delerium Records",
+	"album-lid": "6cd30247-a43c-4eb7-8066-d461829831fc",
+	"album-mbid": "e3605965-46d3-3605-b0d7-b37e3158f292",
+	"album-name": "On the Sunday of Life...",
+	"album-released": "1992",
+	"artist-mbid": "169c4c28-858e-497b-81a4-8bc15e0026ea",
+	"artist-members": {
+		"group_name": "Porcupine Tree",
+		"group_begin": "1987",
+		"group_end": "2019",
+		"members": [
+			{
+				"member_name": "Chris Maitland",
+				"begin": "1993",
+				"end": "2019",
+				"instruments": ""
+			},
+			{
+				"member_name": "Chris Maitland",
+				"begin": "",
+				"end": "2002",
+				"instruments": ""
+			},
+			{
+				"member_name": "Steven Wilson",
+				"begin": "1987",
+				"end": "",
+				"instruments": "original"
+			},
+			{
+				"member_name": "Colin Edwin",
+				"begin": "1993",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Richard Barbieri",
+				"begin": "1993",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Gavin Harrison",
+				"begin": "2002",
+				"end": "",
+				"instruments": ""
+			}
+		]
+	},
+	"artist-name": "Porcupine Tree",
+	"artist-summary": "Porcupine Tree was a British rock band formed in Hemel Hempstead, Hertfordshire, United Kingdom in 1987.",
+	"track-duration": "600000",
+	"track-name": "Radioactive Toy"
+},
+{
+	"_id": {
+		"$oid": "5c82f0a8c3d5374cb04ceecc"
+	},
+	"track-mbid": "a46883a5-be72-4422-a65d-aa5fab6b3406",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/6c663ceb721043a096c1ea1fc21f268b.png",
+	"album-label": "Polydor",
+	"album-lid": "ce24ab18-1bd6-4293-a486-546d13d6a5e2",
+	"album-mbid": "6e646673-39ba-41dc-abc4-7a1f74387d66",
+	"album-name": "A Decade Of Hits 1969-1979",
+	"album-released": "1991",
+	"artist-mbid": "72359492-22be-4ed9-aaa0-efa434fb2b01",
+	"artist-members": {
+		"group_name": "The Allman Brothers Band",
+		"group_begin": "1969",
+		"group_end": "2014",
+		"members": [
+			{
+				"member_name": "Jai Johanny Johanson",
+				"begin": "1969",
+				"end": "1980",
+				"instruments": "drums (drum set), original, percussion"
+			},
+			{
+				"member_name": "Jai Johanny Johanson",
+				"begin": "1989",
+				"end": "2014",
+				"instruments": "drums (drum set), percussion"
+			},
+			{
+				"member_name": "David Goldflies",
+				"begin": "1978",
+				"end": "1982",
+				"instruments": "bass guitar"
+			},
+			{
+				"member_name": "Warren Haynes",
+				"begin": "1989",
+				"end": "1997",
+				"instruments": "guitar, lead vocals, slide guitar"
+			},
+			{
+				"member_name": "Warren Haynes",
+				"begin": "2019",
+				"end": "2014",
+				"instruments": "guitar, lead vocals, slide guitar"
+			},
+			{
+				"member_name": "Gregg Allman",
+				"begin": "1969",
+				"end": "2014",
+				"instruments": "guitar, lead vocals, organ, original, piano"
+			},
+			{
+				"member_name": "Allen Woody",
+				"begin": "1989",
+				"end": "1997",
+				"instruments": "background vocals, bass guitar"
+			},
+			{
+				"member_name": "Johnny Neel",
+				"begin": "1989",
+				"end": "1990",
+				"instruments": "harmonica, keyboard"
+			},
+			{
+				"member_name": "Oteil Burbridge",
+				"begin": "1997",
+				"end": "2014",
+				"instruments": "bass guitar, lead vocals"
+			},
+			{
+				"member_name": "Derek Trucks",
+				"begin": "1999",
+				"end": "2014",
+				"instruments": "guitar, slide guitar"
+			},
+			{
+				"member_name": "Dan Toler",
+				"begin": "1978",
+				"end": "1982",
+				"instruments": "guitar"
+			},
+			{
+				"member_name": "Jimmy Herring",
+				"begin": "2019",
+				"end": "2019",
+				"instruments": "guitar"
+			},
+			{
+				"member_name": "Duane Allman",
+				"begin": "1969",
+				"end": "1971",
+				"instruments": "guitar, original, slide guitar"
+			},
+			{
+				"member_name": "Mike Lawler",
+				"begin": "1980",
+				"end": "1982",
+				"instruments": "keyboard"
+			},
+			{
+				"member_name": "Chuck Leavell",
+				"begin": "1972",
+				"end": "1976",
+				"instruments": "background vocals, piano, synthesizer"
+			},
+			{
+				"member_name": "Marc Quiñones",
+				"begin": "1991",
+				"end": "2014",
+				"instruments": "background vocals, drums (drum set), percussion"
+			},
+			{
+				"member_name": "Butch Trucks",
+				"begin": "1969",
+				"end": "2014",
+				"instruments": "drums (drum set), original, timpani"
+			},
+			{
+				"member_name": "Dickey Betts",
+				"begin": "1969",
+				"end": "2019",
+				"instruments": "guitar, lead vocals, original, slide guitar"
+			},
+			{
+				"member_name": "Jack Pearson",
+				"begin": "1997",
+				"end": "1999",
+				"instruments": "guitar, lead vocals"
+			},
+			{
+				"member_name": "Lamar Williams",
+				"begin": "1972",
+				"end": "1976",
+				"instruments": "bass guitar, lead vocals"
+			},
+			{
+				"member_name": "David 'Frankie' Toler",
+				"begin": "1980",
+				"end": "1982",
+				"instruments": "drums (drum set)"
+			},
+			{
+				"member_name": "Berry Oakley",
+				"begin": "1969",
+				"end": "1972",
+				"instruments": "bass guitar, lead vocals, original"
+			}
+		]
+	},
+	"artist-name": "The Allman Brothers Band",
+	"artist-summary": "T",
+	"track-duration": "180000",
+	"track-name": "Midnight Rider"
+},
+{
+	"_id": {
+		"$oid": "5c82f15fc3d5374cb04cef1c"
+	},
+	"track-mbid": "26bbf779-039a-4bb4-b1af-f45603ab5426",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/d6acd3d55ac149e3be9f08d31f45e75a.png",
+	"album-label": "Warner Bros. Records",
+	"album-lid": "c595c289-47ce-4fba-b999-b87503e8cb71",
+	"album-mbid": "04be379d-fbc6-3dcd-aae1-1434708b5250",
+	"album-name": "Best of The Doobies",
+	"album-released": "1976",
+	"artist-mbid": "588dea29-eea3-456b-a815-3ee04f75c8e7",
+	"artist-members": {
+		"group_name": "The Doobie Brothers",
+		"group_begin": "1970",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "Bobby LaKind",
+				"begin": "1979",
+				"end": "1989",
+				"instruments": ""
+			},
+			{
+				"member_name": "Dave Shogren",
+				"begin": "1970",
+				"end": "1971",
+				"instruments": ""
+			},
+			{
+				"member_name": "Guy Allison",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Michael Hossack",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Willie Weeks",
+				"begin": "1980",
+				"end": "1982",
+				"instruments": ""
+			},
+			{
+				"member_name": "Tiran Porter",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Jeff “Skunk” Baxter",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "John McFee",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Cornelius Bumpus",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Nicolette Larson",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Tom Johnson",
+				"begin": "",
+				"end": "",
+				"instruments": "guitar"
+			},
+			{
+				"member_name": "Tom Johnson",
+				"begin": "",
+				"end": "",
+				"instruments": "lead vocals"
+			},
+			{
+				"member_name": "Patrick Simmons",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Michael McDonald",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "John Hartman",
+				"begin": "",
+				"end": "1992",
+				"instruments": ""
+			},
+			{
+				"member_name": "Bill Payne",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Chet McCracken",
+				"begin": "1979",
+				"end": "1987",
+				"instruments": ""
+			},
+			{
+				"member_name": "Keith Knudsen",
+				"begin": "1974",
+				"end": "2019",
+				"instruments": ""
+			},
+			{
+				"member_name": "Tom Johnston",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			}
+		]
+	},
+	"artist-name": "The Doobie Brothers",
+	"artist-summary": "The Doobie Brothers are an American rock group, best known for hit singles like Black Water, China Grove, Listen to the Music, Long Train Runnin', and What a Fool Believes.",
+	"track-duration": "273000",
+	"track-name": "Jesus is Just Alright"
+},
+{
+	"_id": {
+		"$oid": "5c82fa79c3d5374cb04cf760"
+	},
+	"track-mbid": "44d2c4b3-8786-4659-9a7f-c63e510f665a",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/2890059192c6483081116aab26a2f1ee.png",
+	"album-label": "I.R.S. Records",
+	"album-lid": "5aa5ddcd-b5d9-4bdf-b528-5083dfd98f03",
+	"album-mbid": "bdce4869-cd60-4a21-adab-74f3d85136eb",
+	"album-name": "Still In Hollywood",
+	"album-released": "1994",
+	"artist-mbid": "701fc524-b5f2-42f2-9db7-8198cdd6839c",
+	"artist-members": {
+		"group_name": "Concrete Blonde",
+		"group_begin": "1982",
+		"group_end": "1995",
+		"members": [
+			{
+				"member_name": "Johnette Napolitano",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Harry Rushakoff",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "James Mankey",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Paul Thompson",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			}
+		]
+	},
+	"artist-name": "Concrete Blonde",
+	"artist-summary": "Concrete Blonde is an alternative rock band dating from the early 1980s to the early 1990s (and re-formed again in the 2000s).",
+	"track-duration": "274000",
+	"track-name": "It'll Chew You Up And Spit You Out"
+},
+{
+	"_id": {
+		"$oid": "5c82fe17c3d5374cb04cf9d3"
+	},
+	"track-mbid": "d6219c6a-92b3-46ab-9ed8-e7cf58538c72",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/9f280b5f42db4963c9b357fd8034ddc8.png",
+	"album-label": "Warner Bros. Records",
+	"album-lid": "c595c289-47ce-4fba-b999-b87503e8cb71",
+	"album-mbid": "0af00518-25a3-4c03-bbe1-1afe95026f1a",
+	"album-name": "Van Halen",
+	"album-released": "1978",
+	"artist-mbid": "b665b768-0d83-4363-950c-31ed39317c15",
+	"artist-members": {
+		"group_name": "Van Halen",
+		"group_begin": "1972",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "Gary Cherone",
+				"begin": "1996",
+				"end": "1999",
+				"instruments": ""
+			},
+			{
+				"member_name": "Eddie Van Halen",
+				"begin": "1972",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Michael Anthony",
+				"begin": "1974",
+				"end": "2019",
+				"instruments": ""
+			},
+			{
+				"member_name": "Wolfgang Van Halen",
+				"begin": "2019",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "David Lee Roth",
+				"begin": "1978",
+				"end": "1985",
+				"instruments": ""
+			},
+			{
+				"member_name": "Mark Stone",
+				"begin": "1972",
+				"end": "1974",
+				"instruments": ""
+			},
+			{
+				"member_name": "Sammy Hagar",
+				"begin": "1986",
+				"end": "1996",
+				"instruments": ""
+			},
+			{
+				"member_name": "Alex Van Halen",
+				"begin": "1972",
+				"end": "",
+				"instruments": ""
+			}
+		]
+	},
+	"artist-name": "Van Halen",
+	"artist-summary": "\nVan Halen is a hard rock band which formed in 1972 in Pasadena, California, United States. The band was originally called Mammoth and changed their name to Van Halen by 1974.",
+	"track-duration": "224000",
+	"track-name": "I'm the One"
+},
+{
+	"_id": {
+		"$oid": "5c82fef7c3d5374cb04cfa89"
+	},
+	"track-mbid": "bf7ff259-f34b-4ca3-9de3-5296cb601329",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/2703befc8a854417a12111bb26210f4d.png",
+	"album-label": "Geffen Records",
+	"album-lid": "0fadc2ce-f7de-4e27-bbe6-612b317e716b",
+	"album-mbid": "e5d5de6e-08d2-468d-8843-d2d6194267a2",
+	"album-name": "Then \u0026 Now",
+	"album-released": "1990",
+	"artist-mbid": "8f695099-c714-4ad0-8888-36eca37fee84",
+	"artist-members": {
+		"group_name": "Asia",
+		"group_begin": "1981",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "John Payne",
+				"begin": "1992",
+				"end": "2019",
+				"instruments": "bass guitar, guitar, lead vocals"
+			},
+			{
+				"member_name": "Guthrie Govan",
+				"begin": "2019",
+				"end": "2019",
+				"instruments": "background vocals, guitar"
+			},
+			{
+				"member_name": "Al Pitrelli",
+				"begin": "1991",
+				"end": "1994",
+				"instruments": "guitar"
+			},
+			{
+				"member_name": "Carl Palmer",
+				"begin": "1981",
+				"end": "1992",
+				"instruments": "membranophone, original, percussion"
+			},
+			{
+				"member_name": "Carl Palmer",
+				"begin": "2019",
+				"end": "",
+				"instruments": "membranophone, original, percussion"
+			},
+			{
+				"member_name": "John Wetton",
+				"begin": "1981",
+				"end": "1991",
+				"instruments": "bass guitar, guitar, lead vocals, original"
+			},
+			{
+				"member_name": "John Wetton",
+				"begin": "2019",
+				"end": "2017",
+				"instruments": "bass guitar, guitar, lead vocals, original"
+			},
+			{
+				"member_name": "Greg Lake",
+				"begin": "1983",
+				"end": "1984",
+				"instruments": "guitar, lead vocals"
+			},
+			{
+				"member_name": "John Young",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Billy Sherwood",
+				"begin": "2017",
+				"end": "",
+				"instruments": "lead vocals"
+			},
+			{
+				"member_name": "Billy Sherwood",
+				"begin": "2017",
+				"end": "",
+				"instruments": "bass guitar"
+			},
+			{
+				"member_name": "Sam Coulson",
+				"begin": "2019",
+				"end": "",
+				"instruments": "guitar"
+			},
+			{
+				"member_name": "Jay Schellen",
+				"begin": "2019",
+				"end": "2006",
+				"instruments": "membranophone, percussion"
+			},
+			{
+				"member_name": "Steve Howe",
+				"begin": "1981",
+				"end": "1984",
+				"instruments": "background vocals, guitar, mandolin, original"
+			},
+			{
+				"member_name": "Steve Howe",
+				"begin": "1991",
+				"end": "1993",
+				"instruments": "background vocals, guitar, mandolin, original"
+			},
+			{
+				"member_name": "Steve Howe",
+				"begin": "2019",
+				"end": "2019",
+				"instruments": "background vocals, guitar, mandolin, original"
+			},
+			{
+				"member_name": "Mandy Meyer",
+				"begin": "1984",
+				"end": "1986",
+				"instruments": "background vocals, guitar"
+			},
+			{
+				"member_name": "Geoff Downes",
+				"begin": "1981",
+				"end": "",
+				"instruments": "background vocals, keyboard, original"
+			},
+			{
+				"member_name": "Chris Slade",
+				"begin": "1999",
+				"end": "2019",
+				"instruments": "membranophone, percussion"
+			},
+			{
+				"member_name": "Alan Darby",
+				"begin": "1989",
+				"end": "1989",
+				"instruments": "guitar"
+			},
+			{
+				"member_name": "Mike Sturgis",
+				"begin": "1992",
+				"end": "2019",
+				"instruments": "membranophone, percussion"
+			}
+		]
+	},
+	"artist-name": "Asia",
+	"artist-summary": "There is more than one band named Asia.",
+	"track-duration": "291000",
+	"track-name": "Only Time Will Tell"
+},
+{
+	"_id": {
+		"$oid": "5c8303e3c3d5374cb04cfe7c"
+	},
+	"track-mbid": "e6720a37-9c31-4cca-93ad-ea7ff6a62517",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/ac3331f02bce4d6ccd8def2796ea2e78.png",
+	"album-label": null,
+	"album-lid": null,
+	"album-mbid": "c56da5ac-cd19-4695-9ecc-8298f8f3a86a",
+	"album-name": "Unplugged",
+	"album-released": "1995",
+	"artist-mbid": "b071f9fa-14b0-4217-8e97-eb41da73f598",
+	"artist-members": {
+		"group_name": "The Rolling Stones",
+		"group_begin": "1962",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "Tony Chapman",
+				"begin": "1962",
+				"end": "1963",
+				"instruments": "membranophone, original"
+			},
+			{
+				"member_name": "Bill Wyman",
+				"begin": "1962",
+				"end": "1993",
+				"instruments": "background vocals, bass guitar, keyboard, marimba, percussion"
+			},
+			{
+				"member_name": "Mick Avory",
+				"begin": "1962",
+				"end": "1962",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Dick Taylor",
+				"begin": "1962",
+				"end": "1962",
+				"instruments": "bass guitar"
+			},
+			{
+				"member_name": "Ron Wood",
+				"begin": "1975",
+				"end": "",
+				"instruments": "acoustic guitar, background vocals, bass guitar, electric guitar, lap steel guitar, membranophone, pedal steel guitar, saxophone, slide guitar"
+			},
+			{
+				"member_name": "Brian Jones",
+				"begin": "1962",
+				"end": "1969",
+				"instruments": "accordion, acoustic guitar, autoharp, background vocals, bass guitar, cello, electric guitar, hammered dulcimer, harmonica, keyboard, mandolin, marimba, original, percussion, recorder, saxophone, sitar, slide guitar"
+			},
+			{
+				"member_name": "Mick Jagger",
+				"begin": "1962",
+				"end": "",
+				"instruments": "acoustic guitar, background vocals, bass guitar, electric guitar, harmonica, keyboard, lead vocals, original, percussion"
+			},
+			{
+				"member_name": "Ian Stewart",
+				"begin": "1962",
+				"end": "1985",
+				"instruments": "keyboard, original, percussion"
+			},
+			{
+				"member_name": "Mick Taylor",
+				"begin": "1969",
+				"end": "1974",
+				"instruments": "acoustic guitar, background vocals, bass guitar, electric guitar, slide guitar"
+			},
+			{
+				"member_name": "Keith Richards",
+				"begin": "1962",
+				"end": "",
+				"instruments": "acoustic guitar, background vocals, bass guitar, electric guitar, keyboard, lead vocals, original"
+			},
+			{
+				"member_name": "Charlie Watts",
+				"begin": "1963",
+				"end": "",
+				"instruments": "membranophone, percussion"
+			}
+		]
+	},
+	"artist-name": "The Rolling Stones",
+	"artist-summary": "The Rolling Stones are an English rock group that formed in London in 1962. First popular in Europe, they quickly became successful in North America during the \"British Invasion\" of the mid-60s.",
+	"track-duration": "239000",
+	"track-name": "No Expectations"
+},
+{
+	"_id": {
+		"$oid": "5c83045bc3d5374cb04cfeb3"
+	},
+	"track-mbid": "3a15cfaa-a963-4cc1-82f3-702347f86eee",
+	"album-image": "https://coverartarchive.org/release/376c1d3a-79e8-4fa9-bda7-4e04f253e7ea/9471860126.jpg",
+	"album-label": "Polydor",
+	"album-lid": "ce24ab18-1bd6-4293-a486-546d13d6a5e2",
+	"album-mbid": "376c1d3a-79e8-4fa9-bda7-4e04f253e7ea",
+	"album-name": "Love Is Like Oxygen",
+	"album-released": "2009",
+	"artist-mbid": "dc73bb40-b697-4df9-a2ec-0555bebdba75",
+	"artist-members": {
+		"group_name": "Sweet",
+		"group_begin": "1978",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "Andy Scott",
+				"begin": "1978",
+				"end": "",
+				"instruments": ""
+			}
+		]
+	},
+	"artist-name": "The Sweet",
+	"artist-summary": "The Sweet (also known as Sweet) are a British glam rock band that rose to worldwide fame in the 1970s. Their best known line-up consisted of lead vocalist Brian Connolly, bass player Steve Priest, guitarist Andy Scott, and drummer Mick Tucker. The group was originally called Sweetshop. The band was formed in London in 1968 and achieved their first hit, \"Funny Funny\", in 1971 after teaming up with songwriters Nicky Chinn and Mike Chapman and record producer Phil Wainman. During 1971 and 1972, their musical style followed a marked progression from the Archies-like bubblegum style of \"Funny Funny\" to a Who-influenced hard rock style supplemented by a striking use of high-pitched backing vocals.",
+	"track-duration": "360000",
+	"track-name": "Love Is Like Oxygen"
+},
+{
+	"_id": {
+		"$oid": "5c830736c3d5374cb04cffa6"
+	},
+	"track-mbid": "5e16cfc1-cec8-4eaf-a873-43ecdbd0f0cb",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/8eaba018b2bb47a38de0c557671abef0.png",
+	"album-label": "MCA Records",
+	"album-lid": "46a3941a-c810-47a1-974f-955effec4d09",
+	"album-mbid": "aa10c872-a078-3c95-83b8-999680a5ff31",
+	"album-name": "Rides Again",
+	"album-released": "1970",
+	"artist-mbid": "4167b497-1ae5-4502-a8e6-e1546ffbe514",
+	"artist-members": {
+		"group_name": "James Gang",
+		"group_begin": "1966",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "Tommy Bolin",
+				"begin": "1973",
+				"end": "1974",
+				"instruments": ""
+			},
+			{
+				"member_name": "Jim Fox",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Domenic Troiano",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Bob Webb",
+				"begin": "1976",
+				"end": "1977",
+				"instruments": "guitar"
+			},
+			{
+				"member_name": "Dale Peters",
+				"begin": "1969",
+				"end": "1977",
+				"instruments": ""
+			},
+			{
+				"member_name": "Dale Peters",
+				"begin": "1996",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Glenn Schwartz",
+				"begin": "1966",
+				"end": "1967",
+				"instruments": "guitar"
+			},
+			{
+				"member_name": "Joe Walsh",
+				"begin": "1968",
+				"end": "1971",
+				"instruments": ""
+			},
+			{
+				"member_name": "Joe Walsh",
+				"begin": "1996",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Phil Giallombardo",
+				"begin": "",
+				"end": "",
+				"instruments": "keyboard"
+			}
+		]
+	},
+	"artist-name": "James Gang",
+	"artist-summary": "James Gang was an American rock band formed in Cleveland, Ohio, in 1966.",
+	"track-duration": "234000",
+	"track-name": "Funk #49"
+},
+{
+	"_id": {
+		"$oid": "5c830915c3d5374cb04d000a"
+	},
+	"track-mbid": "026ba0ec-7ca9-4f50-ba50-f5fa56524e88",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/00434e407947e6b2a1c0ad66d5f5f533.png",
+	"album-label": "The Swingin’ Pig Records",
+	"album-lid": "092c38bf-b45f-44d9-8b74-d1a8af7c9757",
+	"album-mbid": "00c1f1bd-320a-4dbc-8408-c302df5c6037",
+	"album-name": "1990-06-27: Basel '90: Basel, Switzerland",
+	"album-released": "1990",
+	"artist-mbid": "b071f9fa-14b0-4217-8e97-eb41da73f598",
+	"artist-members": {
+		"group_name": "The Rolling Stones",
+		"group_begin": "1962",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "Tony Chapman",
+				"begin": "1962",
+				"end": "1963",
+				"instruments": "membranophone, original"
+			},
+			{
+				"member_name": "Bill Wyman",
+				"begin": "1962",
+				"end": "1993",
+				"instruments": "background vocals, bass guitar, keyboard, marimba, percussion"
+			},
+			{
+				"member_name": "Mick Avory",
+				"begin": "1962",
+				"end": "1962",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Dick Taylor",
+				"begin": "1962",
+				"end": "1962",
+				"instruments": "bass guitar"
+			},
+			{
+				"member_name": "Ron Wood",
+				"begin": "1975",
+				"end": "",
+				"instruments": "acoustic guitar, background vocals, bass guitar, electric guitar, lap steel guitar, membranophone, pedal steel guitar, saxophone, slide guitar"
+			},
+			{
+				"member_name": "Brian Jones",
+				"begin": "1962",
+				"end": "1969",
+				"instruments": "accordion, acoustic guitar, autoharp, background vocals, bass guitar, cello, electric guitar, hammered dulcimer, harmonica, keyboard, mandolin, marimba, original, percussion, recorder, saxophone, sitar, slide guitar"
+			},
+			{
+				"member_name": "Mick Jagger",
+				"begin": "1962",
+				"end": "",
+				"instruments": "acoustic guitar, background vocals, bass guitar, electric guitar, harmonica, keyboard, lead vocals, original, percussion"
+			},
+			{
+				"member_name": "Ian Stewart",
+				"begin": "1962",
+				"end": "1985",
+				"instruments": "keyboard, original, percussion"
+			},
+			{
+				"member_name": "Mick Taylor",
+				"begin": "1969",
+				"end": "1974",
+				"instruments": "acoustic guitar, background vocals, bass guitar, electric guitar, slide guitar"
+			},
+			{
+				"member_name": "Keith Richards",
+				"begin": "1962",
+				"end": "",
+				"instruments": "acoustic guitar, background vocals, bass guitar, electric guitar, keyboard, lead vocals, original"
+			},
+			{
+				"member_name": "Charlie Watts",
+				"begin": "1963",
+				"end": "",
+				"instruments": "membranophone, percussion"
+			}
+		]
+	},
+	"artist-name": "The Rolling Stones",
+	"artist-summary": "The Rolling Stones are an English rock group that formed in London in 1962. First popular in Europe, they quickly became successful in North America during the \"British Invasion\" of the mid-60s.",
+	"track-duration": "220000",
+	"track-name": "Jumpin Jack Flash"
+},
+{
+	"_id": {
+		"$oid": "5c8309fbc3d5374cb04d0068"
+	},
+	"track-mbid": "b1319f96-afd5-42b7-846a-b342897d6cc1",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/9e79436113d34068a0da6b379f766c4f.png",
+	"album-label": "Epic",
+	"album-lid": "8f638ddb-131a-4cc3-b3d4-7ebdac201b55",
+	"album-mbid": "3dc0ef58-a4d0-45a8-abf4-2735d6eb5734",
+	"album-name": "The Best of Kansas",
+	"album-released": "1984",
+	"artist-mbid": "69689acf-d9cd-4d20-a972-47db4ed51b1a",
+	"artist-members": {
+		"group_name": "Kansas",
+		"group_begin": "1970",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "Zak Rizvi",
+				"begin": "2019",
+				"end": "",
+				"instruments": "guitar"
+			},
+			{
+				"member_name": "Dave Hope",
+				"begin": "1973",
+				"end": "1983",
+				"instruments": "background vocals, electric bass guitar, original"
+			},
+			{
+				"member_name": "Dave Hope",
+				"begin": "1990",
+				"end": "1990",
+				"instruments": "background vocals, electric bass guitar"
+			},
+			{
+				"member_name": "Dave Hope",
+				"begin": "2019",
+				"end": "2019",
+				"instruments": "background vocals, electric bass guitar"
+			},
+			{
+				"member_name": "Richard Williams",
+				"begin": "1973",
+				"end": "1984",
+				"instruments": "guitar, original"
+			},
+			{
+				"member_name": "Richard Williams",
+				"begin": "1985",
+				"end": "",
+				"instruments": "guitar"
+			},
+			{
+				"member_name": "David Manion",
+				"begin": "2019",
+				"end": "2018",
+				"instruments": "background vocals, keyboard"
+			},
+			{
+				"member_name": "Steve Walsh",
+				"begin": "1973",
+				"end": "1981",
+				"instruments": "keyboard, lead vocals, original, percussion, synthesizer"
+			},
+			{
+				"member_name": "Steve Walsh",
+				"begin": "1985",
+				"end": "2014",
+				"instruments": "keyboard, lead vocals, percussion, synthesizer"
+			},
+			{
+				"member_name": "Billy Greer",
+				"begin": "1985",
+				"end": "",
+				"instruments": "electric bass guitar, lead vocals"
+			},
+			{
+				"member_name": "Ronnie Platt",
+				"begin": "2019",
+				"end": "",
+				"instruments": "keyboard, lead vocals"
+			},
+			{
+				"member_name": "Steve Morse",
+				"begin": "1985",
+				"end": "1989",
+				"instruments": "background vocals, guitar"
+			},
+			{
+				"member_name": "Steve Morse",
+				"begin": "1991",
+				"end": "1991",
+				"instruments": "background vocals, guitar"
+			},
+			{
+				"member_name": "David Ragsdale",
+				"begin": "1991",
+				"end": "1997",
+				"instruments": "background vocals, guitar, violin"
+			},
+			{
+				"member_name": "David Ragsdale",
+				"begin": "2019",
+				"end": "",
+				"instruments": "background vocals, guitar, violin"
+			},
+			{
+				"member_name": "Robby Steinhardt",
+				"begin": "1973",
+				"end": "1983",
+				"instruments": "background vocals, original, violin"
+			},
+			{
+				"member_name": "Robby Steinhardt",
+				"begin": "1997",
+				"end": "2019",
+				"instruments": "background vocals, violin"
+			},
+			{
+				"member_name": "John Elefante",
+				"begin": "1982",
+				"end": "1984",
+				"instruments": "keyboard, lead vocals"
+			},
+			{
+				"member_name": "Tom Brislin",
+				"begin": "2018",
+				"end": "",
+				"instruments": "keyboard"
+			},
+			{
+				"member_name": "Phil Ehart",
+				"begin": "1973",
+				"end": "1984",
+				"instruments": "drums (drum set), original, percussion"
+			},
+			{
+				"member_name": "Phil Ehart",
+				"begin": "1985",
+				"end": "",
+				"instruments": "drums (drum set), percussion"
+			},
+			{
+				"member_name": "Greg Robert",
+				"begin": "1990",
+				"end": "1997",
+				"instruments": "background vocals, keyboard"
+			},
+			{
+				"member_name": "Kerry Livgren",
+				"begin": "1973",
+				"end": "1983",
+				"instruments": "guitar, keyboard, original, synthesizer"
+			},
+			{
+				"member_name": "Kerry Livgren",
+				"begin": "1990",
+				"end": "1991",
+				"instruments": "guitar, keyboard, synthesizer"
+			},
+			{
+				"member_name": "Kerry Livgren",
+				"begin": "1999",
+				"end": "2019",
+				"instruments": "guitar, keyboard, synthesizer"
+			}
+		]
+	},
+	"artist-name": "Kansas",
+	"artist-summary": "Kansas is a progressive rock band that formed in Topeka, Kansas, United States in 1970.",
+	"track-duration": "265000",
+	"track-name": "Dust in the Wind"
+},
+{
+	"_id": {
+		"$oid": "5c830ac3c3d5374cb04d00ba"
+	},
+	"track-mbid": "e6c7f0d6-2b44-435c-b321-2fb6bff9a555",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/a0afc51a30ea4bd28ad49611eeda2f4b.png",
+	"album-label": "Vertigo",
+	"album-lid": "1b3b52a5-ef89-4f8b-8d5f-e15a7a58863b",
+	"album-mbid": "b1332da9-5751-466f-ad4a-3a2b1eb8ed48",
+	"album-name": "Brothers in Arms",
+	"album-released": "1985",
+	"artist-mbid": "614e3804-7d34-41ba-857f-811bad7c2b7a",
+	"artist-members": {
+		"group_name": "Dire Straits",
+		"group_begin": "1977",
+		"group_end": "1995",
+		"members": [
+			{
+				"member_name": "John Illsley",
+				"begin": "1977",
+				"end": "1995",
+				"instruments": "bass guitar, original"
+			},
+			{
+				"member_name": "Pick Withers",
+				"begin": "1977",
+				"end": "1982",
+				"instruments": "membranophone, original"
+			},
+			{
+				"member_name": "David Knopfler",
+				"begin": "1977",
+				"end": "1980",
+				"instruments": "guitar, original"
+			},
+			{
+				"member_name": "Guy E. Fletcher",
+				"begin": "1984",
+				"end": "1995",
+				"instruments": "keyboard"
+			},
+			{
+				"member_name": "Hal Lindes",
+				"begin": "1980",
+				"end": "1985",
+				"instruments": "guitar"
+			},
+			{
+				"member_name": "Chris White",
+				"begin": "1985",
+				"end": "1992",
+				"instruments": "additional, saxophone"
+			},
+			{
+				"member_name": "Mark Knopfler",
+				"begin": "1977",
+				"end": "1995",
+				"instruments": "guitar, lead vocals, original"
+			},
+			{
+				"member_name": "Terry Williams",
+				"begin": "1982",
+				"end": "1988",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Alan Clark",
+				"begin": "1980",
+				"end": "1995",
+				"instruments": "keyboard"
+			}
+		]
+	},
+	"artist-name": "Dire Straits",
+	"artist-summary": "\n",
+	"track-duration": "245000",
+	"track-name": "Money for Nothing"
+},
+{
+	"_id": {
+		"$oid": "5c830befc3d5374cb04d0134"
+	},
+	"track-mbid": "44bfaa40-4c80-45cb-8eb9-7bc9bd6affc4",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/4360cc3e513e64a91b012f2ee4a6f5ce.png",
+	"album-label": "A\u0026M Records",
+	"album-lid": "35515729-1f2c-4cc9-9390-9af2764bc56c",
+	"album-mbid": "6d1db398-1bd1-4cbf-bd12-ece757fb61b3",
+	"album-name": "Greatest Hits",
+	"album-released": "1996",
+	"artist-mbid": "638206ee-0e3d-47cf-9769-d73330b15a87",
+	"artist-members": {
+		"group_name": "Peter Frampton",
+		"group_begin": "1950",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "Humble Pie",
+				"begin": "1969",
+				"end": "1971",
+				"instruments": ""
+			},
+			{
+				"member_name": "The Herd",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Ringo Starr \u0026 His All Starr Band",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			}
+		]
+	},
+	"artist-name": "Peter Frampton",
+	"artist-summary": "Peter Frampton (born 22 April 1950 in Beckenham, Kent) is a British musician, best known today for his multi-platinum selling solo work in the mid-70s when he was  an \"arena rocker\".",
+	"track-duration": "855000",
+	"track-name": "Do You Feel Like We Do"
+},
+{
+	"_id": {
+		"$oid": "5c830f2dc3d5374cb04d01e4"
+	},
+	"track-mbid": "87ffcc93-5907-4f8a-a686-814c8eec5a5e",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/be456f85aa33444fc470101b2ec2e6bc.png",
+	"album-label": "CBS",
+	"album-lid": "b8d33bec-92cc-40d9-bd92-4eb089b401a9",
+	"album-mbid": "59f820b1-dc46-4c66-bdda-1d0ecbc56dd8",
+	"album-name": "Business As Usual",
+	"album-released": "1981",
+	"artist-mbid": "395cc503-63b5-4a0b-a20a-604e3fcacea2",
+	"artist-members": {
+		"group_name": "Men at Work",
+		"group_begin": "1979",
+		"group_end": "1985",
+		"members": [
+			{
+				"member_name": "Colin Hay",
+				"begin": "",
+				"end": "",
+				"instruments": "original"
+			},
+			{
+				"member_name": "Jerry Speiser",
+				"begin": "",
+				"end": "",
+				"instruments": "drums (drum set)"
+			},
+			{
+				"member_name": "Greg Ham",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Ron Strykert",
+				"begin": "",
+				"end": "",
+				"instruments": "original"
+			}
+		]
+	},
+	"artist-name": "Men at Work",
+	"artist-summary": "Men at Work are an ARIA Music Award winning and Grammy winning rock band that formed in Melbourne, Australia in 1979.",
+	"track-duration": "202000",
+	"track-name": "Who Can It Be Now?"
+},
+{
+	"_id": {
+		"$oid": "5c830fffc3d5374cb04d0215"
+	},
+	"track-mbid": "619f18ad-b7c8-4b0e-826e-585de75b33f8",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/9f280b5f42db4963c9b357fd8034ddc8.png",
+	"album-label": "Warner Bros. Records",
+	"album-lid": "c595c289-47ce-4fba-b999-b87503e8cb71",
+	"album-mbid": "0af00518-25a3-4c03-bbe1-1afe95026f1a",
+	"album-name": "Van Halen",
+	"album-released": "1978",
+	"artist-mbid": "b665b768-0d83-4363-950c-31ed39317c15",
+	"artist-members": {
+		"group_name": "Van Halen",
+		"group_begin": "1972",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "Gary Cherone",
+				"begin": "1996",
+				"end": "1999",
+				"instruments": ""
+			},
+			{
+				"member_name": "Eddie Van Halen",
+				"begin": "1972",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Michael Anthony",
+				"begin": "1974",
+				"end": "2019",
+				"instruments": ""
+			},
+			{
+				"member_name": "Wolfgang Van Halen",
+				"begin": "2019",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "David Lee Roth",
+				"begin": "1978",
+				"end": "1985",
+				"instruments": ""
+			},
+			{
+				"member_name": "Mark Stone",
+				"begin": "1972",
+				"end": "1974",
+				"instruments": ""
+			},
+			{
+				"member_name": "Sammy Hagar",
+				"begin": "1986",
+				"end": "1996",
+				"instruments": ""
+			},
+			{
+				"member_name": "Alex Van Halen",
+				"begin": "1972",
+				"end": "",
+				"instruments": ""
+			}
+		]
+	},
+	"artist-name": "Van Halen",
+	"artist-summary": "\nVan Halen is a hard rock band which formed in 1972 in Pasadena, California, United States. The band was originally called Mammoth and changed their name to Van Halen by 1974.",
+	"track-duration": "102000",
+	"track-name": "Eruption"
+},
+{
+	"_id": {
+		"$oid": "5c831063c3d5374cb04d022d"
+	},
+	"track-mbid": "642fa382-3adb-43aa-b568-c212f25de7dd",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/26cf2e294502477eb432344ed60ef136.png",
+	"album-label": "Columbia Special Products",
+	"album-lid": "79c6470e-c857-4337-8a2f-81909dcf9ca2",
+	"album-mbid": "01ac30e4-4ada-43fa-8cab-f22fe9a2dce4",
+	"album-name": "Big Brother \u0026 The Holding Company",
+	"album-released": "1967",
+	"artist-mbid": "3cf5a3be-25ef-4408-98fe-e66fee536be1",
+	"artist-members": {
+		"group_name": "Big Brother \u0026 The Holding Company",
+		"group_begin": "1965",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "Dave Getz",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "James Gurley",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Peter Albin",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Janis Joplin",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Nick Gravenites",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Sam Andrew",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Darby Gould",
+				"begin": "",
+				"end": "",
+				"instruments": "lead vocals"
+			}
+		]
+	},
+	"artist-name": "Big Brother \u0026 The Holding Company",
+	"artist-summary": "B",
+	"track-duration": "156000",
+	"track-name": "Bye, Bye Baby"
+},
+{
+	"_id": {
+		"$oid": "5c83122fc3d5374cb04d028d"
+	},
+	"track-mbid": "6e6b079d-194a-42b9-99a3-acfab0f6be96",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/7d471688a2e040f2c0c5ec166dcb04d3.png",
+	"album-label": "Capitol Records",
+	"album-lid": "abea2d3e-eabf-4480-ab24-9382dd642c73",
+	"album-mbid": "c36ff8df-dbc2-467b-a6b9-6e38f4527161",
+	"album-name": "Greatest Hits",
+	"album-released": "2001",
+	"artist-mbid": "47c8f88b-987a-4b64-9175-2b1b57809727",
+	"artist-members": {
+		"group_name": "Billy Idol",
+		"group_begin": "1955",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "Billy Idol \u0026 Steve Stevens",
+				"begin": "",
+				"end": "",
+				"instruments": "lead vocals"
+			},
+			{
+				"member_name": "Generation X",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Neurotic Outsiders",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Chelsea",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			}
+		]
+	},
+	"artist-name": "Billy Idol",
+	"artist-summary": "Billy Idol (born William Michael Albert Broad on November 30, 1955 in Middlesex, England) is an English musician.",
+	"track-duration": "220000",
+	"track-name": "Hot In The City"
+},
+{
+	"_id": {
+		"$oid": "5c831509c3d5374cb04d0393"
+	},
+	"track-mbid": "1ad9d271-552b-49aa-ae53-275cc0ab54b5",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/2b992ddfdae34296c24ea79da2ff679f.png",
+	"album-label": "Epic",
+	"album-lid": "8f638ddb-131a-4cc3-b3d4-7ebdac201b55",
+	"album-mbid": "bb242e84-b0da-4786-afd4-ca41bb0651dc",
+	"album-name": "Bat Out Of Hell",
+	"album-released": "1970",
+	"artist-mbid": "b134d1bf-c7c7-4427-93ac-9fdbc2b59ef1",
+	"artist-members": {
+		"group_name": "Meat Loaf",
+		"group_begin": "1947",
+		"group_end": "",
+		"members": []
+	},
+	"artist-name": "Meat Loaf",
+	"artist-summary": "\n",
+	"track-duration": "508000",
+	"track-name": "Paradise by the Dashboard Light"
+},
+{
+	"_id": {
+		"$oid": "5c831707c3d5374cb04d03fd"
+	},
+	"track-mbid": "09d047fb-6021-4a77-af8d-f755a617d8ea",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/c4acde56ce5d0454262586a67b3d164c.png",
+	"album-label": "Mercury Records",
+	"album-lid": "995428e7-81b6-41dd-bd38-5a7a0ece8ad6",
+	"album-mbid": "534e9083-38f1-4757-bb37-5fea976c8c19",
+	"album-name": "Little Bit of Everything",
+	"album-released": "2008",
+	"artist-mbid": "dbf94c49-0dd9-4f72-85d5-f548beb453f6",
+	"artist-members": {
+		"group_name": "Billy Currington",
+		"group_begin": "1973",
+		"group_end": "",
+		"members": []
+	},
+	"artist-name": "Billy Currington",
+	"artist-summary": "Billy Currington (born November 19, 1973) is an American country singer/songwriter who was raised in Rincon, Georgia. He currently lives in Nashville, Tennessee. He has four brothers and two sisters.",
+	"track-duration": "233000",
+	"track-name": "People Are Crazy"
+},
+{
+	"_id": {
+		"$oid": "5c8317edc3d5374cb04d042f"
+	},
+	"track-mbid": "f5f6068d-b660-4be3-a8aa-81c55c16d687",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/c2f5e2cb9d1f454b9990a77a690bd84b.png",
+	"album-label": null,
+	"album-lid": null,
+	"album-mbid": "9380e43c-2dc8-4f4b-b179-7edbb7d63895",
+	"album-name": "The Better Life",
+	"album-released": "2000",
+	"artist-mbid": "2386cd66-e923-4e8e-bf14-2eebe2e9b973",
+	"artist-members": {
+		"group_name": "3 Doors Down",
+		"group_begin": "1996",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "Chet Roberts",
+				"begin": "2019",
+				"end": "",
+				"instruments": "background vocals"
+			},
+			{
+				"member_name": "Chet Roberts",
+				"begin": "2019",
+				"end": "",
+				"instruments": "guitar"
+			},
+			{
+				"member_name": "Justin Biltonen",
+				"begin": "2019",
+				"end": "",
+				"instruments": "bass guitar"
+			},
+			{
+				"member_name": "Brad Arnold",
+				"begin": "1996",
+				"end": "",
+				"instruments": "lead vocals, original"
+			},
+			{
+				"member_name": "Chris Henderson",
+				"begin": "1997",
+				"end": "",
+				"instruments": "guitar"
+			},
+			{
+				"member_name": "Daniel Adair",
+				"begin": "2019",
+				"end": "2019",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Richard Liles",
+				"begin": "1997",
+				"end": "2019",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Matt Roberts",
+				"begin": "1996",
+				"end": "2019",
+				"instruments": "guitar, original"
+			},
+			{
+				"member_name": "Todd Harrell",
+				"begin": "1996",
+				"end": "",
+				"instruments": "bass guitar, original"
+			},
+			{
+				"member_name": "Greg Upchurch",
+				"begin": "2019",
+				"end": "",
+				"instruments": "membranophone"
+			}
+		]
+	},
+	"artist-name": "3 Doors Down",
+	"artist-summary": "3 Doors Down is a post-Grunge influenced Alternative rock group from Escatawpa, Mississippi, United States that formed in 1996.",
+	"track-duration": "234000",
+	"track-name": "Kryptonite"
+},
+{
+	"_id": {
+		"$oid": "5c8318ddc3d5374cb04d0463"
+	},
+	"track-mbid": "e8eae516-cade-4fc3-a7fb-db77f81f3e07",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/aa1793b6bb92420d91c6cb9f2ea12199.png",
+	"album-label": "Warner Bros. Records",
+	"album-lid": "c595c289-47ce-4fba-b999-b87503e8cb71",
+	"album-mbid": "eb0a5483-5a09-4f0f-90f1-417135985e0f",
+	"album-name": "1984",
+	"album-released": "1983",
+	"artist-mbid": "b665b768-0d83-4363-950c-31ed39317c15",
+	"artist-members": {
+		"group_name": "Van Halen",
+		"group_begin": "1972",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "Gary Cherone",
+				"begin": "1996",
+				"end": "1999",
+				"instruments": ""
+			},
+			{
+				"member_name": "Eddie Van Halen",
+				"begin": "1972",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Michael Anthony",
+				"begin": "1974",
+				"end": "2019",
+				"instruments": ""
+			},
+			{
+				"member_name": "Wolfgang Van Halen",
+				"begin": "2019",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "David Lee Roth",
+				"begin": "1978",
+				"end": "1985",
+				"instruments": ""
+			},
+			{
+				"member_name": "Mark Stone",
+				"begin": "1972",
+				"end": "1974",
+				"instruments": ""
+			},
+			{
+				"member_name": "Sammy Hagar",
+				"begin": "1986",
+				"end": "1996",
+				"instruments": ""
+			},
+			{
+				"member_name": "Alex Van Halen",
+				"begin": "1972",
+				"end": "",
+				"instruments": ""
+			}
+		]
+	},
+	"artist-name": "Van Halen",
+	"artist-summary": "\nVan Halen is a hard rock band which formed in 1972 in Pasadena, California, United States. The band was originally called Mammoth and changed their name to Van Halen by 1974.",
+	"track-duration": "179000",
+	"track-name": "Top Jimmy"
+},
+{
+	"_id": {
+		"$oid": "5c831991c3d5374cb04d048b"
+	},
+	"track-mbid": "292d36af-5c7d-41ae-8542-bb8460e52bfa",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/9617dd3522e245a2887feecb629e146e.png",
+	"album-label": "Aquarius Records",
+	"album-lid": "ab1a4362-ce64-48b8-bf17-8757132948ba",
+	"album-mbid": "da618218-73e6-46a7-99f5-a4825da0c088",
+	"album-name": "First Offense",
+	"album-released": "1984",
+	"artist-mbid": "32673e42-5ba2-4528-b3fe-a000a0c606e3",
+	"artist-members": {
+		"group_name": "Corey Hart",
+		"group_begin": "1962",
+		"group_end": "",
+		"members": []
+	},
+	"artist-name": "Corey Hart",
+	"artist-summary": "C",
+	"track-duration": "318000",
+	"track-name": "Sunglasses at Night"
+},
+{
+	"_id": {
+		"$oid": "5c831a77c3d5374cb04d04bc"
+	},
+	"track-mbid": "bd025ad2-f026-4e34-84ab-1254a2381738",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/9f280b5f42db4963c9b357fd8034ddc8.png",
+	"album-label": "Warner Bros. Records",
+	"album-lid": "c595c289-47ce-4fba-b999-b87503e8cb71",
+	"album-mbid": "0af00518-25a3-4c03-bbe1-1afe95026f1a",
+	"album-name": "Van Halen",
+	"album-released": "1978",
+	"artist-mbid": "b665b768-0d83-4363-950c-31ed39317c15",
+	"artist-members": {
+		"group_name": "Van Halen",
+		"group_begin": "1972",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "Gary Cherone",
+				"begin": "1996",
+				"end": "1999",
+				"instruments": ""
+			},
+			{
+				"member_name": "Eddie Van Halen",
+				"begin": "1972",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Michael Anthony",
+				"begin": "1974",
+				"end": "2019",
+				"instruments": ""
+			},
+			{
+				"member_name": "Wolfgang Van Halen",
+				"begin": "2019",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "David Lee Roth",
+				"begin": "1978",
+				"end": "1985",
+				"instruments": ""
+			},
+			{
+				"member_name": "Mark Stone",
+				"begin": "1972",
+				"end": "1974",
+				"instruments": ""
+			},
+			{
+				"member_name": "Sammy Hagar",
+				"begin": "1986",
+				"end": "1996",
+				"instruments": ""
+			},
+			{
+				"member_name": "Alex Van Halen",
+				"begin": "1972",
+				"end": "",
+				"instruments": ""
+			}
+		]
+	},
+	"artist-name": "Van Halen",
+	"artist-summary": "\nVan Halen is a hard rock band which formed in 1972 in Pasadena, California, United States. The band was originally called Mammoth and changed their name to Van Halen by 1974.",
+	"track-duration": "198000",
+	"track-name": "Ice Cream Man"
+},
+{
+	"_id": {
+		"$oid": "5c831b40c3d5374cb04d04e8"
+	},
+	"track-mbid": "9b676055-5b7f-4600-9c2e-b064661d95b3",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/35bdfe1a584348979ffa1cd69fc8a9f4.png",
+	"album-label": "A\u0026M Records",
+	"album-lid": "35515729-1f2c-4cc9-9390-9af2764bc56c",
+	"album-mbid": "bca301ba-e2d8-4c72-b25f-a5f6c4eb6f65",
+	"album-name": "Greatest Hits",
+	"album-released": "1995",
+	"artist-mbid": "835a6d9c-fea0-4a71-ae52-9c4da946433a",
+	"artist-members": {
+		"group_name": "Styx",
+		"group_begin": "1970",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "James Young",
+				"begin": "1970",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "John Curulewski",
+				"begin": "1970",
+				"end": "1975",
+				"instruments": ""
+			},
+			{
+				"member_name": "Ricky Phillips",
+				"begin": "2019",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "John Panozzo",
+				"begin": "1970",
+				"end": "1996",
+				"instruments": ""
+			},
+			{
+				"member_name": "Glen Burtnik",
+				"begin": "1990",
+				"end": "1991",
+				"instruments": ""
+			},
+			{
+				"member_name": "Glen Burtnik",
+				"begin": "1999",
+				"end": "2019",
+				"instruments": ""
+			},
+			{
+				"member_name": "Dennis DeYoung",
+				"begin": "1970",
+				"end": "1999",
+				"instruments": ""
+			},
+			{
+				"member_name": "Chuck Panozzo",
+				"begin": "1970",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Todd Sucherman",
+				"begin": "1996",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Tommy Shaw",
+				"begin": "1975",
+				"end": "1983",
+				"instruments": ""
+			},
+			{
+				"member_name": "Tommy Shaw",
+				"begin": "1995",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Gowan",
+				"begin": "1999",
+				"end": "",
+				"instruments": ""
+			}
+		]
+	},
+	"artist-name": "Styx",
+	"artist-summary": "Styx /stɪks/ is an American rock band from Chicago that formed in 1972 and became famous for its albums released in the late 1970s and early 1980s.",
+	"track-duration": "276000",
+	"track-name": "The Grand Illusion"
+},
+{
+	"_id": {
+		"$oid": "5c831c4dc3d5374cb04d0522"
+	},
+	"track-mbid": "2ae8860b-b3e3-403a-88c2-b4f2cc2b76c7",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/e169a418496049f8a34905d1663e8fe9.png",
+	"album-label": "EMI",
+	"album-lid": "c029628b-6633-439e-bcee-ed02e8a338f7",
+	"album-mbid": "6eea4e89-00c9-4d10-b192-17fcfd951956",
+	"album-name": "Station to Station",
+	"album-released": "1976",
+	"artist-mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50",
+	"artist-members": {
+		"group_name": "David Bowie",
+		"group_begin": "1947",
+		"group_end": "2016",
+		"members": [
+			{
+				"member_name": "The Manish Boys",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "David Bowie \u0026 The Lower Third",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "The Arnold Corns",
+				"begin": "",
+				"end": "",
+				"instruments": "original"
+			},
+			{
+				"member_name": "Tin Machine",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Feathers",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Davy Jones \u0026 The Lower Third",
+				"begin": "",
+				"end": "",
+				"instruments": "original"
+			},
+			{
+				"member_name": "Bewlay Bros.",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			}
+		]
+	},
+	"artist-name": "David Bowie",
+	"artist-summary": "David Bowie (b. David Robert Jones on 8th January 1947 in Brixton, London, UK, d. 10th January 2016 in New York, USA) was an English rock singer, songwriter, musician, and actor.",
+	"track-duration": "238000",
+	"track-name": "Golden Years"
+},
+{
+	"_id": {
+		"$oid": "5c831c57c3d5374cb04d0527"
+	},
+	"track-mbid": "7e7b4e4c-b2d1-47b5-9001-c3ffc5759641",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/5ffc0e1908e44522c50a6e56300ec7ef.png",
+	"album-label": "Polydor",
+	"album-lid": "ce24ab18-1bd6-4293-a486-546d13d6a5e2",
+	"album-mbid": "355d957f-cdd6-4902-aa80-f7bf2c4fff38",
+	"album-name": "Sticky Fingers",
+	"album-released": "1971",
+	"artist-mbid": "b071f9fa-14b0-4217-8e97-eb41da73f598",
+	"artist-members": {
+		"group_name": "The Rolling Stones",
+		"group_begin": "1962",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "Tony Chapman",
+				"begin": "1962",
+				"end": "1963",
+				"instruments": "membranophone, original"
+			},
+			{
+				"member_name": "Bill Wyman",
+				"begin": "1962",
+				"end": "1993",
+				"instruments": "background vocals, bass guitar, keyboard, marimba, percussion"
+			},
+			{
+				"member_name": "Mick Avory",
+				"begin": "1962",
+				"end": "1962",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Dick Taylor",
+				"begin": "1962",
+				"end": "1962",
+				"instruments": "bass guitar"
+			},
+			{
+				"member_name": "Ron Wood",
+				"begin": "1975",
+				"end": "",
+				"instruments": "acoustic guitar, background vocals, bass guitar, electric guitar, lap steel guitar, membranophone, pedal steel guitar, saxophone, slide guitar"
+			},
+			{
+				"member_name": "Brian Jones",
+				"begin": "1962",
+				"end": "1969",
+				"instruments": "accordion, acoustic guitar, autoharp, background vocals, bass guitar, cello, electric guitar, hammered dulcimer, harmonica, keyboard, mandolin, marimba, original, percussion, recorder, saxophone, sitar, slide guitar"
+			},
+			{
+				"member_name": "Mick Jagger",
+				"begin": "1962",
+				"end": "",
+				"instruments": "acoustic guitar, background vocals, bass guitar, electric guitar, harmonica, keyboard, lead vocals, original, percussion"
+			},
+			{
+				"member_name": "Ian Stewart",
+				"begin": "1962",
+				"end": "1985",
+				"instruments": "keyboard, original, percussion"
+			},
+			{
+				"member_name": "Mick Taylor",
+				"begin": "1969",
+				"end": "1974",
+				"instruments": "acoustic guitar, background vocals, bass guitar, electric guitar, slide guitar"
+			},
+			{
+				"member_name": "Keith Richards",
+				"begin": "1962",
+				"end": "",
+				"instruments": "acoustic guitar, background vocals, bass guitar, electric guitar, keyboard, lead vocals, original"
+			},
+			{
+				"member_name": "Charlie Watts",
+				"begin": "1963",
+				"end": "",
+				"instruments": "membranophone, percussion"
+			}
+		]
+	},
+	"artist-name": "The Rolling Stones",
+	"artist-summary": "The Rolling Stones are an English rock group that formed in London in 1962. First popular in Europe, they quickly became successful in North America during the \"British Invasion\" of the mid-60s.",
+	"track-duration": "245000",
+	"track-name": "Dead Flowers"
+},
+{
+	"_id": {
+		"$oid": "5c831e38c3d5374cb04d058c"
+	},
+	"track-mbid": "cb7dc5b5-3f50-4593-b189-382fd0a66d75",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/2823c535cd2343d7bc7c5da203abf378.png",
+	"album-label": "Elektra Entertainment",
+	"album-lid": "745f3292-03fe-44b5-babe-bc7eaa46a15d",
+	"album-mbid": "7a2ff025-5519-4c67-aa66-6b2921405a57",
+	"album-name": "Genius: The Best of Warren Zevon",
+	"album-released": "2002",
+	"artist-mbid": "970fb29f-e288-403e-a388-d2a7889bfa47",
+	"artist-members": {
+		"group_name": "Warren Zevon",
+		"group_begin": "1947",
+		"group_end": "2003",
+		"members": [
+			{
+				"member_name": "Lyme \u0026 Cybelle",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "The Motorcycle Abeline",
+				"begin": "1966",
+				"end": "1966",
+				"instruments": ""
+			},
+			{
+				"member_name": "Hindu Love Gods",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			}
+		]
+	},
+	"artist-name": "Warren Zevon",
+	"artist-summary": "W",
+	"track-duration": "208000",
+	"track-name": "Werewolves of London"
+},
+{
+	"_id": {
+		"$oid": "5c831effc3d5374cb04d05b7"
+	},
+	"track-mbid": "748038b7-c43e-4140-85ab-e478d16f6acb",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/0ed9cb00f68a46e3c6f0984ffb7884d4.png",
+	"album-label": "MCA Records",
+	"album-lid": "46a3941a-c810-47a1-974f-955effec4d09",
+	"album-mbid": "94a88cc8-2ce3-4ca3-afd7-d2411844b122",
+	"album-name": "The Ultimate Experience",
+	"album-released": "1992",
+	"artist-mbid": "06fb1c8b-566e-4cb2-985b-b467c90781d4",
+	"artist-members": {
+		"group_name": "Jimi Hendrix",
+		"group_begin": "1942",
+		"group_end": "1970",
+		"members": [
+			{
+				"member_name": "Gypsy Sun and Rainbows",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "The Jimi Hendrix Experience",
+				"begin": "1966",
+				"end": "1969",
+				"instruments": "guitar, lead vocals"
+			},
+			{
+				"member_name": "Little Richard Show",
+				"begin": "1964",
+				"end": "1964",
+				"instruments": ""
+			},
+			{
+				"member_name": "Curtis Knight and The Squires",
+				"begin": "1965",
+				"end": "1966",
+				"instruments": ""
+			},
+			{
+				"member_name": "Band of Gypsys",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			}
+		]
+	},
+	"artist-name": "Jimi Hendrix",
+	"artist-summary": "James Marshall \"Jimi\" Hendrix (born Johnny Allen Hendrix; November 27, 1942 – September 18, 1970) was an American rock guitarist, singer, and songwriter.",
+	"track-duration": "196000",
+	"track-name": "The Wind Cries Mary"
+},
+{
+	"_id": {
+		"$oid": "5c832130c3d5374cb04d062c"
+	},
+	"track-mbid": "ec1da442-bdc8-43e6-9659-387f94b555ec",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/aa1793b6bb92420d91c6cb9f2ea12199.png",
+	"album-label": "Warner Bros. Records",
+	"album-lid": "c595c289-47ce-4fba-b999-b87503e8cb71",
+	"album-mbid": "eb0a5483-5a09-4f0f-90f1-417135985e0f",
+	"album-name": "1984",
+	"album-released": "1983",
+	"artist-mbid": "b665b768-0d83-4363-950c-31ed39317c15",
+	"artist-members": {
+		"group_name": "Van Halen",
+		"group_begin": "1972",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "Gary Cherone",
+				"begin": "1996",
+				"end": "1999",
+				"instruments": ""
+			},
+			{
+				"member_name": "Eddie Van Halen",
+				"begin": "1972",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Michael Anthony",
+				"begin": "1974",
+				"end": "2019",
+				"instruments": ""
+			},
+			{
+				"member_name": "Wolfgang Van Halen",
+				"begin": "2019",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "David Lee Roth",
+				"begin": "1978",
+				"end": "1985",
+				"instruments": ""
+			},
+			{
+				"member_name": "Mark Stone",
+				"begin": "1972",
+				"end": "1974",
+				"instruments": ""
+			},
+			{
+				"member_name": "Sammy Hagar",
+				"begin": "1986",
+				"end": "1996",
+				"instruments": ""
+			},
+			{
+				"member_name": "Alex Van Halen",
+				"begin": "1972",
+				"end": "",
+				"instruments": ""
+			}
+		]
+	},
+	"artist-name": "Van Halen",
+	"artist-summary": "\nVan Halen is a hard rock band which formed in 1972 in Pasadena, California, United States. The band was originally called Mammoth and changed their name to Van Halen by 1974.",
+	"track-duration": "281000",
+	"track-name": "I'll Wait"
+},
+{
+	"_id": {
+		"$oid": "5c832139c3d5374cb04d0631"
+	},
+	"track-mbid": "9d4603db-b6c2-4344-835e-bca058519e14",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/aa1793b6bb92420d91c6cb9f2ea12199.png",
+	"album-label": "Warner Bros. Records",
+	"album-lid": "c595c289-47ce-4fba-b999-b87503e8cb71",
+	"album-mbid": "eb0a5483-5a09-4f0f-90f1-417135985e0f",
+	"album-name": "1984",
+	"album-released": "1983",
+	"artist-mbid": "b665b768-0d83-4363-950c-31ed39317c15",
+	"artist-members": {
+		"group_name": "Van Halen",
+		"group_begin": "1972",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "Gary Cherone",
+				"begin": "1996",
+				"end": "1999",
+				"instruments": ""
+			},
+			{
+				"member_name": "Eddie Van Halen",
+				"begin": "1972",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Michael Anthony",
+				"begin": "1974",
+				"end": "2019",
+				"instruments": ""
+			},
+			{
+				"member_name": "Wolfgang Van Halen",
+				"begin": "2019",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "David Lee Roth",
+				"begin": "1978",
+				"end": "1985",
+				"instruments": ""
+			},
+			{
+				"member_name": "Mark Stone",
+				"begin": "1972",
+				"end": "1974",
+				"instruments": ""
+			},
+			{
+				"member_name": "Sammy Hagar",
+				"begin": "1986",
+				"end": "1996",
+				"instruments": ""
+			},
+			{
+				"member_name": "Alex Van Halen",
+				"begin": "1972",
+				"end": "",
+				"instruments": ""
+			}
+		]
+	},
+	"artist-name": "Van Halen",
+	"artist-summary": "\nVan Halen is a hard rock band which formed in 1972 in Pasadena, California, United States. The band was originally called Mammoth and changed their name to Van Halen by 1974.",
+	"track-duration": "273000",
+	"track-name": "Girl Gone Bad"
+},
+{
+	"_id": {
+		"$oid": "5c832482c3d5374cb04d06df"
+	},
+	"track-mbid": "5abbe978-c3f8-47a8-acc8-84b2e1e22227",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/e155dd7e6dd5471fc7958b96b6e2c218.png",
+	"album-label": "Virgin Records America",
+	"album-lid": "1644d8bc-b558-447f-82eb-5d6829988156",
+	"album-mbid": "defb9958-b14b-390e-9a3e-930da43e67d0",
+	"album-name": "Genesis",
+	"album-released": "1983",
+	"artist-mbid": "c5725831-2596-48f1-8f1c-ebe237362860",
+	"artist-members": {
+		"group_name": "Genesis",
+		"group_begin": "",
+		"group_end": "1968",
+		"members": [
+			{
+				"member_name": "Kent Henry",
+				"begin": "",
+				"end": "1968",
+				"instruments": "guitar"
+			},
+			{
+				"member_name": "Jimmy Chappell",
+				"begin": "1968",
+				"end": "1968",
+				"instruments": "bass"
+			},
+			{
+				"member_name": "Bob \"Crusher\" Metke",
+				"begin": "",
+				"end": "1968",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Sue Richman",
+				"begin": "",
+				"end": "1968",
+				"instruments": "lead vocals"
+			},
+			{
+				"member_name": "Jack Ttanna",
+				"begin": "",
+				"end": "1968",
+				"instruments": "guitar, original"
+			},
+			{
+				"member_name": "Jack Ttanna",
+				"begin": "",
+				"end": "1968",
+				"instruments": "lead vocals, original"
+			},
+			{
+				"member_name": "Fred \"Foxey\" Rivera",
+				"begin": "",
+				"end": "1968",
+				"instruments": "bass"
+			}
+		]
+	},
+	"artist-name": "Genesis",
+	"artist-summary": "\nAt least two artists have used the name \"Genesis\":\n1. A British progessive rock band\n2. A 60s psychedelic band from Los Angeles, California\nFor the Colombian band, please see Génesis.\n\n1.",
+	"track-duration": "307000",
+	"track-name": "Home by the Sea"
+},
+{
+	"_id": {
+		"$oid": "5c836527c3d5374cb04d0807"
+	},
+	"track-mbid": "bbe7328d-e03f-4a3f-98ea-320789302ed3",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/b582b826362646eea0228627279356a4.png",
+	"album-label": "Elektra",
+	"album-lid": "873f9f75-af68-4872-98e2-431058e4c9a9",
+	"album-mbid": "bc92d940-c04c-4f71-8f3c-0c85fceda187",
+	"album-name": "Morrison Hotel",
+	"album-released": "1970",
+	"artist-mbid": "9efff43b-3b29-4082-824e-bc82f646f93d",
+	"artist-members": {
+		"group_name": "The Doors",
+		"group_begin": "1965",
+		"group_end": "1972",
+		"members": [
+			{
+				"member_name": "John Densmore",
+				"begin": "",
+				"end": "",
+				"instruments": "membranophone, percussion"
+			},
+			{
+				"member_name": "Robby Krieger",
+				"begin": "",
+				"end": "",
+				"instruments": "background vocals, guitar"
+			},
+			{
+				"member_name": "Jim Morrison",
+				"begin": "",
+				"end": "",
+				"instruments": "lead vocals"
+			},
+			{
+				"member_name": "Ray Manzarek",
+				"begin": "",
+				"end": "",
+				"instruments": "background vocals, keyboard, keyboard bass"
+			}
+		]
+	},
+	"artist-name": "The Doors",
+	"artist-summary": "The Doors were an American rock band which formed in Los Angeles, California, United States in 1965.",
+	"track-duration": "244000",
+	"track-name": "Roadhouse Blues"
+},
+{
+	"_id": {
+		"$oid": "5c8366e5c3d5374cb04d0838"
+	},
+	"track-mbid": "6bbd8560-58e8-4ae0-a04f-5a675e477bd2",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/f48508f2376f4c68cc995b8a8edef11f.png",
+	"album-label": "Mushroom Records",
+	"album-lid": "8d66d39e-286e-45b9-b73e-28ceabe916f3",
+	"album-mbid": "4bbaa090-d95c-49b0-9a92-7df4a6a6339e",
+	"album-name": "Dreamboat Annie",
+	"album-released": "1976",
+	"artist-mbid": "bdbd48f5-abf3-4a4f-9a21-4551dbc3fde9",
+	"artist-members": {
+		"group_name": "Heart",
+		"group_begin": "1973",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "Craig Bartock",
+				"begin": "2019",
+				"end": "",
+				"instruments": "background vocals, electric guitar"
+			},
+			{
+				"member_name": "Chris Joyner",
+				"begin": "2019",
+				"end": "",
+				"instruments": "electric guitar, keyboard"
+			},
+			{
+				"member_name": "Denny Carmassi",
+				"begin": "1982",
+				"end": "1993",
+				"instruments": "drums (drum set), percussion"
+			},
+			{
+				"member_name": "Michael Derosier",
+				"begin": "1975",
+				"end": "1982",
+				"instruments": "drums (drum set), percussion"
+			},
+			{
+				"member_name": "Ann Wilson",
+				"begin": "1973",
+				"end": "",
+				"instruments": "acoustic guitar, background vocals, flute, lead vocals, original"
+			},
+			{
+				"member_name": "Denny Fongheiser",
+				"begin": "1993",
+				"end": "1995",
+				"instruments": "drums (drum set)"
+			},
+			{
+				"member_name": "Ben Smith",
+				"begin": "1995",
+				"end": "1998",
+				"instruments": "drums (drum set), percussion"
+			},
+			{
+				"member_name": "Ben Smith",
+				"begin": "2019",
+				"end": "",
+				"instruments": "drums (drum set), percussion"
+			},
+			{
+				"member_name": "Fernando Saunders",
+				"begin": "1993",
+				"end": "1995",
+				"instruments": "background vocals, bass guitar"
+			},
+			{
+				"member_name": "John Hannah",
+				"begin": "1973",
+				"end": "1975",
+				"instruments": "keyboard"
+			},
+			{
+				"member_name": "Ric Markmann",
+				"begin": "2019",
+				"end": "2019",
+				"instruments": "bass guitar"
+			},
+			{
+				"member_name": "Mike Inez",
+				"begin": "2019",
+				"end": "2019",
+				"instruments": "bass guitar"
+			},
+			{
+				"member_name": "Darian Sahanaja",
+				"begin": "2019",
+				"end": "2019",
+				"instruments": "background vocals, keyboard, percussion"
+			},
+			{
+				"member_name": "Darian Sahanaja",
+				"begin": "2019",
+				"end": "2019",
+				"instruments": "background vocals, keyboard, percussion"
+			},
+			{
+				"member_name": "Tom Kellock",
+				"begin": "2019",
+				"end": "2019",
+				"instruments": "keyboard"
+			},
+			{
+				"member_name": "Mark Andes",
+				"begin": "1982",
+				"end": "1992",
+				"instruments": "background vocals, bass guitar"
+			},
+			{
+				"member_name": "Scott Olson",
+				"begin": "1995",
+				"end": "1998",
+				"instruments": "electric guitar"
+			},
+			{
+				"member_name": "Scott Olson",
+				"begin": "2019",
+				"end": "2019",
+				"instruments": "acoustic guitar, background vocals, electric guitar"
+			},
+			{
+				"member_name": "Roger Fisher",
+				"begin": "1973",
+				"end": "1979",
+				"instruments": "acoustic guitar, electric guitar, lap steel guitar, mandolin, original"
+			},
+			{
+				"member_name": "Brian Johnstone",
+				"begin": "1973",
+				"end": "1975",
+				"instruments": "drums (drum set)"
+			},
+			{
+				"member_name": "Jon Bayless",
+				"begin": "1995",
+				"end": "1998",
+				"instruments": "bass guitar"
+			},
+			{
+				"member_name": "Howard Leese",
+				"begin": "1975",
+				"end": "1998",
+				"instruments": "background vocals, electric guitar, keyboard, mandolin"
+			},
+			{
+				"member_name": "Nancy Wilson",
+				"begin": "1974",
+				"end": "1995",
+				"instruments": "acoustic guitar, background vocals, electric guitar, harmonica, keyboard, lead vocals, mandolin"
+			},
+			{
+				"member_name": "Nancy Wilson",
+				"begin": "1999",
+				"end": "",
+				"instruments": "acoustic guitar, background vocals, electric guitar, harmonica, keyboard, lead vocals, mandolin"
+			},
+			{
+				"member_name": "Gilby Clarke",
+				"begin": "2019",
+				"end": "2019",
+				"instruments": "electric guitar"
+			},
+			{
+				"member_name": "Dan Rothchild",
+				"begin": "2019",
+				"end": "",
+				"instruments": "background vocals, bass guitar"
+			},
+			{
+				"member_name": "Frank Cox",
+				"begin": "1995",
+				"end": "1998",
+				"instruments": "background vocals, electric guitar"
+			},
+			{
+				"member_name": "Steve Fossen",
+				"begin": "1973",
+				"end": "1982",
+				"instruments": "background vocals, bass guitar, original"
+			}
+		]
+	},
+	"artist-name": "Heart",
+	"artist-summary": "T",
+	"track-duration": "234000",
+	"track-name": "Crazy on You"
+},
+{
+	"_id": {
+		"$oid": "5c8369c2c3d5374cb04d08bb"
+	},
+	"track-mbid": "169c70e9-6747-4017-950d-1ce2315f0d9f",
+	"album-image": "",
+	"album-label": "Reader’s Digest",
+	"album-lid": "bca75918-d3a1-41e0-8167-e7d8ed421544",
+	"album-mbid": "9c628953-a5e4-494e-ad55-c8f4a98c34e3",
+	"album-name": "Greatest Hits From The Movies",
+	"album-released": "2019",
+	"artist-mbid": "774666d2-2064-4d6c-856c-f8cda0aaf9f0",
+	"artist-members": {
+		"group_name": "The Moody Blues",
+		"group_begin": "1964",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "Rodney Clark",
+				"begin": "1966",
+				"end": "1966",
+				"instruments": "bass guitar, lead vocals"
+			},
+			{
+				"member_name": "Shaun Murphy",
+				"begin": "1988",
+				"end": "1990",
+				"instruments": "additional, background vocals"
+			},
+			{
+				"member_name": "Terry Wood",
+				"begin": "1990",
+				"end": "1990",
+				"instruments": "additional, background vocals"
+			},
+			{
+				"member_name": "Guy Allison",
+				"begin": "1987",
+				"end": "1990",
+				"instruments": "additional, keyboard"
+			},
+			{
+				"member_name": "Graeme Edge",
+				"begin": "1964",
+				"end": "",
+				"instruments": "lead vocals, membranophone, original, percussion"
+			},
+			{
+				"member_name": "Tracy Graham",
+				"begin": "1993",
+				"end": "2019",
+				"instruments": "additional, background vocals"
+			},
+			{
+				"member_name": "Naomi Star",
+				"begin": "1988",
+				"end": "1990",
+				"instruments": "additional, background vocals"
+			},
+			{
+				"member_name": "Bias Boshell",
+				"begin": "1986",
+				"end": "1986",
+				"instruments": "additional, keyboard"
+			},
+			{
+				"member_name": "Bias Boshell",
+				"begin": "1990",
+				"end": "2019",
+				"instruments": "additional, keyboard"
+			},
+			{
+				"member_name": "June Boyce",
+				"begin": "1991",
+				"end": "1993",
+				"instruments": "additional, background vocals"
+			},
+			{
+				"member_name": "Julie Ragins",
+				"begin": "2019",
+				"end": "",
+				"instruments": "additional, background vocals, guitar, keyboard, percussion, saxophone"
+			},
+			{
+				"member_name": "Clint Warwick",
+				"begin": "1964",
+				"end": "1966",
+				"instruments": "bass guitar, lead vocals, original"
+			},
+			{
+				"member_name": "Ray Thomas",
+				"begin": "1964",
+				"end": "2019",
+				"instruments": "flute, harmonica, lead vocals, original, percussion"
+			},
+			{
+				"member_name": "Gordon Marshall",
+				"begin": "1990",
+				"end": "",
+				"instruments": "additional, membranophone, percussion"
+			},
+			{
+				"member_name": "Wendy McKenzie",
+				"begin": "1986",
+				"end": "1987",
+				"instruments": "additional, background vocals"
+			},
+			{
+				"member_name": "Norda Mullen",
+				"begin": "2019",
+				"end": "",
+				"instruments": "additional, background vocals, flute, guitar, percussion"
+			},
+			{
+				"member_name": "Mike Pinder",
+				"begin": "1964",
+				"end": "1979",
+				"instruments": "keyboard, lead vocals, original"
+			},
+			{
+				"member_name": "Alan Hewitt",
+				"begin": "2019",
+				"end": "",
+				"instruments": "additional, background vocals, keyboard"
+			},
+			{
+				"member_name": "Bernie Barlow",
+				"begin": "2019",
+				"end": "2019",
+				"instruments": "additional, background vocals, keyboard, percussion"
+			},
+			{
+				"member_name": "Bernie Barlow",
+				"begin": "2019",
+				"end": "2019",
+				"instruments": "additional, background vocals, keyboard"
+			},
+			{
+				"member_name": "Janis Liebhart",
+				"begin": "1986",
+				"end": "1987",
+				"instruments": "additional, background vocals"
+			},
+			{
+				"member_name": "John Lodge",
+				"begin": "1966",
+				"end": "",
+				"instruments": "bass guitar, guitar, lead vocals"
+			},
+			{
+				"member_name": "Justin Hayward",
+				"begin": "1966",
+				"end": "",
+				"instruments": "guitar, lead vocals"
+			},
+			{
+				"member_name": "Denny Laine",
+				"begin": "1964",
+				"end": "1966",
+				"instruments": "guitar, lead vocals, original"
+			},
+			{
+				"member_name": "Patrick Moraz",
+				"begin": "1978",
+				"end": "1991",
+				"instruments": "keyboard"
+			},
+			{
+				"member_name": "Susan Shattock",
+				"begin": "1991",
+				"end": "2019",
+				"instruments": "additional, background vocals"
+			},
+			{
+				"member_name": "Paul Bliss",
+				"begin": "1990",
+				"end": "2019",
+				"instruments": "additional, guitar, keyboard"
+			},
+			{
+				"member_name": "Bekka Bramlett",
+				"begin": "1990",
+				"end": "1990",
+				"instruments": "additional, background vocals"
+			}
+		]
+	},
+	"artist-name": "The Moody Blues",
+	"artist-summary": "T",
+	"track-duration": "0",
+	"track-name": "Nights in White Satin"
+},
+{
+	"_id": {
+		"$oid": "5c836ab0c3d5374cb04d091d"
+	},
+	"track-mbid": "e9baafe0-1368-4cc7-b38f-27ed72ca2878",
+	"album-image": "",
+	"album-label": "Cherry Red Records",
+	"album-lid": "0a866b14-bfd8-4e74-b451-ada9fc713329",
+	"album-mbid": "13da0fa4-f6a2-42f5-abd0-83ff59abadb6",
+	"album-name": "Jim Stafford",
+	"album-released": "1974",
+	"artist-mbid": "1e8071ac-3b84-4fc1-8ee5-a438a26879f7",
+	"artist-members": {
+		"group_name": "Jim Stafford",
+		"group_begin": "1944",
+		"group_end": "",
+		"members": []
+	},
+	"artist-name": "Jim Stafford",
+	"artist-summary": " ",
+	"track-duration": "160000",
+	"track-name": "Wildwood Weed"
+},
+{
+	"_id": {
+		"$oid": "5c836c18c3d5374cb04d0959"
+	},
+	"track-mbid": "eefddd59-1f86-4934-ac49-8cabad519976",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/c6726512254a4264918639325a7e1bf4.png",
+	"album-label": "Virgin",
+	"album-lid": "49b58bdb-3d74-40c6-956a-4c4b46115c9c",
+	"album-mbid": "daf4c671-184f-4c86-89b3-310ecf4a904f",
+	"album-name": "Dr. Feelgood",
+	"album-released": "1989",
+	"artist-mbid": "26f07661-e115-471d-a930-206f5c89d17c",
+	"artist-members": {
+		"group_name": "Mötley Crüe",
+		"group_begin": "1981",
+		"group_end": "2015",
+		"members": [
+			{
+				"member_name": "John Corabi",
+				"begin": "1993",
+				"end": "1996",
+				"instruments": "lead vocals"
+			},
+			{
+				"member_name": "Mick Mars",
+				"begin": "1981",
+				"end": "2015",
+				"instruments": "electric guitar"
+			},
+			{
+				"member_name": "Tommy Lee",
+				"begin": "1981",
+				"end": "1999",
+				"instruments": "membranophone, original"
+			},
+			{
+				"member_name": "Tommy Lee",
+				"begin": "2019",
+				"end": "2015",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Vince Neil",
+				"begin": "1981",
+				"end": "1992",
+				"instruments": "lead vocals"
+			},
+			{
+				"member_name": "Vince Neil",
+				"begin": "1997",
+				"end": "2015",
+				"instruments": "lead vocals"
+			},
+			{
+				"member_name": "Randy Castillo",
+				"begin": "1999",
+				"end": "2019",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Nikki Sixx",
+				"begin": "1981",
+				"end": "2015",
+				"instruments": "electric bass guitar, original"
+			}
+		]
+	},
+	"artist-name": "Mötley Crüe",
+	"artist-summary": "Mötley Crüe was an American heavy metal band formed in Los Angeles, California on January 17, 1981.",
+	"track-duration": "290000",
+	"track-name": "Dr. Feelgood"
+},
+{
+	"_id": {
+		"$oid": "5c838222c3d5374cb04d0989"
+	},
+	"track-mbid": "ef67bf84-8c7e-4056-a269-f2c6821ec2d1",
+	"album-image": "",
+	"album-label": "CBS",
+	"album-lid": "b8d33bec-92cc-40d9-bd92-4eb089b401a9",
+	"album-mbid": "23222d54-1962-4ff2-8641-0b01bb8f04e1",
+	"album-name": "Joe’s Garage: Act I",
+	"album-released": "1979",
+	"artist-mbid": "e20747e7-55a4-452e-8766-7b985585082d",
+	"artist-members": {
+		"group_name": "Frank Zappa",
+		"group_begin": "1940",
+		"group_end": "1993",
+		"members": [
+			{
+				"member_name": "The Mothers of Invention",
+				"begin": "",
+				"end": "",
+				"instruments": "guitar, lead vocals, original, spoken vocals"
+			}
+		]
+	},
+	"artist-name": "Frank Zappa",
+	"artist-summary": "F",
+	"track-duration": "0",
+	"track-name": "Joe’s Garage"
+},
+{
+	"_id": {
+		"$oid": "5c83e426c3d5374cb04d0a6a"
+	},
+	"track-mbid": "92806d79-f589-4063-9192-a899243242eb",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/5d5da80ab7f9bcbc17e6179555405920.png",
+	"album-label": "Mercury Records",
+	"album-lid": "995428e7-81b6-41dd-bd38-5a7a0ece8ad6",
+	"album-mbid": "16a89525-4aff-3eb2-995b-e097fef912e6",
+	"album-name": "Dressed To Kill",
+	"album-released": "1975",
+	"artist-mbid": "e1f1e33e-2e4c-4d43-b91b-7064068d3283",
+	"artist-members": {
+		"group_name": "KISS",
+		"group_begin": "1973",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "Bruce Kulick",
+				"begin": "1984",
+				"end": "1996",
+				"instruments": "background vocals, guitar"
+			},
+			{
+				"member_name": "Peter Criss",
+				"begin": "1973",
+				"end": "1980",
+				"instruments": "background vocals, drums (drum set), original, percussion"
+			},
+			{
+				"member_name": "Peter Criss",
+				"begin": "1996",
+				"end": "2001",
+				"instruments": "background vocals, drums (drum set), percussion"
+			},
+			{
+				"member_name": "Peter Criss",
+				"begin": "2002",
+				"end": "2004",
+				"instruments": "background vocals, drums (drum set), percussion"
+			},
+			{
+				"member_name": "Eric Singer",
+				"begin": "1991",
+				"end": "1996",
+				"instruments": "background vocals, drums (drum set), percussion"
+			},
+			{
+				"member_name": "Eric Singer",
+				"begin": "2001",
+				"end": "2002",
+				"instruments": "background vocals, drums (drum set), percussion"
+			},
+			{
+				"member_name": "Eric Singer",
+				"begin": "2004",
+				"end": "",
+				"instruments": "background vocals, drums (drum set), percussion"
+			},
+			{
+				"member_name": "Ace Frehley",
+				"begin": "1973",
+				"end": "1982",
+				"instruments": "background vocals, guitar, original"
+			},
+			{
+				"member_name": "Ace Frehley",
+				"begin": "1996",
+				"end": "2002",
+				"instruments": "background vocals, guitar"
+			},
+			{
+				"member_name": "Vinnie Vincent",
+				"begin": "1982",
+				"end": "1984",
+				"instruments": "background vocals, guitar"
+			},
+			{
+				"member_name": "Mark St. John",
+				"begin": "1984",
+				"end": "1984",
+				"instruments": "guitar"
+			},
+			{
+				"member_name": "Gene Simmons",
+				"begin": "1973",
+				"end": "",
+				"instruments": "bass guitar, lead vocals, original"
+			},
+			{
+				"member_name": "Paul Stanley",
+				"begin": "1973",
+				"end": "",
+				"instruments": "guitar, lead vocals, original"
+			},
+			{
+				"member_name": "Eric Carr",
+				"begin": "1980",
+				"end": "1991",
+				"instruments": "background vocals, drums (drum set), percussion"
+			},
+			{
+				"member_name": "Tommy Thayer",
+				"begin": "2019",
+				"end": "",
+				"instruments": "background vocals, guitar"
+			}
+		]
+	},
+	"artist-name": "Kiss",
+	"artist-summary": "T",
+	"track-duration": "188000",
+	"track-name": "Rock Bottom"
+},
+{
+	"_id": {
+		"$oid": "5c83e78ac3d5374cb04d0b25"
+	},
+	"track-mbid": "2de369a2-a44f-470a-a76f-e297586b5c36",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/ddbef24ddf79302be4c79d6cdc9f77e1.png",
+	"album-label": "EMI",
+	"album-lid": "c029628b-6633-439e-bcee-ed02e8a338f7",
+	"album-mbid": "3709ee5a-d087-370f-afb4-f730092c7a94",
+	"album-name": "Best of Bowie",
+	"album-released": "2002",
+	"artist-mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50",
+	"artist-members": {
+		"group_name": "David Bowie",
+		"group_begin": "1947",
+		"group_end": "2016",
+		"members": [
+			{
+				"member_name": "The Manish Boys",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "David Bowie \u0026 The Lower Third",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "The Arnold Corns",
+				"begin": "",
+				"end": "",
+				"instruments": "original"
+			},
+			{
+				"member_name": "Tin Machine",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Feathers",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Davy Jones \u0026 The Lower Third",
+				"begin": "",
+				"end": "",
+				"instruments": "original"
+			},
+			{
+				"member_name": "Bewlay Bros.",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			}
+		]
+	},
+	"artist-name": "David Bowie",
+	"artist-summary": "David Bowie (b. David Robert Jones on 8th January 1947 in Brixton, London, UK, d. 10th January 2016 in New York, USA) was an English rock singer, songwriter, musician, and actor.",
+	"track-duration": "312000",
+	"track-name": "Space Oddity"
+},
+{
+	"_id": {
+		"$oid": "5c83e8a8c3d5374cb04d0bb7"
+	},
+	"track-mbid": "44f37e57-0ab6-4872-a54e-74724a8a54a4",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/5ffc0e1908e44522c50a6e56300ec7ef.png",
+	"album-label": "CBS",
+	"album-lid": "b8d33bec-92cc-40d9-bd92-4eb089b401a9",
+	"album-mbid": "f8e2a0b6-713a-44ff-b07c-f1c521c919f1",
+	"album-name": "Say Ahhh!",
+	"album-released": "1989",
+	"artist-mbid": "b071f9fa-14b0-4217-8e97-eb41da73f598",
+	"artist-members": {
+		"group_name": "The Rolling Stones",
+		"group_begin": "1962",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "Tony Chapman",
+				"begin": "1962",
+				"end": "1963",
+				"instruments": "membranophone, original"
+			},
+			{
+				"member_name": "Bill Wyman",
+				"begin": "1962",
+				"end": "1993",
+				"instruments": "background vocals, bass guitar, keyboard, marimba, percussion"
+			},
+			{
+				"member_name": "Mick Avory",
+				"begin": "1962",
+				"end": "1962",
+				"instruments": "membranophone"
+			},
+			{
+				"member_name": "Dick Taylor",
+				"begin": "1962",
+				"end": "1962",
+				"instruments": "bass guitar"
+			},
+			{
+				"member_name": "Ron Wood",
+				"begin": "1975",
+				"end": "",
+				"instruments": "acoustic guitar, background vocals, bass guitar, electric guitar, lap steel guitar, membranophone, pedal steel guitar, saxophone, slide guitar"
+			},
+			{
+				"member_name": "Brian Jones",
+				"begin": "1962",
+				"end": "1969",
+				"instruments": "accordion, acoustic guitar, autoharp, background vocals, bass guitar, cello, electric guitar, hammered dulcimer, harmonica, keyboard, mandolin, marimba, original, percussion, recorder, saxophone, sitar, slide guitar"
+			},
+			{
+				"member_name": "Mick Jagger",
+				"begin": "1962",
+				"end": "",
+				"instruments": "acoustic guitar, background vocals, bass guitar, electric guitar, harmonica, keyboard, lead vocals, original, percussion"
+			},
+			{
+				"member_name": "Ian Stewart",
+				"begin": "1962",
+				"end": "1985",
+				"instruments": "keyboard, original, percussion"
+			},
+			{
+				"member_name": "Mick Taylor",
+				"begin": "1969",
+				"end": "1974",
+				"instruments": "acoustic guitar, background vocals, bass guitar, electric guitar, slide guitar"
+			},
+			{
+				"member_name": "Keith Richards",
+				"begin": "1962",
+				"end": "",
+				"instruments": "acoustic guitar, background vocals, bass guitar, electric guitar, keyboard, lead vocals, original"
+			},
+			{
+				"member_name": "Charlie Watts",
+				"begin": "1963",
+				"end": "",
+				"instruments": "membranophone, percussion"
+			}
+		]
+	},
+	"artist-name": "The Rolling Stones",
+	"artist-summary": "The Rolling Stones are an English rock group that formed in London in 1962. First popular in Europe, they quickly became successful in North America during the \"British Invasion\" of the mid-60s.",
+	"track-duration": "437000",
+	"track-name": "Can't You Hear Me Knocking"
+},
+{
+	"_id": {
+		"$oid": "5c83ea60c3d5374cb04d0c84"
+	},
+	"track-mbid": "979892a8-7512-4caf-8391-1d7295ba0f06",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/98645b8f867980911a3ef6978c3f5e57.png",
+	"album-label": null,
+	"album-lid": null,
+	"album-mbid": "3678cb16-ba12-4880-a407-384362434f25",
+	"album-name": "The Family That Plays Together",
+	"album-released": "1968",
+	"artist-mbid": "ca5db97b-ba17-4e85-a876-46065e2052b3",
+	"artist-members": {
+		"group_name": "Spirit",
+		"group_begin": "1967",
+		"group_end": "1997",
+		"members": [
+			{
+				"member_name": "John Locke",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Barry Keene",
+				"begin": "1975",
+				"end": "1976",
+				"instruments": "bass"
+			},
+			{
+				"member_name": "Randy California",
+				"begin": "1967",
+				"end": "1971",
+				"instruments": ""
+			},
+			{
+				"member_name": "Mark Andes",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Jay Ferguson",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Ed \"Cass\" Cassidy",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			}
+		]
+	},
+	"artist-name": "Spirit",
+	"artist-summary": "There is more than one artist with this name:\n\n1) Spirit was an American group formed by guitarist Randy California\n2) Spirit was a emo band from Melbourne, Australia.",
+	"track-duration": "160000",
+	"track-name": "I Got a Line on You"
+},
+{
+	"_id": {
+		"$oid": "5c83f018c3d5374cb04d0f70"
+	},
+	"track-mbid": "bc322b58-9a1a-4865-b98a-14bf903b12ed",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/675ce1afd6884225a3d9cf5a98f245f3.png",
+	"album-label": "Kama Sutra",
+	"album-lid": "e9c68a8e-7086-4bd3-8dbf-6fb912bd04d5",
+	"album-mbid": "980f4d48-70f9-4510-bf75-fbfe5f34596d",
+	"album-name": "Tarkio",
+	"album-released": "1970",
+	"artist-mbid": "a6fc09b9-74b7-48c1-9cc6-7889ec902abc",
+	"artist-members": {
+		"group_name": "Brewer \u0026 Shipley",
+		"group_begin": "",
+		"group_end": "",
+		"members": []
+	},
+	"artist-name": "Brewer \u0026 Shipley",
+	"artist-summary": "Brewer \u0026 Shipley were a folk rock duo of the late 1960s through 1970s, consisting of singer-songwriters Mike Brewer and Tom Shipley.",
+	"track-duration": "273000",
+	"track-name": "One Toke Over The Line"
+},
+{
+	"_id": {
+		"$oid": "5c83f8f6c3d5374cb04d1241"
+	},
+	"track-mbid": "ad71c56d-dec9-46ea-80b6-b3716f6a2b83",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/1fd8d4e2400443e5b09e1f081932a650.png",
+	"album-label": "Warner Bros. Records",
+	"album-lid": "c595c289-47ce-4fba-b999-b87503e8cb71",
+	"album-mbid": "92e7744b-bb49-4581-a479-f1d0bd63d6f8",
+	"album-name": "It's Hard",
+	"album-released": "1982",
+	"artist-mbid": "f2fa2f0c-b6d7-4d09-be35-910c110bb342",
+	"artist-members": {
+		"group_name": "The Matt Kurz One",
+		"group_begin": "",
+		"group_end": "",
+		"members": []
+	},
+	"artist-name": "The Who",
+	"artist-summary": "The Who are an English rock band formed in 1964.",
+	"track-duration": "339000",
+	"track-name": "Eminence Front"
+},
+{
+	"_id": {
+		"$oid": "5c83fa4ac3d5374cb04d1289"
+	},
+	"track-mbid": "474d82af-6849-4473-9e89-a1fe80d24105",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/cae5689182344e2dce52d4b5ed1e4259.png",
+	"album-label": "A\u0026M Records",
+	"album-lid": "35515729-1f2c-4cc9-9390-9af2764bc56c",
+	"album-mbid": "bca301ba-e2d8-4c72-b25f-a5f6c4eb6f65",
+	"album-name": "Greatest Hits",
+	"album-released": "1995",
+	"artist-mbid": "835a6d9c-fea0-4a71-ae52-9c4da946433a",
+	"artist-members": {
+		"group_name": "Styx",
+		"group_begin": "1970",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "James Young",
+				"begin": "1970",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "John Curulewski",
+				"begin": "1970",
+				"end": "1975",
+				"instruments": ""
+			},
+			{
+				"member_name": "Ricky Phillips",
+				"begin": "2019",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "John Panozzo",
+				"begin": "1970",
+				"end": "1996",
+				"instruments": ""
+			},
+			{
+				"member_name": "Glen Burtnik",
+				"begin": "1990",
+				"end": "1991",
+				"instruments": ""
+			},
+			{
+				"member_name": "Glen Burtnik",
+				"begin": "1999",
+				"end": "2019",
+				"instruments": ""
+			},
+			{
+				"member_name": "Dennis DeYoung",
+				"begin": "1970",
+				"end": "1999",
+				"instruments": ""
+			},
+			{
+				"member_name": "Chuck Panozzo",
+				"begin": "1970",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Todd Sucherman",
+				"begin": "1996",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Tommy Shaw",
+				"begin": "1975",
+				"end": "1983",
+				"instruments": ""
+			},
+			{
+				"member_name": "Tommy Shaw",
+				"begin": "1995",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Gowan",
+				"begin": "1999",
+				"end": "",
+				"instruments": ""
+			}
+		]
+	},
+	"artist-name": "Styx",
+	"artist-summary": "Styx /stɪks/ is an American rock band from Chicago that formed in 1972 and became famous for its albums released in the late 1970s and early 1980s.",
+	"track-duration": "200000",
+	"track-name": "Lorelei"
+},
+{
+	"_id": {
+		"$oid": "5c83fb12c3d5374cb04d12b5"
+	},
+	"track-mbid": "99b75401-cd5c-4678-998d-1c034c94ce24",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/aa1793b6bb92420d91c6cb9f2ea12199.png",
+	"album-label": "Warner Bros. Records",
+	"album-lid": "c595c289-47ce-4fba-b999-b87503e8cb71",
+	"album-mbid": "eb0a5483-5a09-4f0f-90f1-417135985e0f",
+	"album-name": "1984",
+	"album-released": "1983",
+	"artist-mbid": "b665b768-0d83-4363-950c-31ed39317c15",
+	"artist-members": {
+		"group_name": "Van Halen",
+		"group_begin": "1972",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "Gary Cherone",
+				"begin": "1996",
+				"end": "1999",
+				"instruments": ""
+			},
+			{
+				"member_name": "Eddie Van Halen",
+				"begin": "1972",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Michael Anthony",
+				"begin": "1974",
+				"end": "2019",
+				"instruments": ""
+			},
+			{
+				"member_name": "Wolfgang Van Halen",
+				"begin": "2019",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "David Lee Roth",
+				"begin": "1978",
+				"end": "1985",
+				"instruments": ""
+			},
+			{
+				"member_name": "Mark Stone",
+				"begin": "1972",
+				"end": "1974",
+				"instruments": ""
+			},
+			{
+				"member_name": "Sammy Hagar",
+				"begin": "1986",
+				"end": "1996",
+				"instruments": ""
+			},
+			{
+				"member_name": "Alex Van Halen",
+				"begin": "1972",
+				"end": "",
+				"instruments": ""
+			}
+		]
+	},
+	"artist-name": "Van Halen",
+	"artist-summary": "\nVan Halen is a hard rock band which formed in 1972 in Pasadena, California, United States. The band was originally called Mammoth and changed their name to Van Halen by 1974.",
+	"track-duration": "244000",
+	"track-name": "Jump"
+},
+{
+	"_id": {
+		"$oid": "5c83fcf7c3d5374cb04d131b"
+	},
+	"track-mbid": "58b53aaa-e182-4ce4-8c08-dc595dd2f5b5",
+	"album-image": "",
+	"album-mbid": null,
+	"album-name": "My Country, Vol. 3",
+	"album-released": "1970",
+	"artist-mbid": "f30118c5-f783-4969-8427-f3c096378267",
+	"artist-name": "Brooks \u0026 Dunn",
+	"artist-summary": "Brooks \u0026 Dunn are a country singer-songwriter duo, the most successful in the history of the musical genre. Kix Brooks and Ronnie Dunn debuted as Brooks \u0026 Dunn in 1991. Known as providing one the defining sounds of modern country, they have since won the Vocal Duo Award of the Country Music Association every year between 1992 and 2005, with the exception of 2000 in which southern rock duo Montgomery Gentry took the honor. Other notable awards include the CMA Album of the Year award for 1994 and the Entertainer of the Year for 1996. ",
+	"track-duration": "181000",
+	"track-name": "Honky Tonk Stomp (Feat. Billy Gibbons)"
+},
+{
+	"_id": {
+		"$oid": "5c83fcf8c3d5374cb04d131e"
+	},
+	"track-mbid": "df9c02a7-5c2a-495a-8cd4-b02555ba4fd7",
+	"album-image": "",
+	"album-mbid": "b1de3507-1d03-45e4-9958-3b4e4183ba64",
+	"album-name": "Consequences",
+	"album-released": "1977",
+	"artist-mbid": "6f874502-c86b-4d53-a371-3c18829531b9",
+	"artist-name": "Godley \u0026 Creme",
+	"artist-summary": "Kevin Godley and Lol Creme met while at art school.  They performed as a duo in the late 60s called Frabjoy \u0026 Runcible Spoon. Kevin and Lol  formed Hotlegs in the early 70s with Eric Stewart, and with the additon of frequent collaborator Graham Gouldman, Hotlegs became 10cc.\n\nAfter recording the band's fourth album \"How Dare You!\" the pair started work on a new instrument they called The Gizmo.  In 1977 they created a concept album \"Consequences\" to showcase it, which also had the voice talents of comedian Peter Cook.   ",
+	"track-duration": "1024000",
+	"track-name": "Seascape / Wind / Fireworks / Stampede / Burial Scene"
+},
+{
+	"_id": {
+		"$oid": "5c83fcf9c3d5374cb04d1321"
+	},
+	"track-mbid": "74c81a80-6753-4dfc-a47c-a36d58fc013b",
+	"album-image": "",
+	"album-mbid": "b1de3507-1d03-45e4-9958-3b4e4183ba64",
+	"album-name": "Consequences",
+	"album-released": "1977",
+	"artist-mbid": "6f874502-c86b-4d53-a371-3c18829531b9",
+	"artist-name": "Godley \u0026 Creme",
+	"artist-summary": "Kevin Godley and Lol Creme met while at art school.  They performed as a duo in the late 60s called Frabjoy \u0026 Runcible Spoon. Kevin and Lol  formed Hotlegs in the early 70s with Eric Stewart, and with the additon of frequent collaborator Graham Gouldman, Hotlegs became 10cc.\n\nAfter recording the band's fourth album \"How Dare You!\" the pair started work on a new instrument they called The Gizmo.  In 1977 they created a concept album \"Consequences\" to showcase it, which also had the voice talents of comedian Peter Cook.   ",
+	"track-duration": "1390000",
+	"track-name": "Five O'Clock in the Morning / When Things Go Wrong / Lost Weekend"
+},
+{
+	"_id": {
+		"$oid": "5c83fcfac3d5374cb04d1324"
+	},
+	"track-mbid": "c2c23eba-0a3f-4a08-aa6e-52cf07d65916",
+	"album-image": "",
+	"album-mbid": "1b8e449e-85b9-471d-add4-998610d410fd",
+	"album-name": "Ballroom Hitz",
+	"album-released": "2019",
+	"artist-mbid": "dc73bb40-b697-4df9-a2ec-0555bebdba75",
+	"artist-name": "Sweet",
+	"artist-summary": "Sweet (referred to as The Sweet on albums before 1974 and singles before 1975) were a popular 70s-era British rock band. Although  largely known for their glam rock image, having outlandish costumes on and off the stage, and several hit singles— many of them being so-called teenage anthems— Sweet also released several acclaimed albums in their initial ten year career. The extent of the band's domination of the European charts resulted in eight number one singles in Germany ",
+	"track-duration": "0",
+	"track-name": "Love Is Like Oxygen"
+},
+{
+	"_id": {
+		"$oid": "5c83fcfbc3d5374cb04d1327"
+	},
+	"track-mbid": "145d69aa-0f22-4645-bc9a-50be03371d9e",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/4a94a541e16fa68a02fcf6607c438f9a.png",
+	"album-mbid": "dc438814-2014-4c10-837d-6ef56bbf28fa",
+	"album-name": "Chicago at Carnegie Hall",
+	"album-released": "1971",
+	"artist-mbid": "a6825a24-05b5-4a6f-b9e6-965e30e84534",
+	"artist-name": "Chicago",
+	"artist-summary": "Chicago is an American rock band formed in 1967 in Chicago, Illinois. The self-described \"rock and roll band with horns\" began as a politically charged, sometimes experimental, rock band and later moved to a predominantly softer sound, generating several hit ballads. They had a steady stream of hits throughout the 1970s and 1980s. Second only to The Beach Boys in Billboard singles and albums chart success among American bands, Chicago is one of the longest-running and most successful rock groups in history. ",
+	"track-duration": "399000",
+	"track-name": "South California Purples"
+},
+{
+	"_id": {
+		"$oid": "5c83fcfbc3d5374cb04d132c"
+	},
+	"track-mbid": "9dd29144-e1b1-44a7-8e8b-6c870ef4b24c",
+	"album-image": "",
+	"album-mbid": "b1de3507-1d03-45e4-9958-3b4e4183ba64",
+	"album-name": "Consequences",
+	"album-released": "1977",
+	"artist-mbid": "6f874502-c86b-4d53-a371-3c18829531b9",
+	"artist-name": "Godley \u0026 Creme",
+	"artist-summary": "Kevin Godley and Lol Creme met while at art school.  They performed as a duo in the late 60s called Frabjoy \u0026 Runcible Spoon. Kevin and Lol  formed Hotlegs in the early 70s with Eric Stewart, and with the additon of frequent collaborator Graham Gouldman, Hotlegs became 10cc.\n\nAfter recording the band's fourth album \"How Dare You!\" the pair started work on a new instrument they called The Gizmo.  In 1977 they created a concept album \"Consequences\" to showcase it, which also had the voice talents of comedian Peter Cook.   ",
+	"track-duration": "1078000",
+	"track-name": "Sleeping Earth / Honolulu Lulu / The Flood"
+},
+{
+	"_id": {
+		"$oid": "5c83fda6c3d5374cb04d135e"
+	},
+	"track-mbid": "94b57b09-73dd-49f4-b20a-0104108c68ff",
+	"album-image": "https://lastfm-img2.akamaized.net/i/u/174s/317e62e14606466fb9484ac889c8626d.png",
+	"album-label": "DCC Compact Classics",
+	"album-lid": "b1fe170d-0ac1-4d7a-b7e3-318c2426d5c4",
+	"album-mbid": "18492d6e-b040-30c3-9d7c-e082ec2963fe",
+	"album-name": "Bayou Country",
+	"album-released": "1969",
+	"artist-mbid": "44c48a1b-defd-4222-bee6-03f9ee9a7be9",
+	"artist-members": {
+		"group_name": "Creedence Clearwater Revisited",
+		"group_begin": "1995",
+		"group_end": "",
+		"members": [
+			{
+				"member_name": "Stu Cook",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Steve Gunner",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Doug Clifford",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			},
+			{
+				"member_name": "Elliot Easton",
+				"begin": "",
+				"end": "",
+				"instruments": ""
+			}
+		]
+	},
+	"artist-name": "Creedence Clearwater Revival",
+	"artist-summary": "C",
+	"track-duration": "310000",
+	"track-name": "Born on the Bayou"
+}]
+

@@ -13,11 +13,12 @@ ini_set('display_errors', 1);
 
 require_once('include/config.inc.php');
 require '/var/www/hawkwynd.com/mongodb/vendor/autoload.php';
+require '/var/www/hawkwynd.com/guzzle/vendor/autoload.php';
 
 // keep real spacing for search of mongo
 $tt         = $_GET['track'];
 $ar         = $_GET['artist'];
-$trunc      = 300; // limit for summary
+
 
 // check the mongodb if we have it listed
 $internalFind = do_find($tt,$ar);
@@ -55,15 +56,25 @@ if($result->mbid){
     if($artistInfo) {
         $out->artist->name       = $artistInfo[0]['name'];
         $out->artist->mbid       = $artistInfo[0]['mbid'];
-        $out->artist->summary    = do_trunc( str_replace('Read more on Last.fm','', strip_tags( $artistInfo[0]['summary'] ) ), $trunc);
+        $out->artist->summary    = do_trunc( str_replace('Read more on Last.fm','', strip_tags( $artistInfo[0]['summary'] ) ), 200);
         $out->track->name        = $trackFind->track->name;
         $out->track->mbid        = $trackFind->track->mbid;
         $out->track->duration    = $trackFind->track->duration;
         $out->album->title       = $trackFind->track->album->title;
         $out->album->mbid        = $trackFind->track->album->mbid;
         $out->album->image       = $trackFind->track->album->image[2]->{"#text"}; // large
+
         $releaseDate             = getLPRelease( $trackFind->track->album->mbid);
         $out->album->releaseDate = $releaseDate['first_release_date'];
+
+        $details                 = get_release_details($trackFind->track->album->mbid);
+        $label                   = $details->{"label-info"}[0]; // first element of array, fuck the others.
+        $out->album->label       = $label->label->name;
+        $out->album->lid         = $label->label->id;
+
+        $out->artist->members    = get_members( $trackFind->track->artist->mbid );
+
+
         $out->status             = "lastFM";
     }
     echo json_encode($out, true); // return result
@@ -105,7 +116,10 @@ function do_dbUpdate($out)
             'album-name'     => $out->album->title,
             'album-mbid'     => $out->album->mbid,
             'album-released' => $out->album->releaseDate,
-            'album-image'    => $out->album->image
+            'album-image'    => $out->album->image,
+            'album-label'    => $out->album->label,
+            'album-lid'      => $out->album->lid,
+            'artist-members' => $out->artist->members
         ]
         ],
         ['upsert'   => true]
@@ -120,8 +134,8 @@ function do_find($t, $a)
     $cursor = $collection->find(
         ['$and'  => [
 
-            [ 'track-name'  => new MongoDB\BSON\Regex($t, 'i')  ],
-            [ 'artist-name' => new MongoDB\BSON\Regex($a, 'i')  ]
+            [ 'track-name'  => $t  ],
+            [ 'artist-name' => $a  ]
         ]
         ]
     );
@@ -130,14 +144,16 @@ function do_find($t, $a)
         $out->artist->name      = $row->{"artist-name"};
         $out->artist->mbid      = $row->{"artist-mbid"};
         $out->artist->summary   = $row->{"artist-summary"};
-        $out->track->name  = $row->{"track-name"};
-        $out->track->mbid  = $row->{"track-mbid"};
-        $out->track->duration = $row->{"track-duration"};
-        $out->album->title = $row->{"album-name"};
-        $out->album->image = $row->{"album-image"};
-        $out->album->mbid = $row{"album-mbid"};
-        $out->album->releaseDate = $row{"album-released"};
-        $out->status = "MongoDB";
+        $out->track->name       = $row->{"track-name"};
+        $out->track->mbid       = $row->{"track-mbid"};
+        $out->track->duration   = $row->{"track-duration"};
+        $out->album->title      = $row->{"album-name"};
+        $out->album->image      = $row->{"album-image"};
+        $out->album->mbid       = $row{"album-mbid"};
+        $out->album->releaseDate= $row{"album-released"};
+        $out->album->label      = $row{"album-label"};
+        $out->artist->members   = $row{"artist-members"};
+        $out->status            = "MongoDB";
     }
 
     return $out;
@@ -259,3 +275,48 @@ function tags($t , $tags=array()){
     return $t;
 }
 
+function get_release_details($rid)
+{
+    $client = new \GuzzleHttp\Client();
+    $url = "http://musicbrainz.org/ws/2/release/$rid?inc=labels&fmt=json";
+
+    $response = $client->request('GET', $url);
+    return json_decode( $response->getBody() );
+
+}
+
+
+function get_members($arid)
+{
+    $payload = $members = [];
+    $data = json_decode(  do_member_lookup($arid) );
+    $payload['group_name']   = $data->name;
+    $begin = (!empty($data->{"life-span"}->begin)) ? date('Y', strtotime($data->{"life-span"}->begin)) : '';
+    $payload['group_begin']  = $begin;
+    $end = (!empty($data->{"life-span"}->end)) ? date('Y', strtotime($data->{"life-span"}->end)) : '';
+    $payload['group_end']   = $end;
+
+    foreach( $data->relations as $relation )
+    {
+        if($relation->type == 'member of band') {
+            $begin = (!empty($relation->begin)) ? date('Y', strtotime($relation->begin)) : '';
+            $end   = (!empty($relation->end)) ? date('Y', strtotime($relation->end)) : '';
+
+            $instruments    = implode(', ', $relation->attributes);
+
+            array_push($members, array('member_name' => $relation->artist->name, 'begin' => $begin, 'end' => $end, 'instruments' => $instruments ) );
+
+        }
+    }
+    $payload['members'] = $members;
+    return $payload;
+}
+
+
+function do_member_lookup($arid)
+{
+    $client = new \GuzzleHttp\Client();
+    $url = "http://musicbrainz.org/ws/2/artist/".$arid."?inc=artist-rels&fmt=json";
+    $response = $client->request('GET', $url);
+    return $response->getBody() ;
+}

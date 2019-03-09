@@ -48,14 +48,13 @@ require_once('include/config.inc.php');
     </div>
 
     <div class="summary"></div>
+    <div class="members"></div>
 
     <div class="statistics">
         <div class="nerdystats"></div>
         <div class="uptime"></div>
         <div class="listeners"></div>
     </div>
-
-
 
 
 <div id="socialLinks" style="text-align: center;padding: 6px;">

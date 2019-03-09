@@ -16,8 +16,6 @@ function statistics(){
 
     $.getJSON('statistics.php', function(data){
 
-     //  console.log(data);
-
         var meta            = data.streams[0].songtitle;
         var artist          = meta.substr(0, meta.indexOf(' - '));
         var title           = meta.substr(meta.indexOf(' - ') + 3);
@@ -40,6 +38,7 @@ function statistics(){
             if(!artist || !title){
 
                 console.log('Live broadcast detected : ' + motd[0] );
+
                 $('.nowplaying').css('width','30%').css('margin','auto');
                // $('.nowplaying-title').html(motd);
                 $('.thumb-container').html('<img src="img/no_image.png">');
@@ -49,9 +48,11 @@ function statistics(){
 
             }else{
 
-                console.log( 'Asking for: ' + artist + ', ' + title );
+               console.log( 'Asking for: ' + artist + ' : ' + title );
 
                lastfm(artist,title); // query lastFM for correct artist/title and metadata
+
+
 
                 $('.artist-name').html(artist.trim());
                 $('.song-title').html(title.trim());
@@ -76,6 +77,7 @@ function statistics(){
             $('.song-album-yr').html('');
             $('.thumb-container').html('<img src="img/no_image.png">');
             $('.summary').html().css("padding", 0);
+            $('.members').html('');
 
         }
     }); // $.getJSON
@@ -105,29 +107,72 @@ function millisToMinutesAndSeconds(millis) {
 
 function callback(results){
 
+    var currImage = '';
+    // whats here currently img src?
+    if ( $('.thumb-container img').length > 0 ) {
+         currImage = $('.thumb-container img').attr('src');
+    }
+
     if(results){
+
         var album       = results.album.title;
         var image       = results.album.image;
         var track       = results.track.name;
         var mbid        = results.album.mbid;
         var duration    = results.track.duration > 0 ? millisToMinutesAndSeconds(results.track.duration): null;
         var release     = results.album.releaseDate;
+        var label       = results.album.label == null ? '' : results.album.label;
+        var members     = results.artist.members;
+        var summary     = results.artist.summary.length > 2 ? results.artist.summary:'';
+
+
         if(duration) $('.song-duration').html('Duration: ' + duration); // duration of track XX:XX
-        if(image){
-            $('.thumb-container').html('<img src="'+ image + '">'); // thumbnail of LP cover
+
+        if(image) {
+            $('.thumb-container').html('<img src="'+ image + '">');
         }else{
-            $('.thumb-container').html('<img src="img/no_image.png">'); // no_image
+            $('.thumb-container').html('<img src="'+ 'img/no_image.png'+ '">'); // thumbnail of LP cover
         }
 
-        $('.song-album-yr').html(album +' (' + release + ')');
-        $('.summary').html(results.artist.summary);
+        // Greatest Hits (1995) A&M Records
+        $('.song-album-yr').html(album +' (' + release + ') ' + label );
+        $('.summary').html(summary);
+
+        // here we will kick out the members of the band.
+        if(members.members.length > 0){
+            var mdata       = '';
+            var gbegin =    members.group_begin;
+            var gend   =    members.group_end == '' ? '' : ' - ' + members.group_end;
+
+
+            mdata = "<div class='memberHeader'>" + members.group_name + " (" + gbegin + gend + "): </div>";
+
+            $.each(members.members, function(idx, obj){
+                var begin = obj.begin;                            // 1955
+                var end   = obj.end == '' ? '' : ' - ' + obj.end; // 1955-1999 or 1955
+
+                mdata += "<div class='memberline'>" + obj.member_name + ": " + begin + end + " " + obj.instruments + "</div>";
+                return idx < 8; // first 8 only of the array
+
+            });
+            /**
+             * @TODO: compare existing with data, and hold off updating if equal
+             *
+             */
+            $('.members').html(mdata);
+
+        }else{
+            $('.members').html('');
+        }
+
 
    }else{
 
-       $('.song-duration').html('');
-       $('.song-album-yr').html('');
-       $('.thumb-container').html('<img src="img/no_image.png">');
-       $('.summary').html('').css("padding", 0);
+        $('.song-duration').html('');
+        $('.song-album-yr').html('');
+        $('.thumb-container').html('<img src="'+ 'img/no_image.png'+ '">'); // thumbnail of LP cover
+        $('.summary').html('').css("padding", 0);
+        $('.members').html('');
    }
 }
 
@@ -137,7 +182,11 @@ function lastfm(a,t){
         track: t,
         artist: a
     }).done(function(results){
-            console.log('Successful find from ' + results.status);
+
+          // console.log('artistid: ' + results.artist.mbid);
+          // console.log('releaseid: '+ results.album.mbid);
+          // console.log('trackid: ' + results.track.mbid);
+
             callback(results);
 
         }).fail(function() {
@@ -150,7 +199,7 @@ function lastfm(a,t){
 function failed(a,t){
     $.post( "mongo/update.php", { artist: a, title: t})
         .done(function( data ) {
-            console.log('lastfm_fail updated: ' + a + ' : ' + t);
+           // console.log('lastfm_fail updated: ' + a + ' : ' + t);
             //console.log($.parseJSON( data ));
         });
 }

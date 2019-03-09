@@ -48,7 +48,7 @@ foreach($cursor as $row){
         if($artistInfo) {
             $out->artist->name       = $artistInfo[0]['name'];
             $out->artist->mbid       = $artistInfo[0]['mbid'];
-            $out->artist->summary    = do_trunc( str_replace('Read more on Last.fm','', strip_tags( $artistInfo[0]['summary'] ) ), $trunc);
+            $out->artist->summary    = str_replace('Read more on Last.fm','', strip_tags( $artistInfo[0]['summary'] ) );
             $out->track->name        = $trackFind->track->name;
             $out->track->mbid        = $trackFind->track->mbid;
             $out->track->duration    = $trackFind->track->duration;
@@ -121,7 +121,7 @@ function do_dbUpdate($out)
 
     $rcollection = (new MongoDB\Client)->stream->lastfm_fail;
     $deleteResult = $rcollection->deleteMany(
-                                                ['title' => new MongoDB\BSON\Regex($out->track->name, 'i')]
+                                                ['title' => $out->track->name]
                                         );
 
     printf("\nDeleteing %s\n", $out->track->name);

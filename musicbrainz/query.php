@@ -23,9 +23,7 @@ $aid = $out->ambid;
 $out->atitle          = $array['title'];
 $out->released        = $array['date'];
 $out->country        = $array['country'];
-
 $trackList           = (array) $array['medium-list']->{'medium'}->{"track-list"};
-
 $out->trackcount      = $trackList['@attributes']['count'];
 
 $track                = (array) $trackList['track'];
@@ -39,7 +37,7 @@ $tid=$out->tid;
 
 print_r($out);
 
-$trackSearch =  getXML('http://ws.audioscrobbler.com/2.0/?method=album.getInfo&api_key='.SCROBBLER_API.'&album='.$out->atitle.'&artist=Foreigner');
+$trackSearch =  getXML('http://ws.audioscrobbler.com/2.0/?method=track.getInfo&api_key='.SCROBBLER_API.'&mbid='.$out->tid);
 
 print_r($trackSearch);
 

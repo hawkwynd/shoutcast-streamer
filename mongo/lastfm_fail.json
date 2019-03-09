@@ -1,0 +1,81 @@
+[{
+	"_id": {
+		"$oid": "5c82eb07c3d5374cb04cebca"
+	},
+	"artist": "Brooks \u0026 Dunn",
+	"title": "Honky Tonk Stomp",
+	"arid": "f30118c5-f783-4969-8427-f3c096378267"
+},
+{
+	"_id": {
+		"$oid": "5c82f1aec3d5374cb04cef5e"
+	},
+	"artist": "Bad Company",
+	"title": "Good Lovin Gone Bad",
+	"arid": "0053dbd9-bfbc-4e38-9f08-66a27d914c38"
+},
+{
+	"_id": {
+		"$oid": "5c82f2c6c3d5374cb04cf078"
+	},
+	"artist": "Godley \u0026 Creme",
+	"title": "Seascape / Wind / Fireworks / Stampede / Burial Scene",
+	"arid": "6f874502-c86b-4d53-a371-3c18829531b9"
+},
+{
+	"_id": {
+		"$oid": "5c82f317c3d5374cb04cf0ca"
+	},
+	"artist": "Godley \u0026 Creme",
+	"title": "Five O'Clock in the Morning / When Things Go Wrong / Lost Weekend",
+	"arid": "6f874502-c86b-4d53-a371-3c18829531b9"
+},
+{
+	"_id": {
+		"$oid": "5c82fb9bc3d5374cb04cf849"
+	},
+	"artist": "Beck",
+	"title": "Loser (Album Version)",
+	"arid": "1cc5adcd-1422-4b5c-a3cd-3ecd4f43f506"
+},
+{
+	"_id": {
+		"$oid": "5c830019c3d5374cb04cfb02"
+	},
+	"artist": "Sweet",
+	"title": "Love Is Like Oxygen",
+	"arid": "dc73bb40-b697-4df9-a2ec-0555bebdba75"
+},
+{
+	"_id": {
+		"$oid": "5c830244c3d5374cb04cfcdc"
+	},
+	"artist": "The Sweet",
+	"title": "Love Is Like Oxygen",
+	"arid": "dc73bb40-b697-4df9-a2ec-0555bebdba75"
+},
+{
+	"_id": {
+		"$oid": "5c831423c3d5374cb04d031f"
+	},
+	"artist": "Van Halen",
+	"title": "Ain't Talkin' 'Bout Love",
+	"arid": "b665b768-0d83-4363-950c-31ed39317c15"
+},
+{
+	"_id": {
+		"$oid": "5c8325b7c3d5374cb04d075e"
+	},
+	"artist": "Motley Crue",
+	"title": "Girls Girls Girls",
+	"arid": "26f07661-e115-471d-a930-206f5c89d17c"
+},
+{
+	"_id": {
+		"$oid": "5c83e70ac3d5374cb04d0aab"
+	},
+	"artist": "Chicago",
+	"title": "South California Purples",
+	"arid": "3f5be744-e867-42fb-8913-5fd69e4099b5"
+}]
+
