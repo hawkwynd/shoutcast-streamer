@@ -42,8 +42,6 @@ $out    = new stdClass();
 
 $trackSearch =  json_decode( file_get_contents('http://ws.audioscrobbler.com/2.0/?method=track.search&api_key='.SCROBBLER_API.'&track='.$track.'&artist='.$artist. '&format=json') );
 
-
-//foreach( $trackSearch->results->trackmatches->track as $result ) // just the first result... {
 $result = $trackSearch->results->trackmatches->track[0];
 
 unset($out->url, $out->streamable, $out->listeners);

@@ -1,0 +1,227 @@
+
+@import "fonts";
+@import "nowplaying";
+@import "metadata";
+
+body {
+  font-family: 'CheyenneSans-Regular';
+  margin-top: 20px;
+}
+
+.listeners-container ul {
+  list-style: none;
+}
+
+#wb_MediaPlayer1 {
+  width: 90%;
+  margin: 0 auto;
+}
+
+audio {
+  width: 100%;
+}
+
+
+.statistics {
+  margin: 8px 8px 0 8px;
+  background-color:#2164f3;
+  color: #ffffff;
+  padding: 4px;
+  letter-spacing: 1px;
+}
+
+.listeners, .nerdystats, .jp-details .history, .uptime {
+  font-size: 14px;
+  line-height: 16px;
+  padding: 4px;
+}
+
+.extract {
+  font-size: 14px;
+  padding: 0 8px;
+}
+
+h3 {
+  color: navy;
+}
+
+#history {
+  margin-left: 10px;
+  .listing {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+
+.stream-details{
+}
+
+.stream-details {
+  .app-title {
+    margin: 0;
+    padding: 5px;
+    font: 22px/26px "CheyenneSans-Bold";
+    text-align: center;
+  }
+  .app-motd {
+    text-align: center;
+    color: darkred;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+
+  body{margin-top: 2px;}
+
+  #wb_MediaPlayer1{
+    width: 100%;
+  }
+
+  .stream-details {
+    .nowplaying {
+
+      padding: 4px;
+
+      .current-song-container, .song-title, .song-duration{
+        font: 16px/22px "CheyenneSans-Regular";
+      }
+
+      .thumb-container {
+        margin: 0 15px 0 0;
+
+        img {
+          height: 200px;
+        }
+      }
+      .song-album-yr {
+        margin-top: 10px;
+        text-align: left;
+      }
+    }
+
+
+    .song-title {
+      &::before {
+        content: "";
+      }
+    }
+    .artist-name {
+      font-size: 22px;
+
+      ::after {
+        content: "";
+      }
+    }
+
+    .genre, .song-duration {
+      clear: right;
+      color: #5a5555;
+    }
+  }
+
+
+// iPhone only
+
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px)
+  {
+    img{
+      height: 80px !important;
+    }
+
+    .current-song-container, .song-title, .song-duration{
+      font: 14px/18px "CheyenneSans-Regular" !important;
+    }
+
+    .stream-details .current-song-container, .stream-details .nowplaying{
+      min-height: 100px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .app-title {
+    font-size: 20px !important;
+  }
+  .stream-details {
+
+  }
+  .listing {
+    font-size: 12px !important;
+  }
+
+}
+
+/* Modal Style */
+
+/* The Modal (background) */
+
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: #000000;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+
+/* Modal Content */
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 500px;
+}
+
+/* The Close Button */
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  &:hover, &:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+
+.chatLink {
+  margin-top: 4px;
+  padding: 8px;
+  a {
+    color: red;
+    text-decoration: none;
+  }
+}

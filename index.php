@@ -1,5 +1,10 @@
 <?php
+
 require_once('include/config.inc.php');
+
+header("Cache-Control: no-cache, no-store, must-revalidate"); // HTTP 1.1.
+header("Pragma: no-cache"); // HTTP 1.0.
+header("Expires: 0"); // Proxies.
 ?>
 
 <!DOCTYPE html>
@@ -25,10 +30,10 @@ require_once('include/config.inc.php');
 </head>
 <body>
 
-<div id="jp_container_1" class="jp-audio-stream" role="application" aria-label="media player">
-        <div class="jp-details">
-            <div class="jp-title" aria-label="title"><?php echo APPLICATION_NAME; ?></div>
-            <div class="jp-motd" aria-label="motd"></div>
+<div id="wb_MediaPlayer1">
+        <div class="stream-details">
+            <div class="app-title" aria-label="title"><?php echo APPLICATION_NAME; ?></div>
+            <div class="app-motd" aria-label="motd"></div>
             <div class="nowplaying-title"><?php echo NOW_PLAYING_TXT; ?></div>
             <div class="nowplaying">
                 <div class="thumb-container"></div>
@@ -41,7 +46,7 @@ require_once('include/config.inc.php');
             </div>
         </div>
 
-    <div class="jp-type-single">
+    <div>
         <div id="wb_MediaPlayer1">
             <audio src="<?php echo SHOUTCAST_HOST.'/;';?>" id="MediaPlayer1" controls="controls"></audio>
         </div>
@@ -64,7 +69,7 @@ require_once('include/config.inc.php');
 
 </div>
 
-    </div>
+</div><!-- jp-audio-stream -->
 
 <div id="history"></div>
 <div id="fb-root"></div>
@@ -78,5 +83,4 @@ require_once('include/config.inc.php');
 
 
 </body>
-
 </html>

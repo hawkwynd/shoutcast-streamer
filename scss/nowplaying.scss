@@ -1,0 +1,68 @@
+
+.stream-details {
+
+  .current-song-container {
+    min-height: 200px;
+    font-size: 21px;
+  }
+
+
+  .history {
+    color: #006735;
+  }
+
+  .nowplaying {
+    background-color: #d5e6f9;
+    font-size: 21px;
+    padding: 8px;
+    min-height: 200px;
+  }
+
+  .nowplaying-title {
+    background-color: #494a4c;
+    color: #fcff19;
+    text-align: center;
+    line-height: 20px;
+    padding: 6px 0;
+  }
+  .song-album-yr {
+    margin: 10px 0;
+  }
+  .artist-name {
+    font: 23px/26px 'CheyenneSans-Bold';
+
+
+  }
+  .song-title {
+
+    font-style: italic;
+    margin: 8px 0;
+  }
+  .artist-name::after {
+    clear: both;
+  }
+  .thumb-container {
+    float: left;
+    img {
+      height: 200px;
+    }
+  }
+}
+
+.stream-details {
+  .nowplaying {
+    .thumb-container {
+      margin: 0 40px 0 0;
+      width: auto;
+    }
+  }
+  width: 100%;
+}
+
+
+.stream-details {
+  font-weight: normal;
+  text-align: left;
+  cursor: default;
+  padding-bottom: 30px;
+}
