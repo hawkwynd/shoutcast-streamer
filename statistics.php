@@ -1,7 +1,7 @@
 <?php
 /**
  * Get statistic data as well as current playing info
- * to be displayed
+ * to be displayed 
  */
 require_once('include/config.inc.php');
 

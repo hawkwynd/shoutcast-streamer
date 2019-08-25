@@ -1,0 +1,164 @@
+/* --------- Mobile, tablet and desktop queries --------- */
+#wb_MediaPlayer1 {
+  margin: 6px 10px 6px 10px;
+  background-color: #96b0c0;
+}
+
+#wb_MediaPlayer1 audio {
+  margin-left: 30%;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  #wb_MediaPlayer1 audio {
+    width: 90%;
+    margin: 2px 5%;
+  }
+}
+
+.stream-details .song-title::before {
+  content: "";
+}
+
+.stream-details .current-song-container {
+  min-height: 200px;
+  margin-left: 200px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .stream-details .current-song-container {
+    margin-left: 90px;
+    min-height: 100px;
+  }
+}
+
+.stream-details .history {
+  color: #006735;
+}
+
+.stream-details .nowplaying {
+  font-size: 24px;
+  padding: 8px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .stream-details .nowplaying {
+    font-size: 18px;
+    padding: 10px 2px;
+  }
+}
+
+.stream-details .nowplaying-title {
+  background-color: #2164f3;
+  color: #efe5b2;
+  text-align: center;
+  line-height: 30px;
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  padding: 6px 0;
+  border-bottom: 4px solid #efe5b2;
+  border-top: 4px solid #efe5b2;
+}
+
+.stream-details .song-album, .stream-details .year-label {
+  margin: 10px 0;
+}
+
+.stream-details .artist-name {
+  font: 26px/28px 'CheyenneSans-Bold';
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .stream-details .artist-name {
+    font: 22px/24px 'cheyennesans-bold';
+  }
+}
+
+.stream-details .song-title {
+  font-style: italic;
+  margin: 8px 0;
+}
+
+.stream-details .artist-name::after {
+  clear: both;
+}
+
+.stream-details .thumb-container {
+  width: auto;
+  float: left;
+  margin: 0 40px 0 20px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .stream-details .thumb-container {
+    margin: 0 8px 0 5px;
+  }
+}
+
+.stream-details .thumb-container img {
+  height: 200px;
+  box-shadow: 3px 3px 5px 6px #494a4c;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .stream-details .thumb-container img {
+    height: 86px;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: #d6d6d6;
+  margin: 10px;
+}
+
+.content-container .summary {
+  font: 16px/22px "Open Sans";
+  flex-basis: 50%;
+  margin: 10px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .content-container .summary {
+    display: block;
+    flex-basis: 100%;
+    padding: 3px;
+    font: 14px/18px "Open Sans";
+  }
+}
+
+.content-container .summary h4 {
+  font: 18px/22px "CheyenneSans-Bold";
+  font-weight: 700;
+  margin: 0;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .content-container .summary h4 {
+    font: 14px/16px "CheyenneSans-Bold";
+    margin-bottom: 4px;
+  }
+}
+
+.content-container .members {
+  flex-basis: 50%;
+}
+
+.stream-details {
+  font-weight: normal;
+  text-align: left;
+  cursor: default;
+  padding-bottom: 30px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .stream-details {
+    padding-bottom: 20px;
+  }
+}

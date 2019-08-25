@@ -1,0 +1,30 @@
+/* ---- FONTS ------ */
+@font-face {
+  font-family: 'CheyenneSans-Regular';
+  src: url("/fonts/CheyenneSans-Regular.svg#CheyenneSans-Regular") format("svg"), url("/fonts/CheyenneSans-Regular.ttf") format("truetype"), url("/fontsCheyenneSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'hinted-CheyenneSans-Regular';
+  src: url("/fonts/hinted-CheyenneSans-Regular.eot");
+  src: url("/fonts/hinted-CheyenneSans-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/hinted-CheyenneSans-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CheyenneSans-Bold';
+  src: url("/fonts/CheyenneSans-Bold.svg#CheyenneSans-Bold") format("svg"), url("/fonts/CheyenneSans-Bold.ttf") format("truetype"), url("/fonts/CheyenneSans-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'hinted-CheyenneSans-Bold';
+  src: url("/fonts/hinted-CheyenneSans-Bold.eot");
+  src: url("/fonts/hinted-CheyenneSans-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/hinted-CheyenneSans-Bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}

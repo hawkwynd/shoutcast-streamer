@@ -9,10 +9,11 @@ ini_set('display_errors', 1);
 
 require '/var/www/hawkwynd.com/guzzle/vendor/autoload.php';
 
-$id      = "4946f82c-2cc1-3bbd-8ae3-5b89a79d7c39"; // Abbey Road
+$id = "4946f82c-2cc1-3bbd-8ae3-5b89a79d7c39"; // Abbey Road
+
 $details =  get_release_details($id);
 
-$label = $details->{"label-info"}[0]; // first element of array, fuck the others.
+$label = $details->{"label-info"}[0];
 
     echo "name: ". $label->label->name . PHP_EOL;
     echo "label-id: " . $label->label->id . PHP_EOL;

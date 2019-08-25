@@ -34,6 +34,8 @@ foreach($response->{"recording-list"}->recording as $rec)
     $payload['artist_name'] = (string)$rec->{"artist-credit"}->{"name-credit"}->artist->name;
     $payload['artist_id']   = (string) $rec->{"artist-credit"}->{"name-credit"}->artist->attributes()->id;
 
+    $payload['artist_annotation'] = 
+
     $release = $rec->{"release-list"}->release;
    // print $release->title . " : " . $release->attributes()->id . " : " . $release->date ."\n";
 
@@ -112,14 +114,32 @@ function fetchMB($a, $t){
     $client     = new \GuzzleHttp\Client();
 
     $params     = "$t AND artist:$a AND primarytype:Album AND status:Official AND country:US";
-    $url        = "https://musicbrainz.org/ws/2/recording/?query=" . urlencode($params) . "&inc=release-groups+artist-rels+artist-credits" ;
+    $url        = "https://musicbrainz.org/ws/2/recording/?query=" . urlencode($params) . "&inc=release-groups+artist-rels+artist-credits+annotation" ;
 
     $response = $client->request('GET', $url);
     $xml        = simplexml_load_string( $response->getBody() );
     return $xml;
 }
 
-
-function coverartarchive($rid){
+function get_annotation($id){
+    $url = "http://musicbrainz.org/ws/2/annotation/?query=entity:$id&fmt=json&limit=1&offset=1";
+    $client     = new \GuzzleHttp\Client();  
+    $fileExists = false;
+    
+    try {
+        $response = $client->request('GET', $url);
+        } catch (\Guzzle\Http\Exception\ClientErrorResponseException $e) {
+            
+            // If a 404 was returned, then the file doesn't exist
+            $fileExists = ( $e->getResponse()->getStatusCode() != 404 );
+        }
+    
+        if ($fileExists) {
+            return false;                                                                         
+        } else {            
+            return json_decode( $response->getBody() );                                                                  
+            
+            
+        }  
 
 }

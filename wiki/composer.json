@@ -1,0 +1,5 @@
+{
+    "require": {
+        "addwiki/wikibase-api": "~0.7.0"
+    }
+}

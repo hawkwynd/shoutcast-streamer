@@ -1,9 +1,33 @@
 
+@import "mixins";
+#wb_MediaPlayer1{
+  margin: 6px 10px 6px 10px;
+  background-color: #96b0c0;
+
+  audio {
+    margin-left: 30%;
+    @include phone{
+      width: 90%;
+      margin: 2px 5%;
+    }
+  }
+}
+
 .stream-details {
+  .song-title {
+    &::before {
+      content: "";
+    }
+  }
 
   .current-song-container {
     min-height: 200px;
-    font-size: 21px;
+    margin-left: 200px;
+
+    @include phone{
+      margin-left: 90px;
+      min-height: 100px;
+    }
   }
 
 
@@ -12,57 +36,128 @@
   }
 
   .nowplaying {
-    background-color: #d5e6f9;
-    font-size: 21px;
+    font-size: 24px;
     padding: 8px;
-    min-height: 200px;
+
+    @include phone{
+      font-size: 18px;
+      padding: 10px 2px;
+    }
   }
 
   .nowplaying-title {
-    background-color: #494a4c;
-    color: #fcff19;
+    background-color: #2164f3;
+    color: #efe5b2;
     text-align: center;
-    line-height: 20px;
+    line-height: 30px;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
     padding: 6px 0;
+    border-bottom: 4px solid #efe5b2;
+    border-top: 4px solid #efe5b2;
+
   }
-  .song-album-yr {
+
+
+
+  .song-album, .year-label{
     margin: 10px 0;
   }
+
+
   .artist-name {
-    font: 23px/26px 'CheyenneSans-Bold';
-
-
+    font: 26px/28px 'CheyenneSans-Bold';
+    @include phone{
+      font: 22px/24px 'cheyennesans-bold';
+    }
   }
-  .song-title {
 
+  .song-title {
     font-style: italic;
     margin: 8px 0;
   }
+
   .artist-name::after {
     clear: both;
   }
   .thumb-container {
+    width: auto;
     float: left;
+    margin: 0 40px 0 20px;
+
+
+    @include phone{
+      margin: 0 8px 0 5px;
+
+    }
+
     img {
+
       height: 200px;
+      -moz-box-shadow:    3px 3px 5px 6px #494a4c;
+      -webkit-box-shadow: 3px 3px 5px 6px #494a4c;
+      box-shadow:         3px 3px 5px 6px #494a4c;
+
+
+      @include phone{
+        height: 86px;
+        box-shadow: none;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+      }
+
     }
   }
 }
 
-.stream-details {
-  .nowplaying {
-    .thumb-container {
-      margin: 0 40px 0 0;
-      width: auto;
+.content-container{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: #d6d6d6;
+  margin: 10px;
+
+  .summary{
+    font: 16px/22px "Open Sans";
+    flex-basis:50%;
+    margin: 10px;
+
+    @include phone{
+      display: block;
+      flex-basis: 100%;
+      padding: 3px;
+      font: 14px/18px "Open Sans";
     }
+
+    h4 {
+      font: 18px/22px "CheyenneSans-Bold";
+      font-weight: 700;
+      margin: 0;
+
+      @include phone{
+        font: 14px/16px "CheyenneSans-Bold";
+        margin-bottom: 4px;
+      }
+
+    }
+
   }
-  width: 100%;
+  .members{
+    flex-basis:50%;
+  }
 }
 
-
 .stream-details {
+
   font-weight: normal;
   text-align: left;
   cursor: default;
   padding-bottom: 30px;
+
+  @include phone{
+    padding-bottom: 20px;
+  }
+
 }

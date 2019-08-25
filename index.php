@@ -1,12 +1,6 @@
 <?php
-
 require_once('include/config.inc.php');
-
-header("Cache-Control: no-cache, no-store, must-revalidate"); // HTTP 1.1.
-header("Pragma: no-cache"); // HTTP 1.0.
-header("Expires: 0"); // Proxies.
 ?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,72 +8,85 @@ header("Expires: 0"); // Proxies.
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <title><?php echo APPLICATION_NAME; ?></title>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="css/sassy.css" rel="stylesheet" type="text/css"/>
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/stream.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141850006-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-141850006-1');
+    </script>
+
     <script type="text/javascript">
         //<![CDATA[
         $(document).ready(function(){
-            statistics(); // query server for stream data on page load.
-            // refresh the screen every 10 seconds to update the track/artist info
+
+              statistics(); // query server for stream data on page load.
+                            
+              
+            // refresh the screen every 12 seconds to update the track/artist info
+           
+
             setInterval(function(){
-               statistics();
-            }, 10000); // 10 seconds calls to refresh
+                var songId = $('.song-title').attr('id');
+                statistics(songId); // send the current songId for comparison
+
+
+            }, 12000); // 12 seconds calls to refresh
         });
     </script>
 </head>
 <body>
 
-<div id="wb_MediaPlayer1">
-        <div class="stream-details">
-            <div class="app-title" aria-label="title"><?php echo APPLICATION_NAME; ?></div>
-            <div class="app-motd" aria-label="motd"></div>
-            <div class="nowplaying-title"><?php echo NOW_PLAYING_TXT; ?></div>
-            <div class="nowplaying">
-                <div class="thumb-container"></div>
-                  <div class="current-song-container">
-                    <div class="artist-name"></div>
-                    <div class="song-title"></div>
-                    <div class="song-album-yr"></div>
-                    <div class="song-duration"></div>
-                  </div>
+<div class="main-container">
+
+    <div id="wb_MediaPlayer1">
+            <div class="stream-details">
+                <div class="app-title" aria-label="title">
+                    <?php echo APPLICATION_NAME; ?>
+                </div>
+                <div class="app-motd" aria-label="motd"></div>
+                <div class="nowplaying-title"><?php echo NOW_PLAYING_TXT; ?></div>
+                <div class="nowplaying">
+
+                    <div class="thumb-container"></div>
+                    <div class="current-song-container">
+                        <div class="artist-name"></div>
+                        <div class="song-title"></div>
+                        <div class="song-album"></div>
+                        <div class="year-label"></div>
+                    </div>
+                    <div class="recording-list-container"></div>
+                </div>
             </div>
-        </div>
 
-    <div>
-        <div id="wb_MediaPlayer1">
-            <audio src="<?php echo SHOUTCAST_HOST.'/;';?>" id="MediaPlayer1" controls="controls"></audio>
-        </div>
+                <audio src="<?php echo SHOUTCAST_HOST.'/;';?>" id="MediaPlayer1" controls="controls"></audio>
+
     </div>
-
-    <div class="summary"></div>
-    <div class="members"></div>
-
     <div class="statistics">
-        <div class="nerdystats"></div>
-        <div class="uptime"></div>
-        <div class="listeners"></div>
+            <div class="totalRecs"></div>
+            <div class="nerdystats"></div>
+            <div class="uptime"></div>
+            <div class="listeners"></div>
+    </div>
+
+    <div class="content-container">
+        <div id="artist-wiki"></div>
+        <div id="release-wiki"></div>
+               
     </div>
 
 
-<div id="socialLinks" style="text-align: center;padding: 6px;">
-        <div class="fb-share-button" data-href="<?php echo SITE_URL;?>" data-layout="button" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fstream.hawkwynd.com%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+ 
+     <div class="wrap-collapsible-history"></div><!-- wrap-collapsible //-->
+ 
 
-    <div class="chatLink"><a href="chat/" target="_blank">Got a request?</a></div>
 
-</div>
+</div><!-- main-container -->
 
-</div><!-- jp-audio-stream -->
-
-<div id="history"></div>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=161144281083138&autoLogAppEvents=1';
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
 
 
 </body>

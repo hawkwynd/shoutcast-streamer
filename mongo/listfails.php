@@ -9,13 +9,20 @@
 require '/var/www/hawkwynd.com/mongodb/vendor/autoload.php';
 
 
-$collection         = (new MongoDB\Client)->stream->lastfm_fail;
-$cursor = $collection->find();
+$collection         = (new MongoDB\Client)->stream->musicbrainz;
+$cursor = $collection->find(
+    [
+        'release-group.coverart' => null
+    ]
+);
 
 foreach($cursor as $row){
-    $out    = new stdClass();
-    $artist = rawurlencode($row->{"artist"});
-    $track  = rawurlencode( $row->{"title"} );
+    
+    echo $row->artist->name . PHP_EOL;
+    echo $row->recording->title . PHP_EOL;
+    echo $row->release->title . PHP_EOL;
+    echo 'https://musicbrainz.org/release/' . $row->release->id . PHP_EOL;
 
-    echo  $row->{"title"} . " by " . $row->{"artist"} . " : " . $row->{"arid"} . PHP_EOL;;
+    print_r($row->{"release-group"});
+    
 }

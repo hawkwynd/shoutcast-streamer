@@ -1,0 +1,399 @@
+@import "fonts";
+  
+  
+  /* --------- Mobile, tablet and desktop queries --------- */
+  
+  #wb_MediaPlayer1 {
+    margin: 6px 10px 6px 10px;
+    background-color: #96b0c0;
+    audio {
+      margin-left: 30%;
+    }
+  }
+  
+  @media (min-width: 320px) and (max-width: 767px) {
+    #wb_MediaPlayer1 audio {
+      width: 90%;
+      margin: 2px 5%;
+    }
+  }
+  
+  .stream-details {
+    .song-title::before {
+      content: "";
+    }
+    .current-song-container {
+      min-height: 200px;
+      margin-left: 200px;
+    }
+    .history {
+      color: #006735;
+    }
+    .nowplaying {
+      font-size: 24px;
+      padding: 8px;
+    }
+    .nowplaying-title {
+      background-color: #2164f3;
+      color: #efe5b2;
+      text-align: center;
+      line-height: 30px;
+      font-size: 24px;
+      text-transform: uppercase;
+      letter-spacing: 10px;
+      padding: 6px 0;
+      border-bottom: 4px solid #efe5b2;
+      border-top: 4px solid #efe5b2;
+    }
+    .song-album, .year-label {
+      margin: 10px 0;
+    }
+    .artist-name {
+      font-size: 26px;
+    }
+    .song-title {
+      font-style: italic;
+      margin: 8px 0;
+    }
+    .artist-name::after {
+      clear: both;
+    }
+    .thumb-container {
+      width: auto;
+      float: left;
+      margin: 0 40px 0 20px;
+      img {
+        height: 200px;
+        -moz-box-shadow: 3px 3px 5px 6px #494a4c;
+        -webkit-box-shadow: 3px 3px 5px 6px #494a4c;
+        box-shadow: 3px 3px 5px 6px #494a4c;
+      }
+    }
+  }
+  
+  @media (min-width: 320px) and (max-width: 767px) {
+    .stream-details .current-song-container {
+      margin-left: 90px;
+      min-height: 100px;
+    }
+  }
+  
+  @media (min-width: 320px) and (max-width: 767px) {
+    .stream-details .nowplaying {
+      font-size: 18px;
+      padding: 10px 2px;
+    }
+  }
+  
+  @media (min-width: 320px) and (max-width: 767px) {
+    .stream-details .artist-name {
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    line-height: 24px;
+    }
+  }
+  
+  @media (min-width: 320px) and (max-width: 767px) {
+    .stream-details .thumb-container {
+      margin: 0 8px 0 5px;
+    }
+  }
+  
+  @media (min-width: 320px) and (max-width: 767px) {
+    .stream-details .thumb-container img {
+      height: 86px;
+      box-shadow: none;
+      -moz-box-shadow: none;
+      -webkit-box-shadow: none;
+    }
+  }
+  
+  .content-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: #d6d6d6;
+    margin: 10px;
+    .summary {
+      font: 16px/22px "Open Sans";
+      flex-basis: 50%;
+      margin: 10px;
+      h4 {
+        font: 18px/22px 'Lato', sans-serif;
+        font-weight: 700;
+        margin: 0;
+      }
+    }
+    .members {
+      flex-basis: 50%;
+    }
+  }
+  
+  @media (min-width: 320px) and (max-width: 767px) {
+    .content-container .summary {
+      display: block;
+      flex-basis: 100%;
+      padding: 3px;
+      font: 14px/18px "Open Sans";
+    }
+  }
+  
+  @media (min-width: 320px) and (max-width: 767px) {
+    .content-container .summary h4 {
+      font: 14px/16px 'Lato', sans-serif;
+      margin-bottom: 4px;
+    }
+  }
+  
+  .stream-details {
+    font-weight: normal;
+    text-align: left;
+    cursor: default;
+    padding-bottom: 30px;
+  }
+  
+  @media (min-width: 320px) and (max-width: 767px) {
+    .stream-details {
+      padding-bottom: 20px;
+    }
+  }
+  
+  .members {
+    margin: 10px;
+    .memberHeader {
+      font: 18px/22px 'Lato', sans-serif;
+    }
+    .memberline {
+      margin: 0 4px;
+    }
+  }
+  
+  @media (min-width: 320px) and (max-width: 767px) {
+    .members {
+      display: none;
+    }
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px 20px 20px 20px;
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    body {
+      margin: 0;
+    }
+  }
+  
+  @media (min-width: 320px) and (max-width: 767px) {
+    body {
+      margin: 0;
+    }
+  }
+  
+  .main-container {
+    width: 1200px;
+    .vote {
+      display: flex;
+      flex-direction: row;
+      font-size: 28px !important;
+      #voteUp, #voteDown {
+        margin: 20px 50px 0 0;
+        cursor: pointer;
+      }
+      #voteUp {
+        color: #2440f2;
+      }
+      #voteDown {
+        color: red;
+      }
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .main-container {
+      width: 990px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .main-container {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 320px) and (max-width: 767px) {
+    .main-container {
+      width: 100%;
+    }
+  }
+  
+  h3 {
+    color: #4b4b4b;
+  }
+  
+  .fb_iframe_widget_fluid {
+    float: left;
+    margin: 0 30px 0 0;
+  }
+  
+  .social-links {
+    margin: 20px 30px;
+  }
+  
+  .listeners-container ul {
+    list-style: none;
+  }
+  
+  .statistics {
+    margin: 8px 8px 0 8px;
+    background-color: #2164f3;
+    color: #ffffff;
+    padding: 4px;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  @media (min-width: 320px) and (max-width: 767px) {
+    .statistics {
+      display: block;
+    }
+  }
+  
+  .listeners, .nerdystats, .jp-details .history, .uptime {
+    font-size: 14px;
+    line-height: 16px;
+    padding: 4px;
+  }
+  
+  .extract {
+    font-size: 14px;
+    padding: 0 8px;
+  }
+  
+  #history h3 {
+    margin: 8px;
+    font: 24px/28px 'Lato', sans-serif;
+    letter-spacing: 3px;
+    padding: 6px;
+    background-color: #005082;
+    color: white;
+  }
+  
+  @media (min-width: 320px) and (max-width: 767px) {
+    #history {
+      display: none;
+    }
+  }
+  
+  .history-list-container {
+    background-color: #d6d6d6;
+    padding: 10px 4px;
+    margin: 0 8px;
+    .listing {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+  
+  @media (min-width: 320px) and (max-width: 767px) {
+    .history-list-container {
+      display: none;
+    }
+  }
+  
+  .stream-details {
+    .app-title {
+      margin: 0;
+      padding: 5px;
+      text-align: center;
+    }
+    .app-motd {
+      text-align: center;
+      color: darkred;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .stream-details .app-title {
+      font-size: 28px;
+      font-weight: 600;
+      letter-spacing: 2px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .stream-details .app-title {
+      font: 24px/28px 'Lato', sans-serif;
+    }
+  }
+  
+  @media (min-width: 320px) and (max-width: 767px) {
+    .stream-details .app-title {
+      font: 18px/22px 'Lato', sans-serif;
+    }
+  }
+  
+  /* Modal Style */
+  /* The Modal (background) */
+  
+  .modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: #000000;
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 500px;
+  }
+  
+  /* The Close Button */
+  
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    &:hover, &:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  }
+  
+  .chatLink {
+    padding: 8px;
+    a {
+      font-family: 'Lato', sans-serif;
+      color: #2164f3;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+  }
+  

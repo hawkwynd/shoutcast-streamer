@@ -9,7 +9,7 @@
  * https://musicbrainz.org/ws/2/recording/77f99f81-c15f-429c-a2d0-70ad4fa26ca3?fmt=json&inc=artist-rels
  *
  * Get release cover art
- * http://coverartarchive.org/release/e2d1f705-adc0-41f9-ad89-5b3d15c81ea0
+ * http://coverartarchive.org/release/c0e5b91a-d2f5-4066-b00b-90f62b67894b
  */
 
 error_reporting(E_ALL);
@@ -19,137 +19,130 @@ require_once('../include/config.inc.php');
 require '/var/www/hawkwynd.com/mongodb/vendor/autoload.php';
 require '/var/www/hawkwynd.com/guzzle/vendor/autoload.php';
 
-$artist = "Aerosmith";
-$title  = "Dream On"
-;
-$payload = new stdClass();
+require('./functions/functions.php');
 
-$data =  json_decode(  do_recording_lookup($artist, $title) );
-$recordings = $data->recordings;
+// Vars to be replaced by $_POST
+$artist     = $_POST['artist-name'];
+$title      = $_POST['track-name'];
+$payload    = [];
 
-//print_r($recordings);
+$ar_data = json_decode( do_artist_lookup($artist) );
+
+
+if( !$ar_data){
+    die('not found');
+}
+
 echo "<pre>";
 
-$args = array('status','country','date');
+$artist = current( $ar_data->artists ); // get the first artist element
+$artist->annotation = get_annotation( $artist->id );
 
-foreach($recordings as $recording)
-{
-    foreach($recording->releases as $release)
-    {
-        $test = true;
-        // only want the artist's releases
-        foreach($release->{"artist-credit"} as $artist_credit){
-            if( property_exists($artist_credit, 'artist') && $artist_credit->artist->name != $artist ):
-                //echo "Not $artist :" . $artist_credit->artist->name . PHP_EOL;
-                $test = false;
-                 break;
+
+$data       =  json_decode(  do_recording_lookup($artist->id, $title) );
+$recordings = $data->recordings;
+$args       = array('status','country','date');
+
+print_r($recordings);
+exit;
+
+
+foreach($recordings as $recording) {
+    if( property_exists($recording, 'artist-credit')) {
+        $artist = $recording->{"artist-credit"}[0]->artist;
+    
+        //   Releases iteration
+        foreach($recording->releases as $release) {
+                $obj = new stdClass();
+                
+                // Media iteration
+                foreach($release->media as $media ){
+                    foreach($media->track as $track){
+                        if( property_exists($track, 'title') && $track->title != $title):
+                           // echo "Not $title :" . $track->title . PHP_EOL;
+                            $test = false;
+                            break;
+                        endif;
+                    }
+                }
+
+            if( property_exists($release,'status') && $release->status === 'Official' &&
+                    property_exists($release, 'country') && $release->country === 'US' &&
+                    property_exists($release->{"release-group"}, 'primary-type') && $release->{"release-group"}->{"primary-type"} === "Album" &&
+                    property_exists($release, 'date')
+                ):
+            
+                // ARTIST OBJECT
+                $obj->artist         = $artist;                            
+                // $obj->artist->name      = $artist->name;
+                
+                // GET ARTIST ANNOTATION if one exists
+                $annotation = get_annotation($artist->id);
+                if(property_exists($annotation, 'text')):
+                    $obj->artist->annotation = $annotation->text;
+                endif;
+                
+
+                // RELEASE OBJECT
+                $obj->release->id   = $release->id;
+                $obj->release->title    = $release->title;
+                $obj->release->country  = $release->country;                            
+                $obj->release->date      = date('Y', strtotime($release->date));
+
+                // RELEASE ANNOTATION if one exists
+                $annotation = get_annotation($release->id);
+                if( property_exists($annotation, 'text') ):
+                    $obj->release->annotation = $annotation->text;
+                endif;
+
+                // RELEASE COVERART
+                $coverArt = json_decode( coverArt($release->id) );    
+                
+                if($coverArt):
+                    foreach($coverArt->images as $imagegrp){
+                    // only grab the front image, no others.
+                        if($imagegrp->front):
+                            $obj->release->coverArt = $imagegrp->thumbnails->{500};
+                        endif;
+                    }
+                endif;
+                
+                // RECORDING OBJECT
+                $obj->recording->id = $recording->id;
+                $obj->recording->title = $recording->title;
+                // Get the players of the recording, if any
+                property_exists($recording, 'length') ? $obj->recording->length = formatMilliseconds( $recording->length ) : $obj->length = 0;
+                
+                // RECORDING ANNOTATION if exists
+                $annotation = get_annotation($recording->id);
+                if( property_exists($annotation, 'text') ):
+                    $obj->recording->annotation = $annotation->text;
+                endif;
+
+                
+                // RELATIONS OBJECT
+                $obj->recording->relations = get_relations($recording->id);
+                                            
+                
+                // stuff all our shit in a payload 
+                array_push($payload, $obj);
+                    
+                        
             endif;
 
-        }
 
-        foreach($release->media as $media ){
-            foreach($media->track as $track){
-                if( property_exists($track, 'title') && $track->title != $title):
-                    //echo "Not $title :" . $track->title . PHP_EOL;
-                    $test = false;
-                    break;
-                endif;
-            }
-        }
+        } // foreach releases
+} // if property_exists('artist-credit')
 
+} //foreach recordings
 
-        if( $test && property_exists($release,'status') && $release->status === 'Official' &&
-            property_exists($release, 'country') && $release->country === 'US' &&
-            property_exists($release->{"release-group"}, 'primary-type') && $release->{"release-group"}->{"primary-type"} === "Album" &&
-            property_exists($release, 'date')
-        ):
-                    echo "artist id: ". $release->{"artist-credit"}[0]->artist->id . PHP_EOL;
+usort($payload, "cmp");
 
-                    echo "recording id: ". $recording->id . PHP_EOL;
-                    echo "recording title: " . $recording->title . PHP_EOL;
-                    echo "recording length: " . formatMilliseconds( $recording->length ) .PHP_EOL;
-                    echo "\n\trelease id: ". $release->id . PHP_EOL;
-                    echo "\trelease status: " . $release->status . PHP_EOL;
-                    echo "\trelease title: ". $release->title . PHP_EOL;
-                    echo "\trelease country: " . $release->country . PHP_EOL;
-                    echo "\trelease date: ". $release->date . PHP_EOL;
-                    echo "--------------------------------\n\n";
-        //print_r($release);
+// print_r($payload);
+echo json_encode( $payload, true );
 
-        endif;
-
-   }
+function cmp($a, $b) {
+    return strcmp($a->date, $b->date);
 }
 
 
-function formatMilliseconds($milliseconds) {
-    $seconds = floor($milliseconds / 1000);
-    $minutes = floor($seconds / 60);
-    //$hours = floor($minutes / 60);
-    $milliseconds = $milliseconds % 1000;
-    $seconds = $seconds % 60;
-    $minutes = $minutes % 60;
-
-    $format = '%02u:%02u';
-    $time = sprintf($format,  $minutes, $seconds);
-    return rtrim($time, '0');
-}
-
-
-function get_release_details($rid)
-{
-    $client = new \GuzzleHttp\Client();
-    $url = "http://musicbrainz.org/ws/2/release/$rid?inc=labels+discids+recordings&fmt=json";
-
-        $response = $client->request('GET', $url);
-    return json_decode( $response->getBody() );
-
-}
-
-
-function get_recording_detail($mbid)
-{
-    $url = "https://musicbrainz.org/ws/2/recording/";
-    $url .= $mbid . "?fmt=json&inc=artist-rels";
-
-    return do_curl($url);
-
-}
-
-function do_recording_lookup($artist,$title){
-
-    $artist = rawurlencode($artist);
-    $title  = rawurlencode($title);
-
-    $client = new \GuzzleHttp\Client();
-
-    $url = "https://musicbrainz.org/ws/2/recording/?query=$title%20AND%20artist:$artist%20AND%20primarytype:album%20AND%20status:official%20AND%20country:US&inc=labels+artist-credits+recording&fmt=json";
-
-    $response = $client->request('GET', $url);
-
-    return $response->getBody() ;
-
-}
-
-
-
-
-function getLPRelease($mbid)
-{
-    $url    = 'http://musicbrainz.org/ws/2/release/'.$mbid.'?inc=release-groups&fmt=xml';
-    $ch = curl_init();
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-    curl_setopt($ch, CURLOPT_URL, $url);    // get the url contents
-    curl_setopt($ch, CURLOPT_USERAGENT,  "hawkwyndRadio/1.1");
-    $data = curl_exec($ch); // execute curl request
-    curl_close($ch);
-
-    $xml                = simplexml_load_string($data);
-    $first_release_date = $xml->release->{"release-group"}->{"first-release-date"};
-    $title              = (string) $xml->release->{"release-group"}->title;
-    $formatted_release_year = date('Y', strtotime($first_release_date));
-
-    $out = array('title' => $title, 'first_release_date' =>  $formatted_release_year, 'mbid' => $mbid);
-
-    return $out;
-}

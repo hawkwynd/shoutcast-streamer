@@ -2,24 +2,74 @@
 @import "fonts";
 @import "nowplaying";
 @import "metadata";
+@import "mixins";
+
+
 
 body {
-  font-family: 'CheyenneSans-Regular';
-  margin-top: 20px;
+  font-family: 'Lato', sans-serif;
+  margin: 20px 20px 20px 20px;
+
+  @include tablet{
+    margin: 0;
+  }
+  @include phone{
+    margin: 0;
+  }
 }
+
+.main-container{
+  width: 1200px;
+
+  @include tablet-landscape{
+    width: 990px;
+  }
+
+  @include tablet{
+    width: 100%;
+  }
+  @include phone{
+    width: 100%;
+  }
+
+  .vote{
+    display: flex;
+    flex-direction: row;
+    font-size: 28px !important;
+
+    #voteUp, #voteDown{
+      margin:20px 50px 0 0;
+      cursor: pointer;
+    }
+    #voteUp{
+      color: #2440f2;
+    }
+    #voteDown{
+      color: red;
+    }
+  }
+
+
+}
+
+h3 {
+  color: #4b4b4b;
+}
+
+.fb_iframe_widget_fluid{
+float: left;
+  margin: 0 30px 0 0;
+}
+
+.social-links{
+  margin: 20px 30px;
+}
+
 
 .listeners-container ul {
   list-style: none;
 }
 
-#wb_MediaPlayer1 {
-  width: 90%;
-  margin: 0 auto;
-}
-
-audio {
-  width: 100%;
-}
 
 
 .statistics {
@@ -28,6 +78,14 @@ audio {
   color: #ffffff;
   padding: 4px;
   letter-spacing: 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  @include phone{
+    display: block;
+  }
+
 }
 
 .listeners, .nerdystats, .jp-details .history, .uptime {
@@ -41,128 +99,67 @@ audio {
   padding: 0 8px;
 }
 
-h3 {
-  color: navy;
+#history {
+
+  h3{
+    margin: 8px;
+    font: 24px/28px "CheyenneSans-Bold";
+    letter-spacing: 3px;
+    padding: 6px;
+    background-color: #005082;
+    color: white;
+  }
+
+  @include phone{
+    display: none;
+  }
+
 }
 
-#history {
-  margin-left: 10px;
+.history-list-container{
+
+  background-color: #d6d6d6;
+  padding: 10px 4px;
+  margin: 0 8px;
+
   .listing {
     font-size: 16px;
-    line-height: 18px;
+    line-height: 24px;
+  }
+
+  @include phone{
+    display:none;
   }
 }
 
-.stream-details{
-}
 
 .stream-details {
   .app-title {
     margin: 0;
     padding: 5px;
-    font: 22px/26px "CheyenneSans-Bold";
     text-align: center;
+
+  @include desktop{
+      font-size: 28px;
+      font-weight: 600;
+      letter-spacing: 2px;
+
+    }
+
+  @include tablet{
+    font: 24px/28px "CheyenneSans-Bold";
+  }
+
+  @include phone{
+    font: 18px/22px "CheyenneSans-Bold";
+  }
+
+
   }
   .app-motd {
     text-align: center;
     color: darkred;
   }
-}
-
-
-@media only screen and (max-width: 768px) {
-
-  body{margin-top: 2px;}
-
-  #wb_MediaPlayer1{
-    width: 100%;
-  }
-
-  .stream-details {
-    .nowplaying {
-
-      padding: 4px;
-
-      .current-song-container, .song-title, .song-duration{
-        font: 16px/22px "CheyenneSans-Regular";
-      }
-
-      .thumb-container {
-        margin: 0 15px 0 0;
-
-        img {
-          height: 200px;
-        }
-      }
-      .song-album-yr {
-        margin-top: 10px;
-        text-align: left;
-      }
-    }
-
-
-    .song-title {
-      &::before {
-        content: "";
-      }
-    }
-    .artist-name {
-      font-size: 22px;
-
-      ::after {
-        content: "";
-      }
-    }
-
-    .genre, .song-duration {
-      clear: right;
-      color: #5a5555;
-    }
-  }
-
-
-// iPhone only
-
-  @media only screen and (min-device-width: 320px) and (max-device-width: 480px)
-  {
-    img{
-      height: 80px !important;
-    }
-
-    .current-song-container, .song-title, .song-duration{
-      font: 14px/18px "CheyenneSans-Regular" !important;
-    }
-
-    .stream-details .current-song-container, .stream-details .nowplaying{
-      min-height: 100px;
-    }
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  .app-title {
-    font-size: 20px !important;
-  }
-  .stream-details {
-
-  }
-  .listing {
-    font-size: 12px !important;
-  }
-
 }
 
 /* Modal Style */
@@ -218,10 +215,13 @@ h3 {
 }
 
 .chatLink {
-  margin-top: 4px;
+
   padding: 8px;
+
   a {
-    color: red;
+    font-family: "CheyenneSans-Bold";
+    color:#2164f3;
     text-decoration: none;
+    text-transform: uppercase;
   }
 }

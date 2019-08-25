@@ -1,4 +1,7 @@
 <?php
+
+// Retrieve current listeners from Shoutcast server
+
 header("Cache-Control: no-cache, no-store, must-revalidate"); // HTTP 1.1.
 header("Pragma: no-cache"); // HTTP 1.0.
 header("Expires: 0"); // Proxies.
@@ -13,11 +16,7 @@ header("Expires: 0"); // Proxies.
 <h1>Current Listeners</h1>
 <div class="listeners-container">
 <?php
-/**
- * Date: 2/7/19
- * Time: 4:49 PM
- * hawkwynd.com - scottfleming
- */
+
 $url  = "http://hawkwynd.com:8000/admin.cgi?sid=1&mode=viewxml&page=3&ipcount=1&pass=scootre1";
 $out  = array();
 $sxml = simplexml_load_file($url);

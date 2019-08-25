@@ -1,0 +1,304 @@
+/* ---- FONTS ------ */
+@font-face {
+  font-family: 'CheyenneSans-Regular';
+  src: url("/fonts/CheyenneSans-Regular.svg#CheyenneSans-Regular") format("svg"), url("/fonts/CheyenneSans-Regular.ttf") format("truetype"), url("/fontsCheyenneSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'hinted-CheyenneSans-Regular';
+  src: url("/fonts/hinted-CheyenneSans-Regular.eot");
+  src: url("/fonts/hinted-CheyenneSans-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/hinted-CheyenneSans-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'CheyenneSans-Bold';
+  src: url("/fonts/CheyenneSans-Bold.svg#CheyenneSans-Bold") format("svg"), url("/fonts/CheyenneSans-Bold.ttf") format("truetype"), url("/fonts/CheyenneSans-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'hinted-CheyenneSans-Bold';
+  src: url("/fonts/hinted-CheyenneSans-Bold.eot");
+  src: url("/fonts/hinted-CheyenneSans-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/hinted-CheyenneSans-Bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+/* --------- Mobile, tablet and desktop queries --------- */
+
+
+#wb_MediaPlayer1 {
+  margin: 6px 10px 6px 10px;
+  background-color: #96b0c0; }
+  #wb_MediaPlayer1 audio {
+    margin-left: 30%; }
+    @media (min-width: 320px) and (max-width: 767px) {
+      #wb_MediaPlayer1 audio {
+        width: 90%;
+        margin: 2px 5%; } }
+
+.stream-details .song-title::before {
+  content: ""; }
+.stream-details .current-song-container {
+  min-height: 200px;
+  margin-left: 200px; }
+  @media (min-width: 320px) and (max-width: 767px) {
+    .stream-details .current-song-container {
+      margin-left: 90px;
+      min-height: 100px; } }
+.stream-details .history {
+  color: #006735; }
+.stream-details .nowplaying {
+  font-size: 24px;
+  padding: 8px; }
+  @media (min-width: 320px) and (max-width: 767px) {
+    .stream-details .nowplaying {
+      font-size: 18px;
+      padding: 10px 2px; } }
+.stream-details .nowplaying-title {
+  background-color: #2164f3;
+  color: #efe5b2;
+  text-align: center;
+  line-height: 30px;
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  padding: 6px 0;
+  border-bottom: 4px solid #efe5b2;
+  border-top: 4px solid #efe5b2; }
+.stream-details .song-album, .stream-details .year-label {
+  margin: 10px 0; }
+.stream-details .artist-name {
+  font: 26px/28px 'CheyenneSans-Bold'; }
+  @media (min-width: 320px) and (max-width: 767px) {
+    .stream-details .artist-name {
+      font: 22px/24px 'cheyennesans-bold'; } }
+.stream-details .song-title {
+  font-style: italic;
+  margin: 8px 0; }
+.stream-details .artist-name::after {
+  clear: both; }
+.stream-details .thumb-container {
+  width: auto;
+  float: left;
+  margin: 0 40px 0 20px; }
+  @media (min-width: 320px) and (max-width: 767px) {
+    .stream-details .thumb-container {
+      margin: 0 8px 0 5px; } }
+  .stream-details .thumb-container img {
+    height: 200px;
+    -moz-box-shadow: 3px 3px 5px 6px #494a4c;
+    -webkit-box-shadow: 3px 3px 5px 6px #494a4c;
+    box-shadow: 3px 3px 5px 6px #494a4c; }
+    @media (min-width: 320px) and (max-width: 767px) {
+      .stream-details .thumb-container img {
+        height: 86px;
+        box-shadow: none;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none; } }
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: #d6d6d6;
+  margin: 10px; }
+  .content-container .summary {
+    font: 16px/22px "Open Sans";
+    flex-basis: 50%;
+    margin: 10px; }
+    @media (min-width: 320px) and (max-width: 767px) {
+      .content-container .summary {
+        display: block;
+        flex-basis: 100%;
+        padding: 3px;
+        font: 14px/18px "Open Sans"; } }
+    .content-container .summary h4 {
+      font: 18px/22px "CheyenneSans-Bold";
+      font-weight: 700;
+      margin: 0; }
+      @media (min-width: 320px) and (max-width: 767px) {
+        .content-container .summary h4 {
+          font: 14px/16px "CheyenneSans-Bold";
+          margin-bottom: 4px; } }
+  .content-container .members {
+    flex-basis: 50%; }
+
+.stream-details {
+  font-weight: normal;
+  text-align: left;
+  cursor: default;
+  padding-bottom: 30px; }
+  @media (min-width: 320px) and (max-width: 767px) {
+    .stream-details {
+      padding-bottom: 20px; } }
+
+.members {
+  margin: 10px; }
+  @media (min-width: 320px) and (max-width: 767px) {
+    .members {
+      display: none; } }
+  .members .memberHeader {
+    font: 18px/22px "CheyenneSans-Bold"; }
+  .members .memberline {
+    margin: 0 4px; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 20px 20px 20px 20px; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    body {
+      margin: 0; } }
+  @media (min-width: 320px) and (max-width: 767px) {
+    body {
+      margin: 0; } }
+
+.main-container {
+  width: 1200px; }
+  @media (min-width: 1024px) {
+    .main-container {
+      width: 990px; } }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .main-container {
+      width: 100%; } }
+  @media (min-width: 320px) and (max-width: 767px) {
+    .main-container {
+      width: 100%; } }
+  .main-container .vote {
+    display: flex;
+    flex-direction: row;
+    font-size: 28px !important; }
+    .main-container .vote #voteUp, .main-container .vote #voteDown {
+      margin: 20px 50px 0 0;
+      cursor: pointer; }
+    .main-container .vote #voteUp {
+      color: #2440f2; }
+    .main-container .vote #voteDown {
+      color: red; }
+
+h3 {
+  color: #4b4b4b; }
+
+.fb_iframe_widget_fluid {
+  float: left;
+  margin: 0 30px 0 0; }
+
+.social-links {
+  margin: 20px 30px; }
+
+.listeners-container ul {
+  list-style: none; }
+
+.statistics {
+  margin: 8px 8px 0 8px;
+  background-color: #2164f3;
+  color: #ffffff;
+  padding: 4px;
+  letter-spacing: 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+  @media (min-width: 320px) and (max-width: 767px) {
+    .statistics {
+      display: block; } }
+
+.listeners, .nerdystats, .jp-details .history, .uptime {
+  font-size: 14px;
+  line-height: 16px;
+  padding: 4px; }
+
+.extract {
+  font-size: 14px;
+  padding: 0 8px; }
+
+#history h3 {
+  margin: 8px;
+  font: 24px/28px "CheyenneSans-Bold";
+  letter-spacing: 3px;
+  padding: 6px;
+  background-color: #005082;
+  color: white; }
+@media (min-width: 320px) and (max-width: 767px) {
+  #history {
+    display: none; } }
+
+.history-list-container {
+  background-color: #d6d6d6;
+  padding: 10px 4px;
+  margin: 0 8px; }
+  .history-list-container .listing {
+    font-size: 16px;
+    line-height: 24px; }
+  @media (min-width: 320px) and (max-width: 767px) {
+    .history-list-container {
+      display: none; } }
+
+.stream-details .app-title {
+  margin: 0;
+  padding: 5px;
+  text-align: center; }
+  @media (min-width: 1024px) {
+    .stream-details .app-title {
+      font-size: 28px;
+      font-weight: 600;
+      letter-spacing: 2px; } }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .stream-details .app-title {
+      font: 24px/28px "CheyenneSans-Bold"; } }
+  @media (min-width: 320px) and (max-width: 767px) {
+    .stream-details .app-title {
+      font: 18px/22px "CheyenneSans-Bold"; } }
+.stream-details .app-motd {
+  text-align: center;
+  color: darkred; }
+
+/* Modal Style */
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: #000000;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */ }
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 500px; }
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold; }
+  .close:hover, .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer; }
+
+.chatLink {
+  padding: 8px; }
+  .chatLink a {
+    font-family: "CheyenneSans-Bold";
+    color: #2164f3;
+    text-decoration: none;
+    text-transform: uppercase; }
+
+/*# sourceMappingURL=style.css.map */

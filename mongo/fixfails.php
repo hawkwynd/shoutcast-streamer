@@ -1,10 +1,5 @@
 <pre>
 <?php
-/**
- * Date: 2/28/19
- * Time: 3:44 PM
- * hawkwynd.com - scottfleming
- */
 
 error_reporting(E_STRICT);
 ini_set('display_errors', 1);
@@ -20,75 +15,175 @@ ini_set('display_errors', 1);
 
 require_once('../include/config.inc.php');
 require '/var/www/hawkwynd.com/mongodb/vendor/autoload.php';
+require '/var/www/hawkwynd.com/guzzle/vendor/autoload.php'; // guzzle function
+require './functions/functions.php';
 
 $trunc              = 300; // limit for summary
 $collection         = (new MongoDB\Client)->stream->lastfm_fail;
-$cursor = $collection->find();
+$cursor             = $collection->find();
 
 foreach($cursor as $row){
+    
     $found = false;
     $out    = new stdClass();
-    $artist = rawurlencode($row->{"artist"});
-    $track  = rawurlencode( $row->{"title"} );
+    $artist = $row->{"artist"};
+    $title  = $row->{"title"};
 
-    echo "Searching: " . $row->{"title"} . " by " . $row->{"artist"} . " -- ";
+echo "Searching: " . $row->{"title"} . " by " . $row->{"artist"} . PHP_EOL;
 
-    $trackSearch =  json_decode( file_get_contents('http://ws.audioscrobbler.com/2.0/?method=track.search&api_key='.SCROBBLER_API.'&track='.$track.'&artist='.$artist. '&format=json') );
+// $artist= "Jimmy Page and Robert Plant";
+$payload = (object) json_decode( do_artist_lookup($artist) );
 
-   foreach($trackSearch->results->trackmatches->track as $result) :
+// Skip this one if we dont have a matching artist.
+if ( !property_exists($payload, 'artists') ):
+    print_r($payload);
+    echo "Nothing found for " . $row->{"title"} . " by " . $row->{"artist"} . PHP_EOL;
+    continue;
+endif;
 
-    if($result->mbid){
-        $found = true;
-        unset($out->url, $out->streamable, $out->listeners);
+// exit;
 
-        $trackId     = $result->mbid;
-        $trackFind   = json_decode(file_get_contents('http://ws.audioscrobbler.com/2.0/?method=track.getInfo&api_key='.SCROBBLER_API.'&mbid='. $trackId.'&format=json'));
-        $artistInfo  = ArtistInfoById($trackFind->track->artist->mbid);
+$artist = current($payload->artists);
 
-        if($artistInfo) {
-            $out->artist->name       = $artistInfo[0]['name'];
-            $out->artist->mbid       = $artistInfo[0]['mbid'];
-            $out->artist->summary    = str_replace('Read more on Last.fm','', strip_tags( $artistInfo[0]['summary'] ) );
-            $out->track->name        = $trackFind->track->name;
-            $out->track->mbid        = $trackFind->track->mbid;
-            $out->track->duration    = $trackFind->track->duration;
-            $out->album->title       = $trackFind->track->album->title;
-            $out->album->mbid        = $trackFind->track->album->mbid;
-            $out->album->image       = $trackFind->track->album->image[2]->{"#text"}; // large
-            $releaseDate             = getLPRelease( $trackFind->track->album->mbid);
-            $out->album->releaseDate = $releaseDate['first_release_date'];
-        }
-
-        echo "FOUND: " . $out->track->mbid . PHP_EOL;
-        print_r($out);
-        do_dbUpdate($out); // update mongo db to add new record found.
-        break;
-    }
+// print_r($artist);
 
 
-   endforeach;
+$out->{"artist-mbid"} = $artist->id;
+$out->{"artist-name"} = $artist->name;
 
-    if ($found == false)
-    {
-        echo "Not found " . $row->{"title"} . " -  " . $row->{"artist"}. PHP_EOL;
+// ARTIST ANNOTATION
+$a_annotation =  json_decode( get_annotation( $artist->id ) );
 
-    }
+print_r( $a_annotation );
+
+// $out->{"artist-summary"}    = $a_annotation->text;
+    
+$result = json_decode( do_recording_lookup($artist->id, $title) );
+
+$recordings = $result->recordings;
+
+// Get first recording group
+$recording = current($recordings);
+
+// RECORDING OBJECT
+$out->recording->id = $recording->id;
+$out->recording->title = $recording->title;
+$out->recording->length = $recording->length;
+
+// $ann = get_annotation( $recording->id );
+// $out->recording->annotation = $ann->text;
+
+// RECORDING RELATIONS OBJECT
+$relations = get_relations($recording->id);
+$out->recording->relations->instruments = $relations->instruments;
+$out->recording->relations->vocals = $relations->vocals;
+
+// get the releases in the group
+$releases = $recording->releases;
+
+// get the first release
+$release = current($releases);
+$out->release->id = $release->id;
+$out->release->title = $release->title;
+$out->release->date = $release->date;
+$out->release->country = $release->country;
+$out->release->primarytype = $release->{"release-group"}->{"primary-type"};
+$out->release->media = $release->media[0]->format;
+
+// RELEASE ANNOTATION OBJECT
+$ann = get_annotation($release->id);
+$out->release->annotation = $ann->text;
+
+// RELEASE COVER ART
+$cover = json_decode( coverArt($release->id) );
+$images = current($cover->images);
+$out->release->coverArt = $images->thumbnails->large;
+
+
+
+// $update = insertUpdate( $out );
+
+print_r($out);
+echo "<hr>";
+
 }
-exit;
 
 
+/**
+ * functions begin here 
+ */
 
-function do_trunc($file, $maxlen)
+function insertUpdate($out)
 {
+    $collection         = (new MongoDB\Client)->stream->musicbrainz;
+    $updateResult       = $collection->findOneAndUpdate(
+            [ 'album-mbid' => $out->recording->id ],
+            ['$set'  => [
+                'artist-name'    => $out->artist->name,
+                'artist-mbid'    => $out->artist->id,
+                'artist-summary' => $out->artist->annotation,
+                'track-name'     => $out->recording->title,
+                'track-mbid'     => $out->recording->id,
+                'track-duration' => $out->recording->length,
+                'track-summary'  => $out->recording->annotation,
+                'album-name'     => $out->release->title,
+                'album-mbid'     => $out->release->id,
+                'album-released' => $out->release->date,
+                'album-image'    => $out->release->coverArt,
+                'album-summary' => $out->release->annotation
+            ]
+],
+[
+    'projection' => [
+                        'track-mbid'    => 1,
+                        'album-image'   => 1,
+                        'album-label'   => 1,
+                        'album-mbid'    => 1,
+                        'album-name'    => 1,
+                        'album-released'=> 1,
+                        'artist-name'   => 1,
+                        'artist-mbid'   => 1,
+                        'artist-summary'=> 1,
+                        'track-name'    => 1,
+                    ],
 
+    'upsert'    => true,
+    'returnDocument' => MongoDB\Operation\FindOneAndUpdate::RETURN_DOCUMENT_AFTER,
+
+            ]);
+
+    
+    return json_encode( $updateResult );
+
+//    deleteLastFmFail($updateResult);
+
+}
+
+
+function do_trunc($file, $maxlen) {
     if ( strlen($file) > $maxlen ){
         return  substr($file,0,strrpos($file,". ",$maxlen-strlen($file)) + 1);
     }else{
         return($file);
     }
-
 }
 
+// Update lastfm_fail with correct arid for artists
+function updateFail($out){
+
+    $collection         = (new MongoDB\Client)->stream->lastfm_fail;
+    $updateResult       = $collection->updateMany(
+        ['artist'   => $out->artist->name],
+        ['$set'     => [
+            'artist'    => $out->artist->name,
+            'arid'      => $out->artist->id  
+        ]]
+        );
+
+        $match = $updateResult->getMatchedCount();
+        $res = $updateResult->getModifiedCount();
+        return $match . " objects matched. $res objects updated.";
+}
 
 /**
  * @param $out object
@@ -97,34 +192,54 @@ function do_trunc($file, $maxlen)
 
 function do_dbUpdate($out)
 {
-    $collection         = (new MongoDB\Client)->stream->lastfm;
-    $updateResult = $collection->findOneAndUpdate(
-        ['$and'    => [
-            [ 'track-mbid' => $out->track->mbid ]
-        ]
-        ],
-        ['$set'  => [
-            'artist-name'    => $out->artist->name,
-            'artist-mbid'    => $out->artist->mbid,
-            'artist-summary' => $out->artist->summary,
-            'track-name'     => $out->track->name,
-            'track-mbid'     => $out->track->mbid,
-            'track-duration' => $out->track->duration,
-            'album-name'     => $out->album->title,
-            'album-mbid'     => $out->album->mbid,
-            'album-released' => $out->album->releaseDate,
-            'album-image'    => $out->album->image
-        ]
-        ],
-        ['upsert'   => true]
-    );
+    $collection         = (new MongoDB\Client)->stream->lastfm2;
+    $updateResult       = $collection->findOneAndUpdate(
+            [ 'track-mbid' => $out->track->mbid ],
+            ['$set'  => [
+                            'artist-name'    => $out->{"artist-name"},
+                            'artist-mbid'    => $out->{"artist-mbid"},
+                            'artist-summary' => $out->{"artist-summary"},
+                            'track-name'     => $out->track->name,
+                            'track-mbid'     => $out->track->mbid,
+                            'track-duration' => $out->track->duration,
+                            'album-name'     => $out->album->title,
+                            'album-mbid'     => $out->album->mbid,
+                            'album-released' => $out->album->releaseDate,
+                            'album-image'    => $out->album->image
+                        ]
+            ],
+            [
+                'projection' => [
+                                    'track-mbid'    => 1,
+                                    'album-image'   => 1,
+                                    'album-label'   => 1,
+                                    'album-mbid'    => 1,
+                                    'album-name'    => 1,
+                                    'album-released'=> 1,
+                                    'artist-name'   => 1,
+                                    'artist-mbid'   => 1,
+                                    'artist-summary'=> 1,
+                                    'track-name'    => 1,
+                                ],
 
+                'upsert'    => true
+
+            ]);
+
+    print "UPDATE: " . PHP_EOL;
+    print_r($updateResult);
+
+//    deleteLastFmFail($updateResult);
+
+}
+
+function deleteLastFmFail($track){
+
+    // remove the lastfm_fail record.
     $rcollection = (new MongoDB\Client)->stream->lastfm_fail;
-    $deleteResult = $rcollection->deleteMany(
-                                                ['title' => $out->track->name]
-                                        );
+    $deleteResult = $rcollection->deleteOne( ['title' =>  $track ] );
 
-    printf("\nDeleteing %s\n", $out->track->name);
+    printf("\nDeleteing %s\n", $track);
     printf("\nDeleted %d document(s)\n", $deleteResult->getDeletedCount());
 
 }
@@ -256,4 +371,6 @@ function tags($t , $tags=array()){
 
     return $t;
 }
+
+// this is a comment line.
 

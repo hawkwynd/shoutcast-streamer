@@ -12,7 +12,6 @@ unset($obj[0]);
 $out    = [];
 foreach($obj as $row){
     array_push($out,  date('h:i', $row->playedat ) . " " . $row->title);
-    //print_r($row);
 }
 
 echo json_encode($out);

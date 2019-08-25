@@ -1,0 +1,18 @@
+/* --------- Mobile, tablet and desktop queries --------- */
+.members {
+  margin: 10px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .members {
+    display: none;
+  }
+}
+
+.members .memberHeader {
+  font: 18px/22px "CheyenneSans-Bold";
+}
+
+.members .memberline {
+  margin: 0 4px;
+}

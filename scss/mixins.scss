@@ -1,0 +1,30 @@
+
+/* --------- Mobile, tablet and desktop queries --------- */
+$tablet-width:  768px;
+$tablet-width-landscape: 1024px;
+$desktop-width: 1024px;
+$phone-width:   320px;
+
+@mixin phone {
+  @media(min-width: #{$phone-width}) and (max-width: #{$tablet-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+@mixin tablet-landscape{
+  @media (min-width: #{$tablet-width-landscape}){
+    @content;
+  }
+}

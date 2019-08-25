@@ -1,0 +1,229 @@
+/* ---- FONTS ------ */
+
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
+/* --------- Mobile, tablet and desktop queries --------- */
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 20px 20px 20px 20px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+    margin: 0;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  body {
+    margin: 0;
+  }
+}
+
+.main-container {
+  width: 1200px;
+}
+
+@media (min-width: 1024px) {
+  .main-container {
+    width: 990px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .main-container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .main-container {
+    width: 100%;
+  }
+}
+
+.main-container .vote {
+  display: flex;
+  flex-direction: row;
+  font-size: 28px !important;
+}
+
+.main-container .vote #voteUp, .main-container .vote #voteDown {
+  margin: 20px 50px 0 0;
+  cursor: pointer;
+}
+
+.main-container .vote #voteUp {
+  color: #2440f2;
+}
+
+.main-container .vote #voteDown {
+  color: red;
+}
+
+h3 {
+  color: #4b4b4b;
+}
+
+.fb_iframe_widget_fluid {
+  float: left;
+  margin: 0 30px 0 0;
+}
+
+.social-links {
+  margin: 20px 30px;
+}
+
+.listeners-container ul {
+  list-style: none;
+}
+
+.statistics {
+  margin: 8px 8px 0 8px;
+  background-color: #2164f3;
+  color: #ffffff;
+  padding: 4px;
+  letter-spacing: 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .statistics {
+    display: block;
+  }
+}
+
+.listeners, .nerdystats, .jp-details .history, .uptime {
+  font-size: 14px;
+  line-height: 16px;
+  padding: 4px;
+}
+
+.extract {
+  font-size: 14px;
+  padding: 0 8px;
+}
+
+#history h3 {
+  margin: 8px;
+  font: 24px/28px "CheyenneSans-Bold";
+  letter-spacing: 3px;
+  padding: 6px;
+  background-color: #005082;
+  color: white;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  #history {
+    display: none;
+  }
+}
+
+.history-list-container {
+  background-color: #d6d6d6;
+  padding: 10px 4px;
+  margin: 0 8px;
+}
+
+.history-list-container .listing {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .history-list-container {
+    display: none;
+  }
+}
+
+.stream-details .app-title {
+  margin: 0;
+  padding: 5px;
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .stream-details .app-title {
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .stream-details .app-title {
+    font: 24px/28px "CheyenneSans-Bold";
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .stream-details .app-title {
+    font: 18px/22px "CheyenneSans-Bold";
+  }
+}
+
+.stream-details .app-motd {
+  text-align: center;
+  color: darkred;
+}
+
+/* Modal Style */
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: #000000;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 500px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover, .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.chatLink {
+  padding: 8px;
+}
+
+.chatLink a {
+  font-family: "CheyenneSans-Bold";
+  color: #2164f3;
+  text-decoration: none;
+  text-transform: uppercase;
+}

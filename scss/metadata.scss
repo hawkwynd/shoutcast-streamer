@@ -1,17 +1,23 @@
+@import "mixins";
+
 .members{
-  margin: 20px 0;
+  margin: 10px;
+
+  @include phone{
+    display: none;
+  }
 
   .memberHeader{
     font: 18px/22px "CheyenneSans-Bold";
   }
 
   .memberline{
-    margin: 4px;
-  }
+    margin: 0 4px;
+    }
 }
 
+
 .summary {
-  margin: 20px 0 0 0;
-  font: 16px/18px "CheyenneSans-Regular";
+
 
 }
