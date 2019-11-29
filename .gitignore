@@ -1,2 +1,3 @@
 include/config.inc.php
 musicbrainz/
+.DS_Store
